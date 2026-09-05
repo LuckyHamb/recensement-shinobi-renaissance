@@ -1,22 +1,5 @@
 "use strict";
 
-const EXPECTED_CLANS = [
-  "uchiha",
-  "hyuga",
-  "senju",
-  "kamizuru",
-  "uzumaki",
-  "sabaku",
-  "lee",
-  "nara",
-  "kaze",
-  "terumi",
-  "arashi",
-  "chinoike",
-  "hozuki",
-  "kaguya",
-];
-
 const state = {
   clans: [],
   query: "",
@@ -43,15 +26,15 @@ function normalize(value) {
 }
 
 function validateClans(data) {
-  if (!Array.isArray(data) || data.length !== EXPECTED_CLANS.length) {
-    throw new Error(`Le registre doit contenir exactement ${EXPECTED_CLANS.length} clans.`);
+  if (!Array.isArray(data) || data.length === 0) {
+    throw new Error("Le registre doit contenir au moins un clan.");
   }
 
   const ids = data.map((clan) => clan?.id);
-  const hasExpectedOrder = EXPECTED_CLANS.every((id, index) => ids[index] === id);
+  const hasInvalidId = ids.some((id) => typeof id !== "string" || id.trim() === "");
 
-  if (!hasExpectedOrder || new Set(ids).size !== EXPECTED_CLANS.length) {
-    throw new Error("La liste ou l’ordre des clans est invalide.");
+  if (hasInvalidId || new Set(ids).size !== ids.length) {
+    throw new Error("La liste des clans contient un identifiant invalide ou en double.");
   }
 
   return data.map((clan) => {
@@ -75,6 +58,10 @@ function validateClans(data) {
 
     return {
       ...clan,
+      id: clan.id.trim(),
+      name: clan.name.trim(),
+      displayName: clan.displayName.trim(),
+      emoji: clan.emoji.trim(),
       members: clan.members.map((member) => member.trim()),
     };
   });
