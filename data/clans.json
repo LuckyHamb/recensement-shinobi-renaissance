@@ -23,7 +23,7 @@
     "displayName": "「 S E N J U 」",
     "emoji": "🌳",
     "maxMembers": 4,
-    "members": ["Azapinou"],
+    "members": ["Azapinou","Nxgisa_"],
     "enabled": true
   },
   {
@@ -113,7 +113,7 @@
     "displayName": "「 H O Z U K I 」",
     "emoji": "💧",
     "maxMembers": 5,
-    "members": [],
+    "members": ["kunnira"],
     "enabled": true
   },
   {
@@ -131,7 +131,7 @@
     "displayName": "「 K A G U Y A 」",
     "emoji": "🦴",
     "maxMembers": 5,
-    "members": ["Hitame", "Nxgisa_"],
+    "members": ["Hitame"],
     "enabled": true
   }
 ]
