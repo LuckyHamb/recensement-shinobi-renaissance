@@ -1,21 +1,21 @@
 [
   {
-   "id": "uchiha",
-   "name": "Uchiha",
-   "displayName": "「 U C H I H A 」",
-   "emoji": "👁️",
-   "maxMembers": 2,
-   "members": [],
-   "enabled": true
+    "id": "uchiha",
+    "name": "Uchiha",
+    "displayName": "「 U C H I H A 」",
+    "emoji": "👁️",
+    "maxMembers": 2,
+    "members": [],
+    "enabled": true
   },
   {
-   "id": "hyuga",
-   "name": "Hyuga",
-   "displayName": "「 H Y U G A 」",
-   "emoji": "⚪",
-   "maxMembers": 3,
-   "members": [],
-   "enabled": true
+    "id": "hyuga",
+    "name": "Hyuga",
+    "displayName": "「 H Y U G A 」",
+    "emoji": "⚪",
+    "maxMembers": 3,
+    "members": [],
+    "enabled": true
   },
   {
     "id": "senju",
@@ -23,7 +23,7 @@
     "displayName": "「 S E N J U 」",
     "emoji": "🌳",
     "maxMembers": 4,
-    "members": ["Azapinou","axo.tv"],
+    "members": ["Azapinou", "axo.tv"],
     "enabled": true
   },
   {
@@ -41,7 +41,7 @@
     "displayName": "「 U Z U M A K I 」",
     "emoji": "🌀",
     "maxMembers": 2,
-    "members": ["METALIZ",".maxcorp"],
+    "members": ["METALIZ", ".maxcorp"],
     "enabled": true
   },
   {
@@ -117,12 +117,21 @@
     "enabled": true
   },
   {
+    "id": "hoshigaki",
+    "name": "Hoshigaki",
+    "displayName": "「 H O S H I G A K I 」",
+    "emoji": "🦈",
+    "maxMembers": 0,
+    "members": [],
+    "enabled": true
+  },
+  {
     "id": "kaguya",
     "name": "Kaguya",
     "displayName": "「 K A G U Y A 」",
     "emoji": "🦴",
     "maxMembers": 5,
-    "members": ["Hitame","Nxgisa_"],
+    "members": ["Hitame", "Nxgisa_"],
     "enabled": true
   }
 ]
