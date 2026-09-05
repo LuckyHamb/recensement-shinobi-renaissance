@@ -49,7 +49,7 @@
     "name": "Sabaku",
     "displayName": "「 S A B A K U 」",
     "emoji": "🏜️",
-    "maxMembers": 5,
+    "maxMembers": 4,
     "members": ["sley_y7"],
     "enabled": true
   },
@@ -85,7 +85,7 @@
     "name": "Terumi",
     "displayName": "「 T E R U M I 」",
     "emoji": "🌋",
-    "maxMembers": 5,
+    "maxMembers": 4,
     "members": [],
     "enabled": true
   },
@@ -94,8 +94,8 @@
     "name": "Arashi",
     "displayName": "「 A R A S H I 」",
     "emoji": "⚡",
-    "maxMembers": 5,
-    "members": [],
+    "maxMembers": 4,
+    "members": ["LuckyHamb"],
     "enabled": true
   },
   {
