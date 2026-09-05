@@ -1,0 +1,119 @@
+[
+  {
+    "id": "uchiha",
+    "name": "Uchiha",
+    "displayName": "「 U C H I H A 」",
+    "emoji": "👁️",
+    "maxMembers": 0,
+    "members": [],
+    "enabled": true
+  },
+  {
+    "id": "senju",
+    "name": "Senju",
+    "displayName": "「 S E N J U 」",
+    "emoji": "🌳",
+    "maxMembers": 0,
+    "members": [],
+    "enabled": true
+  },
+  {
+    "id": "kamizuru",
+    "name": "Kamizuru",
+    "displayName": "「 K A M I Z U R U 」",
+    "emoji": "🐝",
+    "maxMembers": 0,
+    "members": [],
+    "enabled": true
+  },
+  {
+    "id": "uzumaki",
+    "name": "Uzumaki",
+    "displayName": "「 U Z U M A K I 」",
+    "emoji": "🌀",
+    "maxMembers": 0,
+    "members": [],
+    "enabled": true
+  },
+  {
+    "id": "sabaku",
+    "name": "Sabaku",
+    "displayName": "「 S A B A K U 」",
+    "emoji": "🏜️",
+    "maxMembers": 0,
+    "members": [],
+    "enabled": true
+  },
+  {
+    "id": "lee",
+    "name": "Lee",
+    "displayName": "「 L E E 」",
+    "emoji": "🥋",
+    "maxMembers": 0,
+    "members": [],
+    "enabled": true
+  },
+  {
+    "id": "nara",
+    "name": "Nara",
+    "displayName": "「 N A R A 」",
+    "emoji": "🌑",
+    "maxMembers": 0,
+    "members": [],
+    "enabled": true
+  },
+  {
+    "id": "kaze",
+    "name": "Kaze",
+    "displayName": "「 K A Z E 」",
+    "emoji": "🌪️",
+    "maxMembers": 0,
+    "members": [],
+    "enabled": true
+  },
+  {
+    "id": "terumi",
+    "name": "Terumi",
+    "displayName": "「 T E R U M I 」",
+    "emoji": "🌋",
+    "maxMembers": 0,
+    "members": [],
+    "enabled": true
+  },
+  {
+    "id": "arashi",
+    "name": "Arashi",
+    "displayName": "「 A R A S H I 」",
+    "emoji": "⚡",
+    "maxMembers": 0,
+    "members": [],
+    "enabled": true
+  },
+  {
+    "id": "chinoike",
+    "name": "Chinoike",
+    "displayName": "「 C H I N O I K E 」",
+    "emoji": "🩸",
+    "maxMembers": 0,
+    "members": [],
+    "enabled": true
+  },
+  {
+    "id": "hozuki",
+    "name": "Hozuki",
+    "displayName": "「 H O Z U K I 」",
+    "emoji": "💧",
+    "maxMembers": 0,
+    "members": [],
+    "enabled": true
+  },
+  {
+    "id": "kaguya",
+    "name": "Kaguya",
+    "displayName": "「 K A G U Y A 」",
+    "emoji": "🦴",
+    "maxMembers": 0,
+    "members": [],
+    "enabled": true
+  }
+]
