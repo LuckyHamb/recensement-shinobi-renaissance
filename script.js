@@ -2,6 +2,7 @@
 
 const EXPECTED_CLANS = [
   "uchiha",
+  "hyuga",
   "senju",
   "kamizuru",
   "uzumaki",
