@@ -14,7 +14,7 @@
     "displayName": "「 H Y U G A 」",
     "emoji": "⚪",
     "maxMembers": 3,
-    "members": [],
+    "members": ["axo.tv"],
     "enabled": true
   },
   {
@@ -23,7 +23,7 @@
     "displayName": "「 S E N J U 」",
     "emoji": "🌳",
     "maxMembers": 4,
-    "members": ["Azapinou", "axo.tv"],
+    "members": ["Azapinou"],
     "enabled": true
   },
   {
