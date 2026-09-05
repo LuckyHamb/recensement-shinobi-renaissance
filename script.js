@@ -99,10 +99,6 @@ function getClanMetrics(clan) {
   return { key: "open", label: "Ouvert", memberCount, remaining, progress };
 }
 
-function getTotalMembers() {
-  return state.clans.reduce((sum, clan) => sum + clan.members.length, 0);
-}
-
 function formatAvailablePlaces(count) {
   return `${count} place${count > 1 ? "s" : ""} disponible${count > 1 ? "s" : ""}`;
 }
@@ -234,64 +230,6 @@ function createClanCard(clan, index) {
   return card;
 }
 
-function createRosterLauncherCard() {
-  const totalMembers = getTotalMembers();
-  const card = document.createElement("button");
-  card.type = "button";
-  card.className = "clan-card roster-launch-card";
-  card.setAttribute("aria-label", "Ouvrir la liste de tous les shinobis recensés");
-
-  const main = document.createElement("div");
-  main.className = "clan-card__main";
-
-  const identity = document.createElement("div");
-  identity.className = "clan-card__identity roster-launch-copy";
-
-  const emoji = document.createElement("span");
-  emoji.className = "clan-card__emoji";
-  emoji.setAttribute("aria-hidden", "true");
-  emoji.textContent = "👥";
-
-  const copy = document.createElement("div");
-  const title = document.createElement("h3");
-  title.textContent = "「 S H I N O B I S  R E C E N S É S 」";
-  const description = document.createElement("p");
-  description.textContent = "Voir tous les joueurs avec leur clan, classés par clan.";
-  copy.append(title, description);
-
-  identity.append(emoji, copy);
-
-  const count = document.createElement("div");
-  count.className = "roster-launch-count";
-  const countValue = document.createElement("strong");
-  countValue.textContent = String(totalMembers);
-  const countLabel = document.createElement("span");
-  countLabel.textContent = `shinobi${totalMembers > 1 ? "s" : ""}`;
-  count.append(countValue, countLabel);
-
-  main.append(identity, count);
-
-  const action = document.createElement("div");
-  action.className = "roster-launch-action";
-  const actionLabel = document.createElement("span");
-  actionLabel.textContent = "Ouvrir le registre des joueurs";
-  const arrow = document.createElement("span");
-  arrow.setAttribute("aria-hidden", "true");
-  arrow.textContent = "→";
-  action.append(actionLabel, arrow);
-
-  card.append(main, action);
-  card.addEventListener("click", () => {
-    state.view = "roster";
-    state.query = "";
-    elements.search.value = "";
-    renderCurrentView();
-    elements.search.focus();
-  });
-
-  return card;
-}
-
 function matchesFilter(clan, filter) {
   const metrics = getClanMetrics(clan);
 
@@ -317,11 +255,6 @@ function renderClans() {
   });
 
   const fragment = document.createDocumentFragment();
-
-  if (state.filter === "all" && query === "") {
-    fragment.append(createRosterLauncherCard());
-  }
-
   visibleClans.forEach((clan, index) => fragment.append(createClanCard(clan, index)));
   elements.clanGrid.replaceChildren(fragment);
 
@@ -334,7 +267,15 @@ function createRosterRow(name, clan) {
 
   const nameCell = document.createElement("td");
   nameCell.className = "roster-name";
-  nameCell.textContent = name;
+
+  const nameDot = document.createElement("span");
+  nameDot.className = "roster-name-dot";
+  nameDot.setAttribute("aria-hidden", "true");
+  nameDot.textContent = "•";
+
+  const nameText = document.createElement("span");
+  nameText.textContent = name;
+  nameCell.append(nameDot, nameText);
 
   const clanCell = document.createElement("td");
   clanCell.className = "roster-clan";
@@ -392,7 +333,11 @@ function renderRoster() {
 
 function syncFilterButtons() {
   elements.filterButtons.forEach((button) => {
-    const isActive = state.view === "clans" && button.dataset.filter === state.filter;
+    const isRosterButton = button.dataset.filter === "roster";
+    const isActive = state.view === "roster"
+      ? isRosterButton
+      : !isRosterButton && button.dataset.filter === state.filter;
+
     button.classList.toggle("is-active", isActive);
     button.setAttribute("aria-pressed", String(isActive));
   });
@@ -452,10 +397,18 @@ function bindControls() {
 
   elements.filterButtons.forEach((button) => {
     button.addEventListener("click", () => {
-      state.view = "clans";
-      state.filter = button.dataset.filter;
+      const targetFilter = button.dataset.filter;
       state.query = "";
       elements.search.value = "";
+
+      if (targetFilter === "roster") {
+        state.view = "roster";
+        state.filter = "all";
+      } else {
+        state.view = "clans";
+        state.filter = targetFilter;
+      }
+
       renderCurrentView();
     });
   });
