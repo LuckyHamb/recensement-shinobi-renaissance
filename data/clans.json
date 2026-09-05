@@ -14,7 +14,7 @@
     "displayName": "「 S E N J U 」",
     "emoji": "🌳",
     "maxMembers": 1,
-    "members": [],
+    "members": ["Azapinou"],
     "enabled": true
   },
   {
@@ -32,7 +32,7 @@
     "displayName": "「 U Z U M A K I 」",
     "emoji": "🌀",
     "maxMembers": 1,
-    "members": [],
+    "members": ["METALIZ"],
     "enabled": true
   },
   {
@@ -59,7 +59,7 @@
     "displayName": "「 N A R A 」",
     "emoji": "🌑",
     "maxMembers": 1,
-    "members": [],
+    "members": ["CRMBL"],
     "enabled": true
   },
   {
@@ -113,7 +113,7 @@
     "displayName": "「 K A G U Y A 」",
     "emoji": "🦴",
     "maxMembers": 1,
-    "members": [],
+    "members": ["Hitame"],
     "enabled": true
   }
 ]
