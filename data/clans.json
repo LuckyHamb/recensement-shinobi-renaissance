@@ -1,12 +1,21 @@
 [
   {
-    "id": "uchiha",
-    "name": "Uchiha",
-    "displayName": "「 U C H I H A 」",
-    "emoji": "👁️",
-    "maxMembers": 2,
-    "members": [],
-    "enabled": true
+   "id": "uchiha",
+   "name": "Uchiha",
+   "displayName": "「 U C H I H A 」",
+   "emoji": "👁️",
+   "maxMembers": 2,
+   "members": [],
+   "enabled": true
+  },
+  {
+   "id": "hyuga",
+   "name": "Hyuga",
+   "displayName": "「 H Y U G A 」",
+   "emoji": "👁️",
+   "maxMembers": 3,
+   "members": [],
+   "enabled": true
   },
   {
     "id": "senju",
