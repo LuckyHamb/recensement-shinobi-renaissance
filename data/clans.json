@@ -4,7 +4,7 @@
     "name": "Uchiha",
     "displayName": "「 U C H I H A 」",
     "emoji": "👁️",
-    "maxMembers": 0,
+    "maxMembers": 2,
     "members": [],
     "enabled": true
   },
@@ -13,7 +13,7 @@
     "name": "Senju",
     "displayName": "「 S E N J U 」",
     "emoji": "🌳",
-    "maxMembers": 1,
+    "maxMembers": 4,
     "members": ["Azapinou"],
     "enabled": true
   },
@@ -22,7 +22,7 @@
     "name": "Kamizuru",
     "displayName": "「 K A M I Z U R U 」",
     "emoji": "🐝",
-    "maxMembers": 0,
+    "maxMembers": 5,
     "members": [],
     "enabled": true
   },
@@ -31,7 +31,7 @@
     "name": "Uzumaki",
     "displayName": "「 U Z U M A K I 」",
     "emoji": "🌀",
-    "maxMembers": 1,
+    "maxMembers": 2,
     "members": ["METALIZ"],
     "enabled": true
   },
@@ -40,7 +40,7 @@
     "name": "Sabaku",
     "displayName": "「 S A B A K U 」",
     "emoji": "🏜️",
-    "maxMembers": 0,
+    "maxMembers": 5,
     "members": [],
     "enabled": true
   },
@@ -49,7 +49,7 @@
     "name": "Lee",
     "displayName": "「 L E E 」",
     "emoji": "🥋",
-    "maxMembers": 0,
+    "maxMembers": 2,
     "members": [],
     "enabled": true
   },
@@ -58,7 +58,7 @@
     "name": "Nara",
     "displayName": "「 N A R A 」",
     "emoji": "🌑",
-    "maxMembers": 1,
+    "maxMembers": 5,
     "members": ["CRMBL"],
     "enabled": true
   },
@@ -67,7 +67,7 @@
     "name": "Kaze",
     "displayName": "「 K A Z E 」",
     "emoji": "🌪️",
-    "maxMembers": 0,
+    "maxMembers": 5,
     "members": [],
     "enabled": true
   },
@@ -76,7 +76,7 @@
     "name": "Terumi",
     "displayName": "「 T E R U M I 」",
     "emoji": "🌋",
-    "maxMembers": 0,
+    "maxMembers": 5,
     "members": [],
     "enabled": true
   },
@@ -85,7 +85,7 @@
     "name": "Arashi",
     "displayName": "「 A R A S H I 」",
     "emoji": "⚡",
-    "maxMembers": 0,
+    "maxMembers": 5,
     "members": [],
     "enabled": true
   },
@@ -94,7 +94,7 @@
     "name": "Chinoike",
     "displayName": "「 C H I N O I K E 」",
     "emoji": "🩸",
-    "maxMembers": 0,
+    "maxMembers": 2,
     "members": [],
     "enabled": true
   },
@@ -103,7 +103,7 @@
     "name": "Hozuki",
     "displayName": "「 H O Z U K I 」",
     "emoji": "💧",
-    "maxMembers": 0,
+    "maxMembers": 5,
     "members": [],
     "enabled": true
   },
@@ -112,7 +112,7 @@
     "name": "Kaguya",
     "displayName": "「 K A G U Y A 」",
     "emoji": "🦴",
-    "maxMembers": 1,
+    "maxMembers": 5,
     "members": ["Hitame"],
     "enabled": true
   }
