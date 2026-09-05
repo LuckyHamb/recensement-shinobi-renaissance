@@ -44,6 +44,84 @@
         outline-offset: 3px;
       }
 
+      .roster {
+        padding: 72px clamp(0px, 4vw, 48px) 10px;
+      }
+
+      .roster-card {
+        overflow: hidden;
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        background: linear-gradient(145deg, rgba(24, 27, 35, 0.93), rgba(15, 17, 23, 0.92));
+        box-shadow: var(--shadow);
+      }
+
+      .roster-table-wrap {
+        overflow-x: auto;
+      }
+
+      .roster-table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .roster-table th,
+      .roster-table td {
+        padding: 15px 20px;
+        text-align: left;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .roster-table th {
+        color: var(--muted);
+        background: rgba(255, 255, 255, 0.025);
+        font-size: 0.72rem;
+        font-weight: 800;
+        letter-spacing: 0.13em;
+        text-transform: uppercase;
+      }
+
+      .roster-table tbody tr:last-child td {
+        border-bottom: 0;
+      }
+
+      .roster-table tbody tr:hover {
+        background: rgba(255, 255, 255, 0.025);
+      }
+
+      .roster-name {
+        width: 45%;
+        color: var(--text);
+        font-weight: 700;
+      }
+
+      .roster-clan-badge {
+        display: inline-flex;
+        gap: 9px;
+        align-items: center;
+        max-width: 100%;
+        padding: 6px 10px;
+        color: var(--muted-strong);
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.035);
+        font-size: 0.82rem;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+      }
+
+      .roster-clan-emoji {
+        flex: 0 0 auto;
+        font-size: 1rem;
+      }
+
+      .roster-empty {
+        margin: 0;
+        padding: 22px;
+        color: var(--muted);
+        text-align: center;
+      }
+
       @media (max-width: 640px) {
         .admin-link {
           top: 16px;
@@ -52,9 +130,28 @@
           padding: 7px 10px;
           font-size: 0.78rem;
         }
+
+        .roster {
+          padding-top: 54px;
+        }
+
+        .roster-table th,
+        .roster-table td {
+          padding: 13px 14px;
+        }
+
+        .roster-name {
+          width: 40%;
+        }
+
+        .roster-clan-badge {
+          font-size: 0.74rem;
+          letter-spacing: 0.03em;
+        }
       }
     </style>
     <script src="./script.js?v=4" defer></script>
+    <script src="./roster.js?v=1" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#clans">Aller aux clans</a>
@@ -113,6 +210,31 @@
               <span class="stat-card__label">Total des clans</span>
               <strong class="stat-card__value" data-stat="total">—</strong>
             </article>
+          </div>
+        </section>
+
+        <section class="roster" aria-labelledby="roster-title">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Registre des joueurs</p>
+              <h2 id="roster-title">Shinobis recensés</h2>
+            </div>
+            <p class="result-count" id="roster-count" aria-live="polite">Chargement…</p>
+          </div>
+
+          <div class="roster-card">
+            <div class="roster-table-wrap">
+              <table class="roster-table">
+                <thead>
+                  <tr>
+                    <th scope="col">Shinobi</th>
+                    <th scope="col">Clan</th>
+                  </tr>
+                </thead>
+                <tbody id="roster-body"></tbody>
+              </table>
+            </div>
+            <p class="roster-empty" id="roster-empty" hidden>Aucun shinobi n’est encore recensé.</p>
           </div>
         </section>
 
