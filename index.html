@@ -46,42 +46,13 @@
       }
 
       .roster-card {
-        overflow: hidden;
-        border: 1px solid var(--border);
-        border-radius: var(--radius);
-        background: linear-gradient(145deg, rgba(24, 27, 35, 0.93), rgba(15, 17, 23, 0.92));
-        box-shadow: var(--shadow);
+        border: 0;
+        background: transparent;
+        box-shadow: none;
       }
 
       .roster-panel-head {
-        display: flex;
-        gap: 16px;
-        align-items: center;
-        justify-content: space-between;
-        padding: 14px 18px;
-        border-bottom: 1px solid var(--border);
-        background: rgba(255, 255, 255, 0.018);
-      }
-
-      .roster-panel-head span {
-        color: var(--muted);
-        font-size: 0.8rem;
-      }
-
-      .roster-back {
-        min-height: 38px;
-        padding: 7px 12px;
-        color: var(--text);
-        border: 1px solid var(--border-strong);
-        border-radius: 8px;
-        background: rgba(255, 255, 255, 0.045);
-        cursor: pointer;
-        font-weight: 700;
-      }
-
-      .roster-back:hover {
-        border-color: rgba(231, 111, 101, 0.55);
-        background: rgba(231, 111, 101, 0.08);
+        display: none;
       }
 
       .roster-table-wrap {
@@ -90,49 +61,56 @@
 
       .roster-table {
         width: 100%;
-        border-collapse: collapse;
+        border-collapse: separate;
+        border-spacing: 0 8px;
       }
 
-      .roster-table th,
+      .roster-table thead {
+        display: none;
+      }
+
       .roster-table td {
-        padding: 15px 20px;
-        text-align: left;
+        padding: 11px 14px;
+        background: rgba(255, 255, 255, 0.028);
+        border-top: 1px solid var(--border);
         border-bottom: 1px solid var(--border);
       }
 
-      .roster-table th {
-        color: var(--muted);
-        background: rgba(255, 255, 255, 0.025);
-        font-size: 0.72rem;
-        font-weight: 800;
-        letter-spacing: 0.13em;
-        text-transform: uppercase;
+      .roster-table td:first-child {
+        border-left: 1px solid var(--border);
+        border-radius: 8px 0 0 8px;
       }
 
-      .roster-table tbody tr:last-child td {
-        border-bottom: 0;
+      .roster-table td:last-child {
+        border-right: 1px solid var(--border);
+        border-radius: 0 8px 8px 0;
       }
 
-      .roster-table tbody tr:hover {
-        background: rgba(255, 255, 255, 0.025);
+      .roster-table tbody tr:hover td {
+        background: rgba(255, 255, 255, 0.045);
+        border-color: var(--border-strong);
       }
 
       .roster-name {
-        width: 45%;
+        width: 50%;
         color: var(--text);
         font-weight: 700;
       }
 
+      .roster-name-dot {
+        margin-right: 9px;
+        color: var(--accent-bright);
+      }
+
+      .roster-clan {
+        text-align: right !important;
+      }
+
       .roster-clan-badge {
         display: inline-flex;
-        gap: 9px;
+        gap: 8px;
         align-items: center;
-        max-width: 100%;
-        padding: 6px 10px;
         color: var(--muted-strong);
-        border: 1px solid var(--border);
-        border-radius: 999px;
-        background: rgba(255, 255, 255, 0.035);
         font-size: 0.82rem;
         font-weight: 700;
         letter-spacing: 0.05em;
@@ -159,28 +137,21 @@
           font-size: 0.78rem;
         }
 
-        .roster-panel-head {
-          align-items: flex-start;
-          flex-direction: column;
-        }
-
-        .roster-table th,
         .roster-table td {
-          padding: 13px 14px;
+          padding: 10px 11px;
         }
 
         .roster-name {
-          width: 40%;
+          width: 42%;
         }
 
         .roster-clan-badge {
-          font-size: 0.74rem;
-          letter-spacing: 0.03em;
+          font-size: 0.72rem;
+          letter-spacing: 0.02em;
         }
       }
     </style>
-    <script src="./script.js?v=6" defer></script>
-    <script src="./roster-tab.js?v=1" defer></script>
+    <script src="./script.js?v=7" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#clans">Aller aux clans</a>
