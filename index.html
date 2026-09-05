@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Registre public des effectifs et des places disponibles des clans de Shinobi Renaissance."
+    >
+    <meta name="theme-color" content="#090b0f">
+    <title>Recensement des clans — Shinobi Renaissance</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#clans">Aller aux clans</a>
+
+    <div class="page-shell">
+      <header class="masthead">
+        <div class="masthead__mark" aria-hidden="true">忍</div>
+        <div class="masthead__copy">
+          <p class="eyebrow">Registre officiel</p>
+          <h1>Shinobi Renaissance</h1>
+          <p class="masthead__title">Recensement des clans</p>
+          <p class="masthead__intro">
+            Consultez en temps réel les effectifs et les places disponibles au sein des différents clans.
+          </p>
+        </div>
+      </header>
+
+      <main>
+        <section class="dashboard" aria-labelledby="dashboard-title">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Vue d’ensemble</p>
+              <h2 id="dashboard-title">Tableau de bord</h2>
+            </div>
+            <p class="last-update" id="last-update" aria-live="polite">Chargement du registre…</p>
+          </div>
+
+          <div class="stats-grid" id="stats" aria-label="Statistiques du recensement" aria-live="polite">
+            <article class="stat-card">
+              <span class="stat-card__label">Membres recensés</span>
+              <strong class="stat-card__value" data-stat="members">—</strong>
+            </article>
+            <article class="stat-card">
+              <span class="stat-card__label">Places disponibles</span>
+              <strong class="stat-card__value" data-stat="available">—</strong>
+            </article>
+            <article class="stat-card">
+              <span class="stat-card__label">Clans ouverts</span>
+              <strong class="stat-card__value" data-stat="open">—</strong>
+            </article>
+            <article class="stat-card">
+              <span class="stat-card__label">Clans complets</span>
+              <strong class="stat-card__value" data-stat="full">—</strong>
+            </article>
+            <article class="stat-card stat-card--total">
+              <span class="stat-card__label">Total des clans</span>
+              <strong class="stat-card__value" data-stat="total">—</strong>
+            </article>
+          </div>
+        </section>
+
+        <section class="registry" aria-labelledby="registry-title">
+          <div class="section-heading section-heading--registry">
+            <div>
+              <p class="section-kicker">Archives actives</p>
+              <h2 id="registry-title">Clans recensés</h2>
+            </div>
+            <p class="result-count" id="result-count" aria-live="polite"></p>
+          </div>
+
+          <div class="controls" aria-label="Recherche et filtres">
+            <label class="search-field" for="search">
+              <span class="search-field__icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Rechercher un clan ou un shinobi</span>
+              <input
+                id="search"
+                type="search"
+                placeholder="Rechercher un clan ou un shinobi…"
+                autocomplete="off"
+                spellcheck="false"
+              >
+            </label>
+
+            <div class="filters" role="group" aria-label="Filtrer les clans">
+              <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">
+                Tous les clans
+              </button>
+              <button class="filter-button" type="button" data-filter="available" aria-pressed="false">
+                Places disponibles
+              </button>
+              <button class="filter-button" type="button" data-filter="full" aria-pressed="false">
+                Complets
+              </button>
+              <button class="filter-button" type="button" data-filter="closed" aria-pressed="false">
+                Fermés
+              </button>
+            </div>
+          </div>
+
+          <div class="notice notice--error" id="error-message" role="alert" hidden>
+            <strong>Le registre est momentanément indisponible.</strong>
+            <span>Impossible de charger les données des clans. Veuillez réessayer plus tard.</span>
+          </div>
+
+          <div class="clan-grid" id="clans" aria-busy="true"></div>
+
+          <div class="notice notice--empty" id="empty-message" hidden>
+            <strong>Aucun clan ne correspond à votre recherche.</strong>
+            <span>Modifiez votre recherche ou choisissez un autre filtre.</span>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <span>Shinobi Renaissance</span>
+        <span aria-hidden="true">•</span>
+        <span>Registre public en lecture seule</span>
+      </footer>
+    </div>
+  </body>
+</html>
