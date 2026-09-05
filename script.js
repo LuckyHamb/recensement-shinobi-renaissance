@@ -44,7 +44,7 @@ function normalize(value) {
 
 function validateClans(data) {
   if (!Array.isArray(data) || data.length !== EXPECTED_CLANS.length) {
-    throw new Error("Le registre doit contenir exactement 13 clans.");
+    throw new Error(`Le registre doit contenir exactement ${EXPECTED_CLANS.length} clans.`);
   }
 
   const ids = data.map((clan) => clan?.id);
