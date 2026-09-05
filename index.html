@@ -41,12 +41,102 @@
         outline-offset: 3px;
       }
 
+      .roster-launch-card {
+        grid-column: 1 / -1;
+        width: 100%;
+        padding: 0;
+        color: inherit;
+        text-align: left;
+        cursor: pointer;
+        --status-color: var(--accent-bright);
+      }
+
+      .roster-launch-card .clan-card__main {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 118px;
+      }
+
+      .roster-launch-copy {
+        min-width: 0;
+      }
+
+      .roster-launch-copy p {
+        margin: 7px 0 0;
+        color: var(--muted);
+        font-size: 0.82rem;
+      }
+
+      .roster-launch-count {
+        display: flex;
+        flex: 0 0 auto;
+        gap: 7px;
+        align-items: baseline;
+        color: var(--muted);
+        white-space: nowrap;
+      }
+
+      .roster-launch-count strong {
+        color: var(--text);
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 1.8rem;
+        font-weight: 500;
+      }
+
+      .roster-launch-action {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 22px;
+        color: var(--text);
+        border-top: 1px solid var(--border);
+        font-size: 0.82rem;
+        font-weight: 700;
+      }
+
+      .roster-launch-card:hover .roster-launch-action {
+        color: var(--accent-bright);
+      }
+
       .roster-card {
         overflow: hidden;
         border: 1px solid var(--border);
         border-radius: var(--radius);
         background: linear-gradient(145deg, rgba(24, 27, 35, 0.93), rgba(15, 17, 23, 0.92));
         box-shadow: var(--shadow);
+      }
+
+      .roster-panel-head {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 14px 18px;
+        border-bottom: 1px solid var(--border);
+        background: rgba(255, 255, 255, 0.018);
+      }
+
+      .roster-panel-head span {
+        color: var(--muted);
+        font-size: 0.8rem;
+      }
+
+      .roster-back {
+        min-height: 38px;
+        padding: 7px 12px;
+        color: var(--text);
+        border: 1px solid var(--border-strong);
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.045);
+        cursor: pointer;
+        font-weight: 700;
+      }
+
+      .roster-back:hover {
+        border-color: rgba(231, 111, 101, 0.55);
+        background: rgba(231, 111, 101, 0.08);
       }
 
       .roster-table-wrap {
@@ -124,6 +214,17 @@
           font-size: 0.78rem;
         }
 
+        .roster-launch-card .clan-card__main {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 14px;
+        }
+
+        .roster-panel-head {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+
         .roster-table th,
         .roster-table td {
           padding: 13px 14px;
@@ -139,7 +240,7 @@
         }
       }
     </style>
-    <script src="./script.js?v=5" defer></script>
+    <script src="./script.js?v=6" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#clans">Aller aux clans</a>
@@ -199,7 +300,6 @@
               <button class="filter-button" type="button" data-filter="available" aria-pressed="false">Places disponibles</button>
               <button class="filter-button" type="button" data-filter="full" aria-pressed="false">Complets</button>
               <button class="filter-button" type="button" data-filter="closed" aria-pressed="false">Fermés</button>
-              <button class="filter-button" type="button" data-filter="roster" aria-pressed="false">Shinobis recensés</button>
             </div>
           </div>
 
@@ -211,6 +311,10 @@
           <div class="clan-grid" id="clans" aria-busy="true"></div>
 
           <div class="roster-card" id="roster-view" hidden>
+            <div class="roster-panel-head">
+              <button class="roster-back" id="roster-back" type="button">← Retour aux clans</button>
+              <span>Liste classée par clan, puis par pseudo.</span>
+            </div>
             <div class="roster-table-wrap">
               <table class="roster-table">
                 <thead>
