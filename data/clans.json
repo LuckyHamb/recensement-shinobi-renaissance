@@ -41,7 +41,7 @@
     "displayName": "「 U Z U M A K I 」",
     "emoji": "🌀",
     "maxMembers": 3,
-    "members": ["metaliz_91.", ".maxcorp","makil2771"],
+    "members": ["metaliz_91.", ".maxcorp", "makil2771"],
     "enabled": true
   },
   {
@@ -132,6 +132,15 @@
     "emoji": "🦴",
     "maxMembers": 5,
     "members": ["hitame.01", "mawwen_"],
+    "enabled": true
+  },
+  {
+    "id": "sans-clan",
+    "name": "Sans clan",
+    "displayName": "「 S A N S  C L A N 」",
+    "emoji": "❔",
+    "maxMembers": 10,
+    "members": [],
     "enabled": true
   }
 ]
