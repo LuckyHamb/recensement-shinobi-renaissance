@@ -4,8 +4,8 @@
     "name": "Uchiha",
     "displayName": "「 U C H I H A 」",
     "emoji": "👁️",
-    "maxMembers": 3,
-    "members": ["alexlelion84", "has.justk", "raiko1913"],
+    "maxMembers": 4,
+    "members": ["alexlelion84", "has.justk", "raiko1913", "galaxie2.0"],
     "enabled": true
   },
   {
@@ -104,7 +104,7 @@
     "displayName": "「 C H I N O I K E 」",
     "emoji": "🩸",
     "maxMembers": 4,
-    "members": ["galaxie2.0"],
+    "members": [],
     "enabled": true
   },
   {
