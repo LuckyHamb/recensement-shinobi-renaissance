@@ -117,12 +117,21 @@
     "enabled": true
   },
   {
-    "id": "hoshigaki",
-    "name": "Hoshigaki",
-    "displayName": "「 H O S H I G A K I 」",
-    "emoji": "🦈",
+    "id": "kibin",
+    "name": "Kibin",
+    "displayName": "「 K I B I N 」",
+    "emoji": "💨",
+    "maxMembers": 4,
+    "members": [],
+    "enabled": true
+  },
+  {
+    "id": "kurisutaru",
+    "name": "Kurisutaru",
+    "displayName": "「 K U R I S U T A R U 」",
+    "emoji": "💎",
     "maxMembers": 5,
-    "members": ["fadi.agd"],
+    "members": [],
     "enabled": true
   },
   {
