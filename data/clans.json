@@ -135,6 +135,24 @@
     "enabled": true
   },
   {
+    "id": "yuki",
+    "name": "Yuki",
+    "displayName": "「 Y U K I 」",
+    "emoji": "❄️",
+    "maxMembers": 5,
+    "members": [],
+    "enabled": true
+  },
+  {
+    "id": "karatachi",
+    "name": "Karatachi",
+    "displayName": "「 K A R A T A C H I 」",
+    "emoji": "🐚",
+    "maxMembers": 5,
+    "members": [],
+    "enabled": true
+  },
+  {
     "id": "sans-clan",
     "name": "Sans clan",
     "displayName": "「 S A N S  C L A N 」",
