@@ -13,7 +13,7 @@
     "name": "Hyuga",
     "displayName": "「 H Y U G A 」",
     "emoji": "⚪",
-    "maxMembers": 3,
+    "maxMembers": 4,
     "members": ["axo.tv", "kylianekrafft", "intergouvernementalisationelle"],
     "enabled": true
   },
@@ -58,7 +58,7 @@
     "name": "Lee",
     "displayName": "「 L E E 」",
     "emoji": "🥋",
-    "maxMembers": 3,
+    "maxMembers": 4,
     "members": ["natsu7611", "08_sama"],
     "enabled": true
   },
@@ -103,7 +103,7 @@
     "name": "Chinoike",
     "displayName": "「 C H I N O I K E 」",
     "emoji": "🩸",
-    "maxMembers": 2,
+    "maxMembers": 4,
     "members": ["galaxie2.0"],
     "enabled": true
   },
