@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "id": "nara",
+  "name": "Nara",
+  "displayName": "「 N A R A 」",
+  "emblem": "assets/clans/nara/emblem.svg",
+  "emblemNote": "Interprétation graphique pour les archives ; symbole non présenté comme preuve canonique.",
+  "tagline": "Prévoir le prix de chaque victoire",
+  "quote": "Le meilleur coup laisse encore un chemin de retour.",
+  "currentVillage": "Konoha",
+  "originVillage": "Konoha",
+  "v1Village": "Konoha",
+  "v2Village": "Konoha",
+  "status": "active",
+  "elements": [],
+  "specialties": [
+    "Manipulation des ombres",
+    "Stratégie"
+  ],
+  "tags": [
+    "Ninjutsu"
+  ],
+  "presentation": [
+    "À la lisière des bois de Konoha, les Nara protègent des terrains où circulent troupeaux, cueilleurs et messagers. Leurs stratèges sont recherchés pour les plans de mission, mais la famille tire aussi son influence de sa connaissance des ressources, des saisons et des chemins secondaires.",
+    "Une bonne décision, selon leur école, doit pouvoir être expliquée à ceux qui en subiront les conséquences. Cette ambition se heurte à la tentation de tout calculer à distance. Les gardes forestiers accusent parfois les conseillers de réduire les vies à des hypothèses ; les conseillers répondent que refuser les chiffres n’empêche pas les pertes.",
+    "La maîtrise des ombres favorise les immobilisations et les pièges concertés. Les Nara dépendent donc fortement de la confiance de leurs partenaires. Leur prudence peut passer pour de l’indifférence, alors qu’elle masque souvent la peur de choisir une option qui condamnerait un proche."
+  ],
+  "appearance": [
+    "Les attaches hautes et les vêtements peu encombrants sont pratiques dans les bois, sans être un uniforme. Des nuances sombres, des sacoches d’herboriste et des carnets de terrain coexistent avec les tenues officielles des conseillers.",
+    "L’ironie et les silences peuvent désamorcer une querelle ou blesser un interlocuteur pressé. La famille valorise la capacité à changer d’avis après un fait nouveau ; certains anciens peinent pourtant à l’appliquer à leurs propres décisions."
+  ],
+  "lifestyle": [
+    "Les enfants alternent travail au dehors, jeux de stratégie et préparation des plantes. Le soir, un repas rassemble les rapports du jour : une clôture rompue peut compter autant qu’une rumeur militaire. Les plus jeunes ont le droit de contester une hypothèse s’ils expliquent ce qu’ils ont observé.",
+    "Herboristes, cartographes, éleveurs et intendants transmettent des savoirs qui se complètent. Les unions ne sont pas arrangées autour d’un seul talent héréditaire ; les contrats d’héritage précisent plutôt l’entretien des terres et l’accès aux sentiers. Un héritier absent peut confier une parcelle à une maison voisine sans céder son histoire."
+  ],
+  "traditions": [
+    {
+      "title": "La Partie Inachevée",
+      "text": "Lors d’un passage à l’âge adulte, le maître quitte une partie au moment décisif. Le candidat doit expliquer plusieurs suites possibles et renoncer à prétendre connaître celle que l’adversaire aurait choisie."
+    },
+    {
+      "title": "La Marche des Ombres Courtes",
+      "text": "Au soleil de midi, les apprentis effectuent une mission sans compter sur de longues ombres. Ils apprennent à prévoir les conditions défavorables avant d’imaginer une victoire idéale."
+    },
+    {
+      "title": "Le Carnet des Erreurs",
+      "text": "Chaque conseil annuel débute par la lecture volontaire d’un mauvais calcul. Les noms des victimes sont rappelés avec l’accord des familles ; l’exercice ne doit jamais devenir un concours de confession."
+    }
+  ],
+  "history": [
+    "Des gardiens de forêts développent une science des pistes et des variations de lumière. Les premières techniques d’ombre servent à retenir les intrus le temps d’évacuer les familles.",
+    "Les maisons deviennent arbitres des droits de passage. Leur connaissance du terrain leur permet de négocier avec des armées plus puissantes.",
+    "Des alliances forcées les conduisent à préparer des embuscades dont ils contestent ensuite le coût humain. Les premiers carnets d’erreurs sont issus de cette période.",
+    "Les Nara rejoignent Konoha en échange de garanties sur leurs bois et leur rôle de conseil. La défense d’une forêt devient une responsabilité envers un village entier.",
+    "Les nouvelles routes traversent des zones protégées. Les conseillers recherchent des compromis tandis que les gardes s’opposent aux concessions jugées irréversibles."
+  ],
+  "timeline": [
+    {
+      "id": "period-1",
+      "period": "Origines",
+      "title": "Les premières maisons",
+      "text": "Des gardiens de forêts développent une science des pistes et des variations de lumière. Les premières techniques d’ombre servent à retenir les intrus le temps d’évacuer les familles.",
+      "future": false
+    },
+    {
+      "id": "period-2",
+      "period": "Ère des clans",
+      "title": "Savoirs et serments",
+      "text": "Les maisons deviennent arbitres des droits de passage. Leur connaissance du terrain leur permet de négocier avec des armées plus puissantes.",
+      "future": false
+    },
+    {
+      "id": "period-3",
+      "period": "Guerres",
+      "title": "Le prix des conflits",
+      "text": "Des alliances forcées les conduisent à préparer des embuscades dont ils contestent ensuite le coût humain. Les premiers carnets d’erreurs sont issus de cette période.",
+      "future": false
+    },
+    {
+      "id": "period-4",
+      "period": "Formation des villages",
+      "title": "Un nouvel ordre",
+      "text": "Les Nara rejoignent Konoha en échange de garanties sur leurs bois et leur rôle de conseil. La défense d’une forêt devient une responsabilité envers un village entier.",
+      "future": false
+    },
+    {
+      "id": "period-5",
+      "period": "Période moderne",
+      "title": "Les équilibres fragiles",
+      "text": "Les nouvelles routes traversent des zones protégées. Les conseillers recherchent des compromis tandis que les gardes s’opposent aux concessions jugées irréversibles.",
+      "future": false
+    },
+    {
+      "id": "period-6",
+      "period": "V1 du serveur",
+      "title": "Un foyer à Konoha",
+      "text": "Le clan demeure à Konoha grâce à une charte de gestion des bois. Il accueille des exercices interclans et ouvre certains sentiers aux nouveaux arrivants, tout en défendant les zones de reproduction des animaux.",
+      "future": false
+    },
+    {
+      "id": "period-7",
+      "period": "V2 — horizon",
+      "title": "Une destination à négocier",
+      "text": "Konoha reste leur ancrage. Les futurs villages pourront négocier un réseau d’échange cartographique, sans emporter les droits sur les forêts du Feu.",
+      "future": true
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "leader",
+      "title": "Premier conseiller",
+      "description": "Responsabilité politique et arbitrage des engagements.",
+      "level": 0,
+      "parent": null,
+      "accessLevel": 4
+    },
+    {
+      "id": "council",
+      "title": "Conseil des pistes",
+      "description": "Délibération et transmission des règles.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "guard",
+      "title": "Gardiens des bois",
+      "description": "Protection et surveillance des lieux confiés.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "masters",
+      "title": "Stratèges confirmés",
+      "description": "Enseignement et accompagnement des missions.",
+      "level": 2,
+      "parent": "council",
+      "accessLevel": 2
+    },
+    {
+      "id": "cadets",
+      "title": "Observateurs cadets",
+      "description": "Apprentissage sous la responsabilité d'un référent.",
+      "level": 3,
+      "parent": "masters",
+      "accessLevel": 1
+    }
+  ],
+  "powers": [
+    {
+      "title": "Capacité principale",
+      "text": "La manipulation des ombres relie une intention à une zone d’ombre pour immobiliser ou gêner. Les techniques prennent leur force dans la préparation du terrain et la coordination des alliés."
+    },
+    {
+      "title": "Passifs et aptitudes",
+      "text": "Habitude de l’analyse, mémoire des itinéraires et lecture de l’environnement acquises par l’étude."
+    },
+    {
+      "title": "Limites et vulnérabilités",
+      "text": "Éclairage, portée, obstacles et chakra limitent la prise. Un adversaire plus fort ou une rupture de concentration peut faire échouer le plan."
+    },
+    {
+      "title": "Conditions et progression",
+      "text": "Les élèves travaillent la durée et la précision avant le nombre de cibles. Aucun contrôle absolu ne découle d’un simple contact d’ombre."
+    }
+  ],
+  "techniques": [
+    {
+      "id": "nara-1",
+      "name": "Lisière Immobile",
+      "japaneseName": "Ugokanu Kage",
+      "rank": "C",
+      "type": "Ninjutsu",
+      "element": "Aucun",
+      "description": "Une ombre préparée freine une cible assez longtemps pour permettre à un allié de se replacer.",
+      "requirements": "Ombre continue, concentration et portée RP respectée.",
+      "secret": false,
+      "category": "ENSEIGNEMENT",
+      "minimumHierarchyLevel": 1,
+      "minimumGrade": "Genin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "public"
+    },
+    {
+      "id": "nara-2",
+      "name": "Conseil de la Nuit Longue",
+      "japaneseName": "Nagai Yoru",
+      "rank": "A",
+      "type": "Ninjutsu",
+      "element": "Aucun",
+      "description": "",
+      "requirements": "Stratège confirmé et préparation collective.",
+      "secret": true,
+      "category": "HÉRITAGE",
+      "minimumHierarchyLevel": 3,
+      "minimumGrade": "Jōnin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "classified"
+    }
+  ],
+  "characters": [
+    {
+      "id": "nara-person-1",
+      "name": "Chikanori Nara",
+      "role": "Premier conseiller",
+      "biography": "Il exige que les missions présentent aussi une option de retraite. Une décision autrefois trop prudente a laissé un village allié sans secours, et ses opposants ne l’ont pas oublié.",
+      "original": true
+    },
+    {
+      "id": "nara-person-2",
+      "name": "Kiyoe Nara",
+      "role": "Gardienne des bois",
+      "biography": "Elle connaît chaque source et s’oppose à un nouveau terrain d’exercice. Son conflit avec le conseil donne aux jeunes ninjas l’occasion de défendre une cause sans prendre les armes.",
+      "original": true
+    },
+    {
+      "id": "nara-person-3",
+      "name": "Tamenobu Nara",
+      "role": "Cartographe disparu des conseils",
+      "biography": "Il a quitté la politique pour vérifier les cartes anciennes. Ses corrections menacent désormais des droits de propriété que plusieurs clans croyaient établis.",
+      "original": true
+    }
+  ],
+  "relations": [
+    {
+      "targetClan": "hyuga",
+      "status": "AMICAL",
+      "description": "La vision nourrit les plans, les plans protègent les observateurs.",
+      "historicalReason": "Des missions communes ont imposé un langage précis du doute."
+    },
+    {
+      "targetClan": "kamizuru",
+      "status": "ALLIANCE",
+      "description": "Les abeilles et les bois demandent une gestion concertée.",
+      "historicalReason": "Le pacte des floraisons a mis fin aux traitements nocifs."
+    }
+  ],
+  "heroImage": null,
+  "illustrations": []
+}
+

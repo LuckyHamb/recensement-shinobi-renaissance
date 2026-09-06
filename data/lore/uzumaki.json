@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "id": "uzumaki",
+  "name": "Uzumaki",
+  "displayName": "「 U Z U M A K I 」",
+  "emblem": "assets/clans/uzumaki/emblem.svg",
+  "emblemNote": "Interprétation graphique pour les archives ; symbole non présenté comme preuve canonique.",
+  "tagline": "Ceux qui nouent la mémoire aux vivants",
+  "quote": "Un sceau protège autant par sa limite que par sa force.",
+  "currentVillage": "Konoha",
+  "originVillage": "Uzushio",
+  "v1Village": "Konoha",
+  "v2Village": "Uzushio",
+  "status": "active",
+  "elements": [],
+  "specialties": [
+    "Fūinjutsu",
+    "Vitalité"
+  ],
+  "tags": [
+    "Ninjutsu"
+  ],
+  "presentation": [
+    "Les Uzumaki sont arrivés avec des coffres d’archives plus lourds que leurs effets personnels. À Konoha, leurs ateliers sécurisent les réserves, les barrières et les objets difficiles à transporter. On leur confie ce que l’on craint de perdre, tout en s’inquiétant de ce qu’ils pourraient enfermer.",
+    "Le clan possède de fortes réserves de chakra et une tradition du fūinjutsu, mais ses maisons ne partagent pas une doctrine unique. Les conservateurs veulent reconstituer les bibliothèques d’Uzushio ; les praticiens cherchent des applications civiles accessibles aux habitants. Les discussions portent sur la propriété des formules autant que sur leur puissance.",
+    "La vitalité ne protège pas de l’épuisement émotionnel d’un exil. Plusieurs anciens refusent de nommer Konoha leur foyer, alors que les enfants y grandissent. Le chef doit préserver la mémoire d’origine sans transformer chaque repas en attente d’un retour."
+  ],
+  "appearance": [
+    "Les cheveux roux sont fréquents dans certaines lignées, sans définir à eux seuls l’appartenance. Des manches resserrées, des étuis d’encre et des tissus résistants aux éclaboussures caractérisent les ateliers. La spirale rappelle la continuité d’un parcours qui revient sur lui-même sans être identique.",
+    "La ténacité peut devenir une qualité de chercheur ou un refus de reconnaître une expérience ratée. Les maîtres encouragent la curiosité, mais demandent de décrire les risques avant de montrer les résultats."
+  ],
+  "lifestyle": [
+    "Les logements entourent les salles de copie et les réserves d’encres. Les enfants apprennent à lire un avertissement, mesurer un support et préparer une sortie de secours avant de tracer un sceau actif. Un repas chaud partagé clôt les longues séances pour éviter que l’endurance ne justifie un travail sans fin.",
+    "Copistes, relieurs, gardiens de réserves et spécialistes des barrières gagnent leur vie auprès des autres clans. Les mariages associent souvent deux bibliothèques familiales : chaque partenaire conserve le droit de ne pas transmettre certaines notes. L’héritage d’un rouleau n’autorise jamais à utiliser une formule que l’on ne comprend pas."
+  ],
+  "traditions": [
+    {
+      "title": "Le Premier Nœud",
+      "text": "L’apprenti scelle un objet sans valeur dans une boîte, puis doit expliquer à un autre comment l’ouvrir sans danger. La transmission n’est reconnue que lorsque l’élève sait aussi donner la clé."
+    },
+    {
+      "title": "La Veillée des Copies",
+      "text": "Les familles recopient les lettres des exilés avant les grands départs. Les corrections et hésitations restent visibles : la mémoire doit conserver la voix, pas seulement une version idéale de l’histoire."
+    },
+    {
+      "title": "Le Sceau Délié",
+      "text": "Aux funérailles, un maître désactive les protections personnelles du défunt devant les héritiers. Les biens ne doivent pas devenir des pièges pour ceux qui restent."
+    }
+  ],
+  "history": [
+    "Les premières maisons s’installent sur des côtes traversées de courants violents. Les sceaux naissent de la nécessité de conserver les vivres, d’attacher les cargaisons et de protéger les ports.",
+    "Les ateliers d’Uzushio échangent leurs formules contre des traités de navigation. La réputation des sceaux attire autant les partenaires que les convoitises.",
+    "Le sabotage de dépôts montre qu’un savoir concentré peut être perdu en une nuit. Les archivistes dispersent des copies entre maisons alliées.",
+    "Les liens avec les familles du Feu donnent naissance à des conventions de refuge et à des chantiers de protection communs.",
+    "Une crise des routes maritimes coupe plusieurs ateliers de leur approvisionnement. Les maisons négocient un transfert provisoire de leurs archives vers l’intérieur des terres."
+  ],
+  "timeline": [
+    {
+      "id": "period-1",
+      "period": "Origines",
+      "title": "Les premières maisons",
+      "text": "Les premières maisons s’installent sur des côtes traversées de courants violents. Les sceaux naissent de la nécessité de conserver les vivres, d’attacher les cargaisons et de protéger les ports.",
+      "future": false
+    },
+    {
+      "id": "period-2",
+      "period": "Ère des clans",
+      "title": "Savoirs et serments",
+      "text": "Les ateliers d’Uzushio échangent leurs formules contre des traités de navigation. La réputation des sceaux attire autant les partenaires que les convoitises.",
+      "future": false
+    },
+    {
+      "id": "period-3",
+      "period": "Guerres",
+      "title": "Le prix des conflits",
+      "text": "Le sabotage de dépôts montre qu’un savoir concentré peut être perdu en une nuit. Les archivistes dispersent des copies entre maisons alliées.",
+      "future": false
+    },
+    {
+      "id": "period-4",
+      "period": "Formation des villages",
+      "title": "Un nouvel ordre",
+      "text": "Les liens avec les familles du Feu donnent naissance à des conventions de refuge et à des chantiers de protection communs.",
+      "future": false
+    },
+    {
+      "id": "period-5",
+      "period": "Période moderne",
+      "title": "Les équilibres fragiles",
+      "text": "Une crise des routes maritimes coupe plusieurs ateliers de leur approvisionnement. Les maisons négocient un transfert provisoire de leurs archives vers l’intérieur des terres.",
+      "future": false
+    },
+    {
+      "id": "period-6",
+      "period": "V1 du serveur",
+      "title": "Un foyer à Konoha",
+      "text": "Un traité de sauvegarde avec Konoha accueille les familles et leurs bibliothèques. Les Uzumaki entretiennent les barrières du village en échange de quartiers protégés et d’un droit explicite au retour.",
+      "future": false
+    },
+    {
+      "id": "period-7",
+      "period": "V2 — horizon",
+      "title": "Une destination à négocier",
+      "text": "Uzushio est la destination prévue si les routes et les règles du serveur permettent le retour. Certaines maisons pourront préférer garder leurs ateliers à Konoha.",
+      "future": true
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "leader",
+      "title": "Gardien des spirales",
+      "description": "Responsabilité politique et arbitrage des engagements.",
+      "level": 0,
+      "parent": null,
+      "accessLevel": 4
+    },
+    {
+      "id": "council",
+      "title": "Collège des sceaux",
+      "description": "Délibération et transmission des règles.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "guard",
+      "title": "Conservateurs",
+      "description": "Protection et surveillance des lieux confiés.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "masters",
+      "title": "Maîtres copistes",
+      "description": "Enseignement et accompagnement des missions.",
+      "level": 2,
+      "parent": "council",
+      "accessLevel": 2
+    },
+    {
+      "id": "cadets",
+      "title": "Apprentis relieurs",
+      "description": "Apprentissage sous la responsabilité d'un référent.",
+      "level": 3,
+      "parent": "masters",
+      "accessLevel": 1
+    }
+  ],
+  "powers": [
+    {
+      "title": "Capacité principale",
+      "text": "De grandes réserves de chakra, une forte vitalité et une endurance reconnue soutiennent l’apprentissage des sceaux. Le fūinjutsu demeure un savoir exigeant, et non une conséquence automatique du nom Uzumaki."
+    },
+    {
+      "title": "Passifs et aptitudes",
+      "text": "Résistance à l’effort et capacité de survie variables selon le personnage."
+    },
+    {
+      "title": "Limites et vulnérabilités",
+      "text": "Une formule mal comprise, un support abîmé ou une interruption peuvent compromettre le dispositif. Préparer un sceau demande des ressources et du temps."
+    },
+    {
+      "title": "Conditions et progression",
+      "text": "L’élève apprend d’abord à identifier et désactiver ses propres formules. Les sceaux de contrainte et les usages sur le vivant nécessitent un encadrement RP explicite."
+    }
+  ],
+  "techniques": [
+    {
+      "id": "uzumaki-1",
+      "name": "Nœud de Garde",
+      "japaneseName": "Mamori no Musubi",
+      "rank": "C",
+      "type": "Fūinjutsu",
+      "element": "Aucun",
+      "description": "Un sceau signale l’ouverture d’un contenant préparé sans empêcher physiquement son accès.",
+      "requirements": "Support sec, encre adaptée et apprentissage des formules.",
+      "secret": false,
+      "category": "ENSEIGNEMENT",
+      "minimumHierarchyLevel": 1,
+      "minimumGrade": "Genin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "public"
+    },
+    {
+      "id": "uzumaki-2",
+      "name": "Archive des Neuf Nœuds",
+      "japaneseName": "Kokonotsu no Musubi",
+      "rank": "A",
+      "type": "Fūinjutsu",
+      "element": "Aucun",
+      "description": "",
+      "requirements": "Maître des sceaux et accord RP pour chaque usage.",
+      "secret": true,
+      "category": "HÉRITAGE",
+      "minimumHierarchyLevel": 3,
+      "minimumGrade": "Jōnin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "classified"
+    }
+  ],
+  "characters": [
+    {
+      "id": "uzumaki-person-1",
+      "name": "Tsuneyo Uzumaki",
+      "role": "Gardienne actuelle",
+      "biography": "Elle a négocié le traité de sauvegarde en refusant de vendre les formules ancestrales. Certains lui reprochent de faire dépendre le retour d’un accord politique plutôt que de l’honneur familial.",
+      "original": true
+    },
+    {
+      "id": "uzumaki-person-2",
+      "name": "Fumihiko Uzumaki",
+      "role": "Maître copiste",
+      "biography": "Il note systématiquement les accidents d’atelier. Ses élèves disent qu’il enseigne davantage l’art d’arrêter une expérience que celui de la réussir.",
+      "original": true
+    },
+    {
+      "id": "uzumaki-person-3",
+      "name": "Oritsu Uzumaki",
+      "role": "Relieuse des exilés",
+      "biography": "Elle rassemble les lettres des familles séparées et découvre parfois des versions contradictoires d’une disparition. Son travail peut réunir des proches ou rouvrir une querelle.",
+      "original": true
+    }
+  ],
+  "relations": [
+    {
+      "targetClan": "senju",
+      "status": "ALLIANCE",
+      "description": "Le traité de refuge repose sur des obligations partagées.",
+      "historicalReason": "Les ouvrages du Feu accueillent les premiers ateliers déplacés."
+    },
+    {
+      "targetClan": "kurisutaru",
+      "status": "AMICAL",
+      "description": "Le cristal offre des supports durables aux inscriptions.",
+      "historicalReason": "Des essais communs ont sauvé des archives humides."
+    }
+  ],
+  "heroImage": null,
+  "illustrations": [
+    {
+      "image": "assets/lore/uzumaki-seal-archivist.webp",
+      "section": "traditions",
+      "layout": "portrait",
+      "caption": "À l’atelier, la transmission commence par un geste que l’on peut expliquer.",
+      "alt": "Une archiviste Uzumaki trace un sceau sous le regard de deux apprentis.",
+      "width": 1086,
+      "height": 1448,
+      "promptFile": "assets/lore/image-prompts.json"
+    }
+  ]
+}
+

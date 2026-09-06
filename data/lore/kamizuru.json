@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "id": "kamizuru",
+  "name": "Kamizuru",
+  "displayName": "「 K A M I Z U R U 」",
+  "emblem": "assets/clans/kamizuru/emblem.svg",
+  "emblemNote": "Interprétation graphique pour les archives ; symbole non présenté comme preuve canonique.",
+  "tagline": "Les gardiens du pacte des floraisons",
+  "quote": "Une ruche survit par le soin donné à ses plus petites vies.",
+  "currentVillage": "Konoha",
+  "originVillage": "Iwa",
+  "v1Village": "Konoha",
+  "v2Village": "Iwa",
+  "status": "active",
+  "elements": [
+    "Doton"
+  ],
+  "specialties": [
+    "Essaims"
+  ],
+  "tags": [
+    "Ninjutsu"
+  ],
+  "presentation": [
+    "Une délégation agricole a obtenu des terres d’essai à Konoha après la perte de plusieurs ruchers d’altitude. En échange de la pollinisation des vergers, les Kamizuru assurent une reconnaissance discrète des frontières.",
+    "Les anciens apiculteurs veulent limiter les missions de poison ; les éclaireurs estiment que cette retenue met leurs vies en danger. Les habitants apprécient le miel mais craignent les essaims au-dessus des marchés.",
+    "Un verger dépérit près d’un terrain d’entraînement. Les Kamizuru demandent une enquête avant d’accuser un clan, mais un contrat de récolte menace d’expirer. Les joueurs peuvent protéger les ruchers, chercher une cause ou négocier un dédommagement qui ne désigne pas trop vite un coupable."
+  ],
+  "appearance": [
+    "Des voiles de travail, des manches fermées et des teintes ocre protègent les éleveurs. Le port d’insectes demeure soumis aux règles des lieux visités."
+  ],
+  "lifestyle": [
+    "Les familles habitent près des vergers et apprennent très tôt à reconnaître une colonie malade. Les repas incluent les ouvriers saisonniers ; les mariages peuvent unir deux ruchers tout en conservant leurs reines distinctes."
+  ],
+  "traditions": [
+    {
+      "title": "Le Don de la Première Reine",
+      "text": "Le novice reçoit une petite colonie et doit la maintenir une saison entière avant de l’utiliser en mission."
+    },
+    {
+      "title": "La Trêve des Floraisons",
+      "text": "Les maisons suspendent leurs querelles pendant les récoltes et réparent ensemble les ruchers endommagés."
+    }
+  ],
+  "history": [
+    "Des ruchers des plateaux rocheux ont d’abord relié les maisons par l’échange de reines résistantes aux vents. La garde des colonies s’est transmise avec les itinéraires de floraison.",
+    "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Les anciens apiculteurs veulent limiter les missions de poison ; les éclaireurs estiment que cette retenue met leurs vies en danger.",
+    "Les premières guerres ont opposé les contrats d’empoisonnement aux devoirs envers les cultivateurs. Une récolte perdue après une mission mal préparée reste au cœur des désaccords entre écoles.",
+    "L’intégration aux institutions d’Iwa a donné aux apiculteurs une voix commune, mais aussi des quotas militaires. Les maisons parties vers le Feu invoquent la survie des colonies pour justifier leur autonomie.",
+    "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Une délégation agricole a obtenu des terres d’essai à Konoha après la perte de plusieurs ruchers d’altitude. En échange de la pollinisation des vergers, les Kamizuru assurent une reconnaissance discrète des frontières."
+  ],
+  "timeline": [
+    {
+      "id": "period-1",
+      "period": "Origines",
+      "title": "Les premières maisons",
+      "text": "Des ruchers des plateaux rocheux ont d’abord relié les maisons par l’échange de reines résistantes aux vents. La garde des colonies s’est transmise avec les itinéraires de floraison.",
+      "future": false
+    },
+    {
+      "id": "period-2",
+      "period": "Ère des clans",
+      "title": "Savoirs et serments",
+      "text": "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Les anciens apiculteurs veulent limiter les missions de poison ; les éclaireurs estiment que cette retenue met leurs vies en danger.",
+      "future": false
+    },
+    {
+      "id": "period-3",
+      "period": "Guerres",
+      "title": "Le prix des conflits",
+      "text": "Les premières guerres ont opposé les contrats d’empoisonnement aux devoirs envers les cultivateurs. Une récolte perdue après une mission mal préparée reste au cœur des désaccords entre écoles.",
+      "future": false
+    },
+    {
+      "id": "period-4",
+      "period": "Formation des villages",
+      "title": "Un nouvel ordre",
+      "text": "L’intégration aux institutions d’Iwa a donné aux apiculteurs une voix commune, mais aussi des quotas militaires. Les maisons parties vers le Feu invoquent la survie des colonies pour justifier leur autonomie.",
+      "future": false
+    },
+    {
+      "id": "period-5",
+      "period": "Période moderne",
+      "title": "Les équilibres fragiles",
+      "text": "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Une délégation agricole a obtenu des terres d’essai à Konoha après la perte de plusieurs ruchers d’altitude. En échange de la pollinisation des vergers, les Kamizuru assurent une reconnaissance discrète des frontières.",
+      "future": false
+    },
+    {
+      "id": "period-6",
+      "period": "V1 du serveur",
+      "title": "Un foyer à Konoha",
+      "text": "Une délégation agricole a obtenu des terres d’essai à Konoha après la perte de plusieurs ruchers d’altitude. En échange de la pollinisation des vergers, les Kamizuru assurent une reconnaissance discrète des frontières.",
+      "future": false
+    },
+    {
+      "id": "period-7",
+      "period": "V2 — horizon",
+      "title": "Une destination à négocier",
+      "text": "Iwa est conservé comme destination prévue pour la V2. Un retour dépendra des accords RP : les foyers déjà établis au Feu auront leurs propres raisons de partir ou de rester.",
+      "future": true
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "leader",
+      "title": "Gardien des ruchers",
+      "description": "Responsabilité politique et arbitrage des engagements.",
+      "level": 0,
+      "parent": null,
+      "accessLevel": 4
+    },
+    {
+      "id": "council",
+      "title": "Conseil des reines",
+      "description": "Délibération et transmission des règles.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "guard",
+      "title": "Éclaireurs des essaims",
+      "description": "Protection et surveillance des lieux confiés.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "masters",
+      "title": "Maîtres apiculteurs",
+      "description": "Enseignement et accompagnement des missions.",
+      "level": 2,
+      "parent": "council",
+      "accessLevel": 2
+    },
+    {
+      "id": "cadets",
+      "title": "Soigneurs cadets",
+      "description": "Apprentissage sous la responsabilité d'un référent.",
+      "level": 3,
+      "parent": "masters",
+      "accessLevel": 1
+    }
+  ],
+  "powers": [
+    {
+      "title": "Capacité principale",
+      "text": "Contrôle d’abeilles et d’essaims pour reconnaissance, poison et maîtrise du territoire. La collaboration avec les insectes réclame des soins continus."
+    },
+    {
+      "title": "Passifs et aptitudes",
+      "text": "La pratique régulière de cette spécialité développe des réflexes et une lecture du terrain propres à chaque école. Le nom Kamizuru ne garantit pas la maîtrise individuelle."
+    },
+    {
+      "title": "Limites et vulnérabilités",
+      "text": "Froid, fumée, vent violent et perte des colonies réduisent les moyens du praticien."
+    },
+    {
+      "title": "Conditions et progression",
+      "text": "L'apprentissage commence par les usages contrôlés, puis la durée et la précision. Les techniques avancées requièrent un maître, un parcours RP et l'accord de l'administration."
+    }
+  ],
+  "techniques": [
+    {
+      "id": "kamizuru-1",
+      "name": "Voile des Butineuses",
+      "japaneseName": "Hachi no Tobari",
+      "rank": "C",
+      "type": "Ninjutsu",
+      "element": "Doton",
+      "description": "Un essaim forme un rideau mobile qui signale les mouvements derrière lui et couvre le repli d’un allié. Il ne peut ni tout observer à la fois ni immobiliser une cible par sa seule présence.",
+      "requirements": "Pratique supervisée de cette discipline, avec un maître référent et des limites RP validées.",
+      "secret": false,
+      "category": "ENSEIGNEMENT",
+      "minimumHierarchyLevel": 1,
+      "minimumGrade": "Genin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "public"
+    },
+    {
+      "id": "kamizuru-2",
+      "name": "Accord de la Reine Silencieuse",
+      "japaneseName": "Joō no Chikai",
+      "rank": "A",
+      "type": "Essaims",
+      "element": "Doton",
+      "description": "",
+      "requirements": "Rang confirmé, maître référent et validation RP.",
+      "secret": true,
+      "category": "HÉRITAGE",
+      "minimumHierarchyLevel": 3,
+      "minimumGrade": "Jōnin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "classified"
+    }
+  ],
+  "characters": [
+    {
+      "id": "kamizuru-person-1",
+      "name": "Suekichi Kamizuru",
+      "role": "Responsable actuel",
+      "biography": "Suekichi conserve les contrats agricoles dans des boîtes de cire. Il refuse une mission de poison très rentable tant que ses effets sur les colonies ne sont pas étudiés.",
+      "original": true
+    },
+    {
+      "id": "kamizuru-person-2",
+      "name": "Matsue Kamizuru",
+      "role": "Maîtresse de transmission",
+      "biography": "Matsue élève une reine réputée difficile et forme les soigneurs. Elle soupçonne qu’un rucher malade a été volontairement caché pour préserver le prestige d’une maison.",
+      "original": true
+    }
+  ],
+  "relations": [
+    {
+      "targetClan": "nara",
+      "status": "AMICAL",
+      "description": "Des échanges réguliers de maîtres et de services rapprochent les deux communautés.",
+      "historicalReason": "L'installation à Konoha a rendu leurs savoirs complémentaires."
+    }
+  ],
+  "heroImage": null,
+  "illustrations": []
+}
+

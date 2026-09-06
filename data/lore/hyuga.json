@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "id": "hyuga",
+  "name": "Hyuga",
+  "displayName": "「 H Y U G A 」",
+  "emblem": "assets/clans/hyuga/emblem.svg",
+  "emblemNote": "Interprétation graphique pour les archives ; symbole non présenté comme preuve canonique.",
+  "tagline": "Voir loin, répondre de chaque regard",
+  "quote": "Un regard juste commence par reconnaître ce qu’il ignore.",
+  "currentVillage": "Konoha",
+  "originVillage": "Konoha",
+  "v1Village": "Konoha",
+  "v2Village": "Konoha",
+  "status": "active",
+  "elements": [],
+  "specialties": [
+    "Byakugan",
+    "Jūken"
+  ],
+  "tags": [
+    "Dōjutsu",
+    "Taijutsu"
+  ],
+  "presentation": [
+    "Les Hyuga entretiennent à Konoha une réputation de discipline et de vigilance. Leurs observateurs détectent les approches suspectes, mais la possibilité d’être vu à travers un mur inquiète aussi les habitants. Le clan négocie donc des règles de surveillance : voir une chose ne donne pas automatiquement le droit de la révéler.",
+    "La maison principale préside les cérémonies et conserve les traités. Les branches cadettes assurent nombre de missions extérieures et réclament une reconnaissance proportionnelle au risque qu’elles portent. La hiérarchie familiale reste rigide, mais les positions individuelles ne se résument pas à la naissance : des héritiers privilégiés défendent les cadets, tandis que certains gardiens refusent tout changement.",
+    "Le conseil du village apprécie leur fiabilité et redoute leur silence. La force des Hyuga est une coordination patiemment acquise ; leur faiblesse apparaît quand le devoir d’obéissance empêche un subordonné de signaler une erreur. Les maîtres du Jūken débattent désormais du droit d’interrompre un ordre dangereux."
+  ],
+  "appearance": [
+    "Les yeux très clairs sont fréquents parmi les porteurs du Byakugan, mais les coiffures, carnations et silhouettes varient. Les manches sobres et les attaches discrètes libèrent les poignets. Les tenues ivoire des audiences ne sont pas obligatoires en mission.",
+    "Une parole mesurée constitue une politesse, non une absence d’émotion. L’honneur demande de respecter l’intimité observée et d’assumer les blessures infligées. Les jeunes générations opposent parfois cette éthique au contrôle que la famille exerce sur leurs propres vies."
+  ],
+  "lifestyle": [
+    "Les résidences s’organisent autour de cours d’entraînement silencieuses. Les enfants y apprennent la géométrie, l’anatomie du chakra et les limites du regard avant les frappes du Jūken. Les repas rassemblent les maisons par roulement afin que le rang ne devienne pas une séparation quotidienne absolue.",
+    "Observateurs, médecins auxiliaires, arbitres et enseignants forment l’essentiel des métiers civils. Les mariages impliquent une négociation sur les devoirs de garde et la confidentialité des enseignements. Un conjoint extérieur peut participer à la vie familiale sans recevoir automatiquement l’accès aux exercices héréditaires."
+  ],
+  "traditions": [
+    {
+      "title": "La Cour des Yeux Clos",
+      "text": "Lors d’un passage de grade, le candidat guide un partenaire les yeux bandés à travers une cour. Il doit ensuite reconnaître les informations qu’il n’a pas su transmettre. Le rite rappelle que la vision individuelle ne suffit pas à protéger un groupe."
+    },
+    {
+      "title": "Le Thé des Deux Maisons",
+      "text": "Une maison principale et une branche cadette échangent leurs hôtes. Chacun raconte une décision dont il a supporté les conséquences sans l’avoir prise. Ces témoignages ne constituent pas un procès, mais peuvent rouvrir une négociation."
+    },
+    {
+      "title": "Le Paravent Blanc",
+      "text": "Aux funérailles, un paravent cache les objets personnels du défunt. Les proches choisissent ensemble ce qui sera transmis ; même le regard le plus puissant ne doit pas devancer leur consentement."
+    }
+  ],
+  "history": [
+    "Des familles de sentinelles se rassemblent autour de sanctuaires des plateaux du Feu. Elles organisent le Byakugan comme un devoir de protection des routes et des lieux habités.",
+    "Les maisons codifient le Jūken et distinguent la garde des archives de la garde des caravanes. Cette division de fonctions devient peu à peu une division de prestige.",
+    "La capture d’observateurs entraîne des règles de confidentialité toujours plus dures. Certains cadets dénoncent une doctrine qui protège mieux les secrets que leurs porteurs.",
+    "Les Hyuga rejoignent Konoha par un engagement de surveillance territoriale, en conservant leur droit familial sous réserve des lois du village.",
+    "Les barrières civiles rendent leur travail plus visible. Plusieurs plaintes sur la vie privée conduisent à instaurer des témoins lors des inspections."
+  ],
+  "timeline": [
+    {
+      "id": "period-1",
+      "period": "Origines",
+      "title": "Les premières maisons",
+      "text": "Des familles de sentinelles se rassemblent autour de sanctuaires des plateaux du Feu. Elles organisent le Byakugan comme un devoir de protection des routes et des lieux habités.",
+      "future": false
+    },
+    {
+      "id": "period-2",
+      "period": "Ère des clans",
+      "title": "Savoirs et serments",
+      "text": "Les maisons codifient le Jūken et distinguent la garde des archives de la garde des caravanes. Cette division de fonctions devient peu à peu une division de prestige.",
+      "future": false
+    },
+    {
+      "id": "period-3",
+      "period": "Guerres",
+      "title": "Le prix des conflits",
+      "text": "La capture d’observateurs entraîne des règles de confidentialité toujours plus dures. Certains cadets dénoncent une doctrine qui protège mieux les secrets que leurs porteurs.",
+      "future": false
+    },
+    {
+      "id": "period-4",
+      "period": "Formation des villages",
+      "title": "Un nouvel ordre",
+      "text": "Les Hyuga rejoignent Konoha par un engagement de surveillance territoriale, en conservant leur droit familial sous réserve des lois du village.",
+      "future": false
+    },
+    {
+      "id": "period-5",
+      "period": "Période moderne",
+      "title": "Les équilibres fragiles",
+      "text": "Les barrières civiles rendent leur travail plus visible. Plusieurs plaintes sur la vie privée conduisent à instaurer des témoins lors des inspections.",
+      "future": false
+    },
+    {
+      "id": "period-6",
+      "period": "V1 du serveur",
+      "title": "Un foyer à Konoha",
+      "text": "Famille déjà enracinée dans le Feu, le clan renouvelle sa charte de vigilance à Konoha. En échange d’un siège consultatif sur les frontières, ses patrouilles acceptent des limites écrites à l’usage du Byakugan dans les habitations.",
+      "future": false
+    },
+    {
+      "id": "period-7",
+      "period": "V2 — horizon",
+      "title": "Une destination à négocier",
+      "text": "Konoha demeure le village prévu. Des maisons de garde pourront négocier des détachements, sans faire disparaître le débat sur les branches.",
+      "future": true
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "leader",
+      "title": "Gardien de la maison",
+      "description": "Responsabilité politique et arbitrage des engagements.",
+      "level": 0,
+      "parent": null,
+      "accessLevel": 4
+    },
+    {
+      "id": "council",
+      "title": "Conseil principal",
+      "description": "Délibération et transmission des règles.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "guard",
+      "title": "Conseil des branches",
+      "description": "Protection et surveillance des lieux confiés.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "masters",
+      "title": "Maîtres du Jūken",
+      "description": "Enseignement et accompagnement des missions.",
+      "level": 2,
+      "parent": "council",
+      "accessLevel": 2
+    },
+    {
+      "id": "cadets",
+      "title": "Apprentis",
+      "description": "Apprentissage sous la responsabilité d'un référent.",
+      "level": 3,
+      "parent": "masters",
+      "accessLevel": 1
+    }
+  ],
+  "powers": [
+    {
+      "title": "Capacité principale",
+      "text": "Le Byakugan offre une vision presque circulaire, la perception du chakra et de son réseau. Le Jūken transforme cette lecture en frappes précises au contact."
+    },
+    {
+      "title": "Passifs et aptitudes",
+      "text": "Observation périphérique et lecture fine des circulations de chakra selon maîtrise."
+    },
+    {
+      "title": "Limites et vulnérabilités",
+      "text": "Angle mort, surcharge d’informations et dépendance à la distance pour le Jūken. Percevoir une attaque ne garantit pas le temps de l’éviter."
+    },
+    {
+      "title": "Conditions et progression",
+      "text": "La précision et la retenue précèdent la portée. Toute évolution du dōjutsu et technique de fermeture du chakra exige une validation RP."
+    }
+  ],
+  "techniques": [
+    {
+      "id": "hyuga-1",
+      "name": "Paume du Seuil",
+      "japaneseName": "Shikii no Te",
+      "rank": "C",
+      "type": "Taijutsu",
+      "element": "Aucun",
+      "description": "Une frappe contrôlée perturbe brièvement l’équilibre du chakra d’un membre au contact.",
+      "requirements": "Byakugan maîtrisé et enseignement du Jūken.",
+      "secret": false,
+      "category": "ENSEIGNEMENT",
+      "minimumHierarchyLevel": 1,
+      "minimumGrade": "Genin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "public"
+    },
+    {
+      "id": "hyuga-2",
+      "name": "Cercle du Veilleur",
+      "japaneseName": "Mihari no Wa",
+      "rank": "A",
+      "type": "Taijutsu",
+      "element": "Aucun",
+      "description": "",
+      "requirements": "Maître du Jūken et autorisation des conseils.",
+      "secret": true,
+      "category": "HÉRITAGE",
+      "minimumHierarchyLevel": 3,
+      "minimumGrade": "Jōnin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "classified"
+    }
+  ],
+  "characters": [
+    {
+      "id": "hyuga-person-1",
+      "name": "Noritsugu Hyuga",
+      "role": "Chef actuel",
+      "biography": "Il veut rédiger une charte commune aux branches, mais refuse d’abolir les obligations sans organiser la relève. Sa prudence lui vaut des accusations opposées d’immobilisme et de trahison.",
+      "original": true
+    },
+    {
+      "id": "hyuga-person-2",
+      "name": "Chizue Hyuga",
+      "role": "Maîtresse des cadets",
+      "biography": "Elle enseigne à ses élèves à annoncer ce qu’ils ne voient pas. Les équipes du village apprécient cette franchise que certains aînés jugent humiliante.",
+      "original": true
+    },
+    {
+      "id": "hyuga-person-3",
+      "name": "Akinobu Hyuga",
+      "role": "Ancien observateur",
+      "biography": "Blessé lors d’une mission de frontière, il forme désormais les arbitres chargés d’empêcher l’usage abusif du regard.",
+      "original": true
+    }
+  ],
+  "relations": [
+    {
+      "targetClan": "uchiha",
+      "status": "MÉFIANCE",
+      "description": "Les deux dōjutsu inspirent un respect prudent.",
+      "historicalReason": "Des inspections de police ont heurté les privilèges familiaux."
+    },
+    {
+      "targetClan": "nara",
+      "status": "AMICAL",
+      "description": "Les observateurs fournissent des faits aux stratèges.",
+      "historicalReason": "Une charte commune distingue observation et interprétation."
+    }
+  ],
+  "heroImage": null,
+  "illustrations": []
+}
+

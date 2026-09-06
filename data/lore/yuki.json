@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "id": "yuki",
+  "name": "Yuki",
+  "displayName": "「 Y U K I 」",
+  "emblem": "assets/clans/yuki/emblem.svg",
+  "emblemNote": "Interprétation graphique pour les archives ; symbole non présenté comme preuve canonique.",
+  "tagline": "Les gardiens des saisons suspendues",
+  "quote": "Le dégel fait partie de notre ouvrage.",
+  "currentVillage": "Konoha",
+  "originVillage": "Kiri",
+  "v1Village": "Konoha",
+  "v2Village": "Kiri",
+  "status": "active",
+  "elements": [
+    "Suiton",
+    "Fūton"
+  ],
+  "specialties": [
+    "Hyōton"
+  ],
+  "tags": [
+    "Kekkei Genkai",
+    "Ninjutsu"
+  ],
+  "presentation": [
+    "Des familles Yuki ont fui la confiscation de leurs réserves et négocié à Konoha un service de conservation des vivres et des remèdes. Leur statut d’accueil protège les enfants autant que les ateliers.",
+    "Les aînés veulent dissimuler le Hyōton ; les artisans soutiennent qu’un usage utile peut combattre les préjugés. Les habitants découvrent une glace qui soigne les chaînes d’approvisionnement autant qu’elle peut enfermer.",
+    "Une chambre froide contient des remèdes appartenant à plusieurs clans. Une panne oblige à décider quoi sauver en premier. Le conflit peut être résolu par un partage des moyens, ou devenir une preuve que l’accueil des Yuki reste conditionné à leur utilité."
+  ],
+  "appearance": [
+    "Des couches de vêtements faciles à ajuster répondent aux différences de température. Les teintes claires sont culturelles, sans fixer la couleur des cheveux ou de la peau."
+  ],
+  "lifestyle": [
+    "Les cours possèdent des rigoles de dégel et des chambres de conservation. Les enfants surveillent les températures avant les projectiles. Les repas utilisent les réserves les plus anciennes ; unions et héritages transmettent les carnets de conservation avec les biens."
+  ],
+  "traditions": [
+    {
+      "title": "Le Jardin de Dégel",
+      "text": "L’élève doit faire disparaître sa construction sans inonder ni blesser les alentours."
+    },
+    {
+      "title": "La Première Eau",
+      "text": "Au changement de saison, les familles partagent l’eau de fonte avec les jardins du voisinage."
+    }
+  ],
+  "history": [
+    "Des familles des vallées froides ont transmis des techniques de conservation et de défense liées à la glace. La mesure des saisons formait une mémoire commune avant les grandes maisons.",
+    "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Les aînés veulent dissimuler le Hyōton ; les artisans soutiennent qu’un usage utile peut combattre les préjugés.",
+    "Les réquisitions de réserves ont placé le Hyōton au centre des conflits. Plusieurs maîtres ont caché leurs élèves et dispersé les carnets pour protéger les foyers.",
+    "Les ports de Kiri ont offert des débouchés aux chambres froides tout en accentuant leur contrôle. Les familles en départ demandent désormais que leurs enfants ne soient pas traités comme des ressources de production.",
+    "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Des familles Yuki ont fui la confiscation de leurs réserves et négocié à Konoha un service de conservation des vivres et des remèdes. Leur statut d’accueil protège les enfants autant que les ateliers."
+  ],
+  "timeline": [
+    {
+      "id": "period-1",
+      "period": "Origines",
+      "title": "Les premières maisons",
+      "text": "Des familles des vallées froides ont transmis des techniques de conservation et de défense liées à la glace. La mesure des saisons formait une mémoire commune avant les grandes maisons.",
+      "future": false
+    },
+    {
+      "id": "period-2",
+      "period": "Ère des clans",
+      "title": "Savoirs et serments",
+      "text": "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Les aînés veulent dissimuler le Hyōton ; les artisans soutiennent qu’un usage utile peut combattre les préjugés.",
+      "future": false
+    },
+    {
+      "id": "period-3",
+      "period": "Guerres",
+      "title": "Le prix des conflits",
+      "text": "Les réquisitions de réserves ont placé le Hyōton au centre des conflits. Plusieurs maîtres ont caché leurs élèves et dispersé les carnets pour protéger les foyers.",
+      "future": false
+    },
+    {
+      "id": "period-4",
+      "period": "Formation des villages",
+      "title": "Un nouvel ordre",
+      "text": "Les ports de Kiri ont offert des débouchés aux chambres froides tout en accentuant leur contrôle. Les familles en départ demandent désormais que leurs enfants ne soient pas traités comme des ressources de production.",
+      "future": false
+    },
+    {
+      "id": "period-5",
+      "period": "Période moderne",
+      "title": "Les équilibres fragiles",
+      "text": "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Des familles Yuki ont fui la confiscation de leurs réserves et négocié à Konoha un service de conservation des vivres et des remèdes. Leur statut d’accueil protège les enfants autant que les ateliers.",
+      "future": false
+    },
+    {
+      "id": "period-6",
+      "period": "V1 du serveur",
+      "title": "Un foyer à Konoha",
+      "text": "Des familles Yuki ont fui la confiscation de leurs réserves et négocié à Konoha un service de conservation des vivres et des remèdes. Leur statut d’accueil protège les enfants autant que les ateliers.",
+      "future": false
+    },
+    {
+      "id": "period-7",
+      "period": "V2 — horizon",
+      "title": "Une destination à négocier",
+      "text": "Kiri est conservé comme destination prévue pour la V2. Un retour dépendra des accords RP : les foyers déjà établis au Feu auront leurs propres raisons de partir ou de rester.",
+      "future": true
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "leader",
+      "title": "Gardien des saisons",
+      "description": "Responsabilité politique et arbitrage des engagements.",
+      "level": 0,
+      "parent": null,
+      "accessLevel": 4
+    },
+    {
+      "id": "council",
+      "title": "Conseil des réserves",
+      "description": "Délibération et transmission des règles.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "guard",
+      "title": "Veilleurs du givre",
+      "description": "Protection et surveillance des lieux confiés.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "masters",
+      "title": "Maîtres de glace",
+      "description": "Enseignement et accompagnement des missions.",
+      "level": 2,
+      "parent": "council",
+      "accessLevel": 2
+    },
+    {
+      "id": "cadets",
+      "title": "Apprentis du dégel",
+      "description": "Apprentissage sous la responsabilité d'un référent.",
+      "level": 3,
+      "parent": "masters",
+      "accessLevel": 1
+    }
+  ],
+  "powers": [
+    {
+      "title": "Capacité principale",
+      "text": "Hyōton, projectiles, structures glacées et contrôle de zone reposent sur les conditions d’apprentissage autorisées."
+    },
+    {
+      "title": "Passifs et aptitudes",
+      "text": "La pratique régulière de cette spécialité développe des réflexes et une lecture du terrain propres à chaque école. Le nom Yuki ne garantit pas la maîtrise individuelle."
+    },
+    {
+      "title": "Limites et vulnérabilités",
+      "text": "Température, humidité, chakra et contraintes sur les structures limitent la durée des ouvrages."
+    },
+    {
+      "title": "Conditions et progression",
+      "text": "L'apprentissage commence par les usages contrôlés, puis la durée et la précision. Les techniques avancées requièrent un maître, un parcours RP et l'accord de l'administration."
+    }
+  ],
+  "techniques": [
+    {
+      "id": "yuki-1",
+      "name": "Seuil de Givre",
+      "japaneseName": "Shimo no Shikii",
+      "rank": "C",
+      "type": "Ninjutsu",
+      "element": "Suiton",
+      "description": "Une fine zone de givre gêne les appuis sur un terrain limité. Sa formation et sa fonte demandent de surveiller les personnes qui traversent la zone.",
+      "requirements": "Pratique supervisée de cette discipline, avec un maître référent et des limites RP validées.",
+      "secret": false,
+      "category": "ENSEIGNEMENT",
+      "minimumHierarchyLevel": 1,
+      "minimumGrade": "Genin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "public"
+    },
+    {
+      "id": "yuki-2",
+      "name": "Hiver des Miroirs Muets",
+      "japaneseName": "Shizuka na Fuyu",
+      "rank": "A",
+      "type": "Hyōton",
+      "element": "Suiton",
+      "description": "",
+      "requirements": "Rang confirmé, maître référent et validation RP.",
+      "secret": true,
+      "category": "HÉRITAGE",
+      "minimumHierarchyLevel": 3,
+      "minimumGrade": "Jōnin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "classified"
+    }
+  ],
+  "characters": [
+    {
+      "id": "yuki-person-1",
+      "name": "Takatsugu Yuki",
+      "role": "Responsable actuel",
+      "biography": "Takatsugu négocie les réserves du quartier et refuse qu’une pénurie soit cachée aux habitants. Sa franchise complique ses relations avec les marchands.",
+      "original": true
+    },
+    {
+      "id": "yuki-person-2",
+      "name": "Fuyue Yuki",
+      "role": "Maîtresse de transmission",
+      "biography": "Fuyue enseigne le dégel progressif et conserve les semences de jardins laissés derrière elle. Elle espère les planter un jour sans devoir choisir entre deux foyers.",
+      "original": true
+    }
+  ],
+  "relations": [
+    {
+      "targetClan": "karatachi",
+      "status": "AMICAL",
+      "description": "Des échanges réguliers de maîtres et de services rapprochent les deux communautés.",
+      "historicalReason": "L'installation à Konoha a rendu leurs savoirs complémentaires."
+    }
+  ],
+  "heroImage": null,
+  "illustrations": []
+}
+

@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "id": "terumi",
+  "name": "Terumi",
+  "displayName": "「 T E R U M I 」",
+  "emblem": "assets/clans/terumi/emblem.svg",
+  "emblemNote": "Interprétation graphique pour les archives ; symbole non présenté comme preuve canonique.",
+  "tagline": "Contenir la force avant de la libérer",
+  "quote": "La vraie puissance sait où s’arrêter.",
+  "currentVillage": "Konoha",
+  "originVillage": "Kiri",
+  "v1Village": "Konoha",
+  "v2Village": "Kiri",
+  "status": "active",
+  "elements": [
+    "Katon",
+    "Suiton"
+  ],
+  "specialties": [
+    "Fusion & corrosion"
+  ],
+  "tags": [
+    "Kekkei Genkai",
+    "Ninjutsu"
+  ],
+  "presentation": [
+    "Des ateliers Terumi se sont établis à Konoha dans le cadre d’un accord de traitement des minerais dangereux. Les familles accompagnent leurs spécialistes et bénéficient d’une protection juridique hors des conflits portuaires.",
+    "Les chercheurs défendent les usages civils de la fusion tandis que les combattants craignent une dilution des arts familiaux. Les riverains réclament des garanties sur les rejets et l’entretien des installations.",
+    "Un minerai arrivé à Konoha réagit différemment des échantillons annoncés. Suspendre le chantier coûterait une alliance commerciale ; continuer pourrait contaminer les bassins. Les Terumi doivent choisir qui prévenir et comment établir les faits sans affoler le quartier."
+  ],
+  "appearance": [
+    "Tabliers de travail, tissus sombres et protections adaptées aux vapeurs côtoient les tenues de mission. La résistance d’un équipement importe davantage que sa richesse."
+  ],
+  "lifestyle": [
+    "L’éducation commence par la ventilation et la préparation des zones d’exercice. Les repas se prennent loin des ateliers. Les unions associent parfois deux concessions artisanales, mais les héritiers doivent prouver qu’ils savent arrêter un procédé."
+  ],
+  "traditions": [
+    {
+      "title": "Le Creuset Froid",
+      "text": "L’apprenti explique un protocole devant un creuset vide avant de recevoir le droit de l’allumer."
+    },
+    {
+      "title": "La Journée des Fenêtres Ouvertes",
+      "text": "Les voisins sont invités à visiter les ateliers inactifs et à signaler les nuisances sans passer par les chefs."
+    }
+  ],
+  "history": [
+    "Des maisons de fondeurs ont appris à lire les chaleurs et les vapeurs des terres volcaniques proches des routes de la Brume. Le contrôle des procédés s’est mêlé aux arts élémentaires.",
+    "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Les chercheurs défendent les usages civils de la fusion tandis que les combattants craignent une dilution des arts familiaux.",
+    "La transformation d’ateliers en armes de siège a laissé des terrains inutilisables. Les survivants ont commencé à consigner les dangers qui ne se voyaient qu’après la bataille.",
+    "L’administration de Kiri a réuni les concessions artisanales sous des règles communes. Les inspecteurs ont obtenu une autorité qui concurrence parfois celle des chefs de maison.",
+    "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Des ateliers Terumi se sont établis à Konoha dans le cadre d’un accord de traitement des minerais dangereux. Les familles accompagnent leurs spécialistes et bénéficient d’une protection juridique hors des conflits portuaires."
+  ],
+  "timeline": [
+    {
+      "id": "period-1",
+      "period": "Origines",
+      "title": "Les premières maisons",
+      "text": "Des maisons de fondeurs ont appris à lire les chaleurs et les vapeurs des terres volcaniques proches des routes de la Brume. Le contrôle des procédés s’est mêlé aux arts élémentaires.",
+      "future": false
+    },
+    {
+      "id": "period-2",
+      "period": "Ère des clans",
+      "title": "Savoirs et serments",
+      "text": "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Les chercheurs défendent les usages civils de la fusion tandis que les combattants craignent une dilution des arts familiaux.",
+      "future": false
+    },
+    {
+      "id": "period-3",
+      "period": "Guerres",
+      "title": "Le prix des conflits",
+      "text": "La transformation d’ateliers en armes de siège a laissé des terrains inutilisables. Les survivants ont commencé à consigner les dangers qui ne se voyaient qu’après la bataille.",
+      "future": false
+    },
+    {
+      "id": "period-4",
+      "period": "Formation des villages",
+      "title": "Un nouvel ordre",
+      "text": "L’administration de Kiri a réuni les concessions artisanales sous des règles communes. Les inspecteurs ont obtenu une autorité qui concurrence parfois celle des chefs de maison.",
+      "future": false
+    },
+    {
+      "id": "period-5",
+      "period": "Période moderne",
+      "title": "Les équilibres fragiles",
+      "text": "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Des ateliers Terumi se sont établis à Konoha dans le cadre d’un accord de traitement des minerais dangereux. Les familles accompagnent leurs spécialistes et bénéficient d’une protection juridique hors des conflits portuaires.",
+      "future": false
+    },
+    {
+      "id": "period-6",
+      "period": "V1 du serveur",
+      "title": "Un foyer à Konoha",
+      "text": "Des ateliers Terumi se sont établis à Konoha dans le cadre d’un accord de traitement des minerais dangereux. Les familles accompagnent leurs spécialistes et bénéficient d’une protection juridique hors des conflits portuaires.",
+      "future": false
+    },
+    {
+      "id": "period-7",
+      "period": "V2 — horizon",
+      "title": "Une destination à négocier",
+      "text": "Kiri est conservé comme destination prévue pour la V2. Un retour dépendra des accords RP : les foyers déjà établis au Feu auront leurs propres raisons de partir ou de rester.",
+      "future": true
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "leader",
+      "title": "Gardien des creusets",
+      "description": "Responsabilité politique et arbitrage des engagements.",
+      "level": 0,
+      "parent": null,
+      "accessLevel": 4
+    },
+    {
+      "id": "council",
+      "title": "Conseil des ateliers",
+      "description": "Délibération et transmission des règles.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "guard",
+      "title": "Inspecteurs des brumes",
+      "description": "Protection et surveillance des lieux confiés.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "masters",
+      "title": "Maîtres de fusion",
+      "description": "Enseignement et accompagnement des missions.",
+      "level": 2,
+      "parent": "council",
+      "accessLevel": 2
+    },
+    {
+      "id": "cadets",
+      "title": "Aides de laboratoire",
+      "description": "Apprentissage sous la responsabilité d'un référent.",
+      "level": 3,
+      "parent": "masters",
+      "accessLevel": 1
+    }
+  ],
+  "powers": [
+    {
+      "title": "Capacité principale",
+      "text": "Techniques élémentaires avancées de lave, fusion et corrosion selon les règles RP du serveur."
+    },
+    {
+      "title": "Passifs et aptitudes",
+      "text": "La pratique régulière de cette spécialité développe des réflexes et une lecture du terrain propres à chaque école. Le nom Terumi ne garantit pas la maîtrise individuelle."
+    },
+    {
+      "title": "Limites et vulnérabilités",
+      "text": "Chaleur, ventilation, dommages collatéraux et durée de préparation imposent une grande discipline."
+    },
+    {
+      "title": "Conditions et progression",
+      "text": "L'apprentissage commence par les usages contrôlés, puis la durée et la précision. Les techniques avancées requièrent un maître, un parcours RP et l'accord de l'administration."
+    }
+  ],
+  "techniques": [
+    {
+      "id": "terumi-1",
+      "name": "Lèvre de Scorie",
+      "japaneseName": "Kōsai no Fuchi",
+      "rank": "C",
+      "type": "Ninjutsu",
+      "element": "Katon",
+      "description": "Une courte levée de matière chaude bloque une trajectoire proche. Elle exige un espace préparé et un arrêt contrôlé pour ne pas poursuivre sa course vers les alliés.",
+      "requirements": "Pratique supervisée de cette discipline, avec un maître référent et des limites RP validées.",
+      "secret": false,
+      "category": "ENSEIGNEMENT",
+      "minimumHierarchyLevel": 1,
+      "minimumGrade": "Genin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "public"
+    },
+    {
+      "id": "terumi-2",
+      "name": "Creuset du Brouillard Rouge",
+      "japaneseName": "Akai Kiri",
+      "rank": "A",
+      "type": "Fusion & corrosion",
+      "element": "Katon",
+      "description": "",
+      "requirements": "Rang confirmé, maître référent et validation RP.",
+      "secret": true,
+      "category": "HÉRITAGE",
+      "minimumHierarchyLevel": 3,
+      "minimumGrade": "Jōnin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "classified"
+    }
+  ],
+  "characters": [
+    {
+      "id": "terumi-person-1",
+      "name": "Kunitsugu Terumi",
+      "role": "Responsable actuel",
+      "biography": "Kunitsugu dirige les ateliers après avoir été inspecteur. Sa décision de fermer un four familial pour défaut d’entretien lui a valu une querelle avec ses propres cousins.",
+      "original": true
+    },
+    {
+      "id": "terumi-person-2",
+      "name": "Tsurue Terumi",
+      "role": "Maîtresse de transmission",
+      "biography": "Tsurue étudie les matériaux froids et insiste pour que les apprentis apprennent à contenir une réaction avant de la produire.",
+      "original": true
+    }
+  ],
+  "relations": [
+    {
+      "targetClan": "kurisutaru",
+      "status": "AMICAL",
+      "description": "Des échanges réguliers de maîtres et de services rapprochent les deux communautés.",
+      "historicalReason": "L'installation à Konoha a rendu leurs savoirs complémentaires."
+    }
+  ],
+  "heroImage": null,
+  "illustrations": []
+}
+

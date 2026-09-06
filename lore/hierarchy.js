@@ -1,0 +1,3 @@
+import {el,paragraph} from './common.js';
+export function renderHierarchy(ranks){const wrap=el('div','hierarchy');wrap.tabIndex=0;wrap.setAttribute('role','region');wrap.setAttribute('aria-label','Organigramme du clan, défilement horizontal possible');function branch(parent){const list=el('ul');ranks.filter(r=>r.parent===parent).sort((a,b)=>a.level-b.level).forEach(r=>{const li=el('li');const card=el('div','rank-node');card.append(el('strong','',r.title),paragraph(r.description));li.append(card);if(ranks.some(child=>child.parent===r.id))li.append(branch(r.id));list.append(li);});return list;}wrap.append(branch(null));return wrap;}
+

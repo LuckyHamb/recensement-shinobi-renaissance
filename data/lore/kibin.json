@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "id": "kibin",
+  "name": "Kibin",
+  "displayName": "「 K I B I N 」",
+  "emblem": "assets/clans/kibin/emblem.svg",
+  "emblemNote": "Interprétation graphique pour les archives ; symbole non présenté comme preuve canonique.",
+  "tagline": "Ceux qui lisent l’instant d’après",
+  "quote": "La vitesse commence par un choix, pas par un pas.",
+  "currentVillage": "Konoha",
+  "originVillage": "Kumo",
+  "v1Village": "Konoha",
+  "v2Village": "Kumo",
+  "status": "active",
+  "elements": [],
+  "specialties": [
+    "Perception du mouvement"
+  ],
+  "tags": [
+    "Dōjutsu"
+  ],
+  "presentation": [
+    "Les Kibin ont rejoint Konoha par un accord d’échange de messagers, puis déplacé leurs proches pour réunir des familles séparées entre plusieurs relais. Leurs parcours servent désormais les liaisons du village.",
+    "Les coureurs défendent le mérite chronométré ; les observateurs rappellent qu’une livraison sûre peut demander de ralentir. La rivalité interne oppose performance visible et travail de préparation.",
+    "Un record de livraison fait la renommée d’un cadet, mais son carnet montre un raccourci interdit. Le clan peut protéger sa réputation ou transformer cet incident en débat sur des délais impossibles à tenir."
+  ],
+  "appearance": [
+    "Tenues légères, lacets vérifiés et protections oculaires sont fréquents. Les pupilles spécialisées ne définissent ni la silhouette ni le caractère."
+  ],
+  "lifestyle": [
+    "Les maisons privilégient des cours permettant les exercices de freinage. Les enfants étudient les itinéraires autant que la course. Les repas coordonnent les retours ; les unions ne doivent pas rendre une personne responsable de tous les déplacements et les carnets passent aux héritiers."
+  ],
+  "traditions": [
+    {
+      "title": "Le Pas Retenu",
+      "text": "Le candidat doit annuler une course au bon moment quand un signal inattendu apparaît."
+    },
+    {
+      "title": "Le Ruban Rapporté",
+      "text": "Le premier trajet officiel se termine par le retour du ruban confié, sans compétition entre élèves."
+    }
+  ],
+  "history": [
+    "Les premiers relais Kibin liaient des hameaux de montagne par des courses courtes. Les élèves apprenaient à reconnaître le moment où un mouvement annonçait une chute ou une embuscade.",
+    "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Les coureurs défendent le mérite chronométré ; les observateurs rappellent qu’une livraison sûre peut demander de ralentir.",
+    "La course aux délais pendant les guerres a coûté la vie à plusieurs messagers. Les maisons ont instauré un droit d’annuler un trajet lorsqu’un signe convenu apparaissait.",
+    "Les réseaux liés à Kumo ont fixé des responsabilités de relais. Les Kibin ont négocié la reconnaissance du travail des observateurs qui ne couraient pas eux-mêmes.",
+    "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Les Kibin ont rejoint Konoha par un accord d’échange de messagers, puis déplacé leurs proches pour réunir des familles séparées entre plusieurs relais. Leurs parcours servent désormais les liaisons du village."
+  ],
+  "timeline": [
+    {
+      "id": "period-1",
+      "period": "Origines",
+      "title": "Les premières maisons",
+      "text": "Les premiers relais Kibin liaient des hameaux de montagne par des courses courtes. Les élèves apprenaient à reconnaître le moment où un mouvement annonçait une chute ou une embuscade.",
+      "future": false
+    },
+    {
+      "id": "period-2",
+      "period": "Ère des clans",
+      "title": "Savoirs et serments",
+      "text": "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Les coureurs défendent le mérite chronométré ; les observateurs rappellent qu’une livraison sûre peut demander de ralentir.",
+      "future": false
+    },
+    {
+      "id": "period-3",
+      "period": "Guerres",
+      "title": "Le prix des conflits",
+      "text": "La course aux délais pendant les guerres a coûté la vie à plusieurs messagers. Les maisons ont instauré un droit d’annuler un trajet lorsqu’un signe convenu apparaissait.",
+      "future": false
+    },
+    {
+      "id": "period-4",
+      "period": "Formation des villages",
+      "title": "Un nouvel ordre",
+      "text": "Les réseaux liés à Kumo ont fixé des responsabilités de relais. Les Kibin ont négocié la reconnaissance du travail des observateurs qui ne couraient pas eux-mêmes.",
+      "future": false
+    },
+    {
+      "id": "period-5",
+      "period": "Période moderne",
+      "title": "Les équilibres fragiles",
+      "text": "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Les Kibin ont rejoint Konoha par un accord d’échange de messagers, puis déplacé leurs proches pour réunir des familles séparées entre plusieurs relais. Leurs parcours servent désormais les liaisons du village.",
+      "future": false
+    },
+    {
+      "id": "period-6",
+      "period": "V1 du serveur",
+      "title": "Un foyer à Konoha",
+      "text": "Les Kibin ont rejoint Konoha par un accord d’échange de messagers, puis déplacé leurs proches pour réunir des familles séparées entre plusieurs relais. Leurs parcours servent désormais les liaisons du village.",
+      "future": false
+    },
+    {
+      "id": "period-7",
+      "period": "V2 — horizon",
+      "title": "Une destination à négocier",
+      "text": "Kumo est conservé comme destination prévue pour la V2. Un retour dépendra des accords RP : les foyers déjà établis au Feu auront leurs propres raisons de partir ou de rester.",
+      "future": true
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "leader",
+      "title": "Premier messager",
+      "description": "Responsabilité politique et arbitrage des engagements.",
+      "level": 0,
+      "parent": null,
+      "accessLevel": 4
+    },
+    {
+      "id": "council",
+      "title": "Conseil des relais",
+      "description": "Délibération et transmission des règles.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "guard",
+      "title": "Observateurs des traces",
+      "description": "Protection et surveillance des lieux confiés.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "masters",
+      "title": "Coureurs confirmés",
+      "description": "Enseignement et accompagnement des missions.",
+      "level": 2,
+      "parent": "council",
+      "accessLevel": 2
+    },
+    {
+      "id": "cadets",
+      "title": "Cadets de route",
+      "description": "Apprentissage sous la responsabilité d'un référent.",
+      "level": 3,
+      "parent": "masters",
+      "accessLevel": 1
+    }
+  ],
+  "powers": [
+    {
+      "title": "Capacité principale",
+      "text": "Pupilles spécialisées, lecture des déplacements, agilité et perception du mouvement soutiennent la vitesse."
+    },
+    {
+      "title": "Passifs et aptitudes",
+      "text": "La pratique régulière de cette spécialité développe des réflexes et une lecture du terrain propres à chaque école. Le nom Kibin ne garantit pas la maîtrise individuelle."
+    },
+    {
+      "title": "Limites et vulnérabilités",
+      "text": "Saturation visuelle, feintes et fatigue musculaire séparent ce que l’œil lit de ce que le corps peut accomplir."
+    },
+    {
+      "title": "Conditions et progression",
+      "text": "L'apprentissage commence par les usages contrôlés, puis la durée et la précision. Les techniques avancées requièrent un maître, un parcours RP et l'accord de l'administration."
+    }
+  ],
+  "techniques": [
+    {
+      "id": "kibin-1",
+      "name": "Lecture du Premier Pas",
+      "japaneseName": "Hajime no Ayumi",
+      "rank": "C",
+      "type": "Ninjutsu",
+      "element": "Aucun",
+      "description": "La lecture d’un transfert d’appui aide à choisir une esquive courte. Une feinte ou un mouvement plus rapide que le corps du pratiquant peut toujours déjouer cette lecture.",
+      "requirements": "Pratique supervisée de cette discipline, avec un maître référent et des limites RP validées.",
+      "secret": false,
+      "category": "ENSEIGNEMENT",
+      "minimumHierarchyLevel": 1,
+      "minimumGrade": "Genin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "public"
+    },
+    {
+      "id": "kibin-2",
+      "name": "Instant des Mille Traces",
+      "japaneseName": "Sen no Ato",
+      "rank": "A",
+      "type": "Perception du mouvement",
+      "element": "Aucun",
+      "description": "",
+      "requirements": "Rang confirmé, maître référent et validation RP.",
+      "secret": true,
+      "category": "HÉRITAGE",
+      "minimumHierarchyLevel": 3,
+      "minimumGrade": "Jōnin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "classified"
+    }
+  ],
+  "characters": [
+    {
+      "id": "kibin-person-1",
+      "name": "Yasukatsu Kibin",
+      "role": "Responsable actuel",
+      "biography": "Yasukatsu est un ancien coureur devenu organisateur des relais. Il défend les messagers qui signalent un retard, même lorsque le client est influent.",
+      "original": true
+    },
+    {
+      "id": "kibin-person-2",
+      "name": "Natsue Kibin",
+      "role": "Maîtresse de transmission",
+      "biography": "Natsue apprend aux novices à repérer les faux départs. Une ancienne erreur de lecture la pousse à demander des témoins sur les parcours dangereux.",
+      "original": true
+    }
+  ],
+  "relations": [
+    {
+      "targetClan": "arashi",
+      "status": "AMICAL",
+      "description": "Des échanges réguliers de maîtres et de services rapprochent les deux communautés.",
+      "historicalReason": "L'installation à Konoha a rendu leurs savoirs complémentaires."
+    }
+  ],
+  "heroImage": null,
+  "illustrations": []
+}
+

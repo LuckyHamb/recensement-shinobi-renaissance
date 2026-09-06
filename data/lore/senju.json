@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "id": "senju",
+  "name": "Senju",
+  "displayName": "「 S E N J U 」",
+  "emblem": "assets/clans/senju/emblem.svg",
+  "emblemNote": "Interprétation graphique pour les archives ; symbole non présenté comme preuve canonique.",
+  "tagline": "Les mille mains d’un même village",
+  "quote": "Une maison dure par ceux qu’elle laisse entrer.",
+  "currentVillage": "Konoha",
+  "originVillage": "Konoha",
+  "v1Village": "Konoha",
+  "v2Village": "Konoha",
+  "status": "active",
+  "elements": [],
+  "specialties": [
+    "Vitalité",
+    "Ninjutsu polyvalent"
+  ],
+  "tags": [
+    "Ninjutsu"
+  ],
+  "presentation": [
+    "Les Senju se présentent comme les bâtisseurs d’un village plus durable que les serments de guerre. Leur influence vient autant des réseaux d’entraide, des travaux publics et des dispensaires que de leurs combattants. Cette implantation les rend populaires, mais nourrit le soupçon qu’aucune décision municipale n’échappe à leurs proches.",
+    "Le clan réunit des maisons aux pratiques très différentes. Les descendants de guerriers réclament de préserver l’autorité acquise par les armes ; les familles d’intendants défendent une légitimité fondée sur le service. La puissance physique n’efface ni la dette contractée envers les habitants ni le risque de confondre le bien du village avec celui des Senju.",
+    "Leur vitalité permet des engagements prolongés et une grande polyvalence. Elle favorise aussi une culture du sacrifice qui peut pousser certains membres à ignorer leurs limites. Les guérisseurs contestent désormais les chefs qui traitent l’endurance comme une ressource infinie."
+  ],
+  "appearance": [
+    "Les lignées Senju ne présentent aucun physique uniforme. Des vêtements de travail renforcés côtoient les armures de cérémonie, avec des tissus bruns, verts ou écrus. Un cordon tressé signale souvent une maison ou un chantier partagé.",
+    "Le goût du service peut être chaleureux ou paternaliste selon les personnes. La famille valorise les solutions concrètes, mais ses membres doivent apprendre à écouter une communauté avant de prétendre la sauver."
+  ],
+  "lifestyle": [
+    "Les logements mêlent jardins, ateliers et salles communes. Les enfants changent régulièrement de maître pour apprendre les métiers nécessaires à une mission : soigner, transporter, négocier et combattre. Les repas collectifs accueillent les ouvriers des chantiers voisins.",
+    "Les unions avec d’autres familles sont courantes et l’adoption occupe une place reconnue. L’héritage comprend parfois un terrain ou un atelier accompagné d’une dette de service. Les archives distinguent soigneusement cette obligation de l’accès aux techniques qui demandent une formation personnelle."
+  ],
+  "traditions": [
+    {
+      "title": "Le Pont des Premières Mains",
+      "text": "Le passage à l’âge adulte consiste à réparer un ouvrage utilisé par des inconnus. Le candidat doit consulter les habitants, calculer ses ressources et accepter qu’un artisan corrige son travail."
+    },
+    {
+      "title": "La Table sans Place Haute",
+      "text": "Lors de l’ouverture d’un chantier, le chef partage la même table que les apprentis. Les blessés parlent en premier des risques qu’un plan trop ambitieux pourrait dissimuler."
+    },
+    {
+      "title": "Les Racines Rendues",
+      "text": "Après un décès, la famille plante un arbre hors de son domaine avec l’accord des riverains. Le lieu devient un devoir d’entretien partagé, jamais un acte de propriété."
+    }
+  ],
+  "history": [
+    "Les récits du Feu parlent d’une coalition de maisons capables de travailler ensemble malgré des arts différents. La tradition des mille mains précède leur organisation en un seul clan.",
+    "Des maîtres itinérants échangent des savoirs de combat et de survie. Le réseau devient une force politique lorsque les seigneurs cherchent des armées autonomes.",
+    "Les affrontements avec les Uchiha épuisent les deux familles. Des intendants gardent la mémoire des récoltes détruites, donnant aux partisans de la paix un argument que les victoires ne peuvent réfuter.",
+    "La fondation de Konoha transforme une alliance fragile en institutions. La place centrale des Senju permet de construire vite, mais crée une inégalité durable dans la distribution des responsabilités.",
+    "Les générations nées au village héritent des charges publiques sans avoir connu les guerres. Des voix extérieures demandent des nominations ouvertes plutôt qu’une transmission entre maisons."
+  ],
+  "timeline": [
+    {
+      "id": "period-1",
+      "period": "Origines",
+      "title": "Les premières maisons",
+      "text": "Les récits du Feu parlent d’une coalition de maisons capables de travailler ensemble malgré des arts différents. La tradition des mille mains précède leur organisation en un seul clan.",
+      "future": false
+    },
+    {
+      "id": "period-2",
+      "period": "Ère des clans",
+      "title": "Savoirs et serments",
+      "text": "Des maîtres itinérants échangent des savoirs de combat et de survie. Le réseau devient une force politique lorsque les seigneurs cherchent des armées autonomes.",
+      "future": false
+    },
+    {
+      "id": "period-3",
+      "period": "Guerres",
+      "title": "Le prix des conflits",
+      "text": "Les affrontements avec les Uchiha épuisent les deux familles. Des intendants gardent la mémoire des récoltes détruites, donnant aux partisans de la paix un argument que les victoires ne peuvent réfuter.",
+      "future": false
+    },
+    {
+      "id": "period-4",
+      "period": "Formation des villages",
+      "title": "Un nouvel ordre",
+      "text": "La fondation de Konoha transforme une alliance fragile en institutions. La place centrale des Senju permet de construire vite, mais crée une inégalité durable dans la distribution des responsabilités.",
+      "future": false
+    },
+    {
+      "id": "period-5",
+      "period": "Période moderne",
+      "title": "Les équilibres fragiles",
+      "text": "Les générations nées au village héritent des charges publiques sans avoir connu les guerres. Des voix extérieures demandent des nominations ouvertes plutôt qu’une transmission entre maisons.",
+      "future": false
+    },
+    {
+      "id": "period-6",
+      "period": "V1 du serveur",
+      "title": "Un foyer à Konoha",
+      "text": "Les Senju restent à Konoha comme garants du pacte civique. Ils cèdent certains terrains à l’accueil des clans déplacés et négocient un contrôle partagé des chantiers, au prix de tensions internes sur la propriété.",
+      "future": false
+    },
+    {
+      "id": "period-7",
+      "period": "V2 — horizon",
+      "title": "Une destination à négocier",
+      "text": "Leur ancrage reste Konoha. Les départs éventuels des familles accueillies poseront la question des terres, des ateliers et des obligations communes.",
+      "future": true
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "leader",
+      "title": "Premier représentant",
+      "description": "Responsabilité politique et arbitrage des engagements.",
+      "level": 0,
+      "parent": null,
+      "accessLevel": 4
+    },
+    {
+      "id": "council",
+      "title": "Conseil des maisons",
+      "description": "Délibération et transmission des règles.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "guard",
+      "title": "Intendance commune",
+      "description": "Protection et surveillance des lieux confiés.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "masters",
+      "title": "Maîtres de terrain",
+      "description": "Enseignement et accompagnement des missions.",
+      "level": 2,
+      "parent": "council",
+      "accessLevel": 2
+    },
+    {
+      "id": "cadets",
+      "title": "Membres confirmés",
+      "description": "Apprentissage sous la responsabilité d'un référent.",
+      "level": 3,
+      "parent": "masters",
+      "accessLevel": 1
+    }
+  ],
+  "powers": [
+    {
+      "title": "Capacité principale",
+      "text": "Les Senju sont réputés pour leur vitalité, leurs réserves de chakra et leur endurance. Leurs écoles cultivent un ninjutsu puissant et polyvalent ; chaque pratiquant construit cependant ses propres affinités."
+    },
+    {
+      "title": "Passifs et aptitudes",
+      "text": "Bonne récupération et endurance selon le personnage et son entraînement."
+    },
+    {
+      "title": "Limites et vulnérabilités",
+      "text": "La polyvalence demande du temps ; elle ne permet pas d’exceller simultanément dans tous les domaines. Les blessures et l’épuisement restent réels."
+    },
+    {
+      "title": "Conditions et progression",
+      "text": "Le Mokuton n’est jamais un don automatique des Senju. Son attribution, ses conditions et ses limites dépendent exclusivement des règles RP définies par l’administration."
+    }
+  ],
+  "techniques": [
+    {
+      "id": "senju-1",
+      "name": "Relais des Mille Mains",
+      "japaneseName": "Sen no Te",
+      "rank": "C",
+      "type": "Ninjutsu",
+      "element": "Aucun",
+      "description": "Deux partenaires coordonnent leurs gestes de protection pour alterner défense et évacuation d’un allié.",
+      "requirements": "Entraînement d’équipe et contrôle du chakra.",
+      "secret": false,
+      "category": "ENSEIGNEMENT",
+      "minimumHierarchyLevel": 1,
+      "minimumGrade": "Genin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "public"
+    },
+    {
+      "id": "senju-2",
+      "name": "Serment de la Canopée",
+      "japaneseName": "Mori no Chikai",
+      "rank": "A",
+      "type": "Ninjutsu",
+      "element": "Aucun",
+      "description": "",
+      "requirements": "Maître confirmé ; aucune attribution automatique du Mokuton.",
+      "secret": true,
+      "category": "HÉRITAGE",
+      "minimumHierarchyLevel": 3,
+      "minimumGrade": "Jōnin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "classified"
+    }
+  ],
+  "characters": [
+    {
+      "id": "senju-person-1",
+      "name": "Yoritsune Senju",
+      "role": "Premier représentant",
+      "biography": "Intendant de formation, il préfère rénover un aqueduc que présider un banquet. Ses adversaires voient dans ses contrats de chantier un autre moyen d’étendre l’influence familiale.",
+      "original": true
+    },
+    {
+      "id": "senju-person-2",
+      "name": "Mitsue Senju",
+      "role": "Maîtresse de terrain",
+      "biography": "Elle organise les secours sans demander le nom du clan des blessés. Une ancienne décision de retraite continue pourtant de lui coûter la confiance d’une maison guerrière.",
+      "original": true
+    },
+    {
+      "id": "senju-person-3",
+      "name": "Sadanori Senju",
+      "role": "Historien des travaux",
+      "biography": "Il archive aussi les échecs et les abus commis au nom du village. Les jeunes ouvriers l’aident à retrouver des témoignages oubliés.",
+      "original": true
+    }
+  ],
+  "relations": [
+    {
+      "targetClan": "uchiha",
+      "status": "RIVALITÉ",
+      "description": "Une paix nécessaire demeure politiquement déséquilibrée.",
+      "historicalReason": "La fondation commune n’a pas produit un partage égal du pouvoir."
+    },
+    {
+      "targetClan": "uzumaki",
+      "status": "ALLIANCE",
+      "description": "Sceaux et ouvrages publics se renforcent mutuellement.",
+      "historicalReason": "Les premiers ateliers protégés furent construits ensemble."
+    }
+  ],
+  "heroImage": null,
+  "illustrations": []
+}
+

@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "id": "sabaku",
+  "name": "Sabaku",
+  "displayName": "「 S A B A K U 」",
+  "emblem": "assets/clans/sabaku/emblem.svg",
+  "emblemNote": "Interprétation graphique pour les archives ; symbole non présenté comme preuve canonique.",
+  "tagline": "La mémoire des routes ensevelies",
+  "quote": "Toute forteresse commence par un grain que l’on choisit de garder.",
+  "currentVillage": "Konoha",
+  "originVillage": "Suna",
+  "v1Village": "Konoha",
+  "v2Village": "Suna",
+  "status": "active",
+  "elements": [],
+  "specialties": [
+    "Manipulation du sable"
+  ],
+  "tags": [
+    "Kekkei Genkai",
+    "Ninjutsu"
+  ],
+  "presentation": [
+    "Une maison de convoyeurs Sabaku a signé avec Konoha un contrat de protection des routes après la fermeture de ses puits. Son installation permet de financer la restauration des haltes du désert.",
+    "Les gardiens des puits défendent une réserve de sable familiale ; les jeunes convoyeurs préfèrent investir dans des alliances locales. Certains marchands confondent leur service avec un droit de péage.",
+    "Une ancienne carte révèle une halte encore alimentée, mais deux maisons en revendiquent l’entretien. La défense de Konoha dépend d’un prochain convoi : résoudre cette querelle peut exiger de reconnaître une dette du désert plutôt que de remporter un duel."
+  ],
+  "appearance": [
+    "Tissus enveloppants, lunettes de route et récipients scellés accompagnent souvent les voyageurs. Les vêtements s’allègent au climat du Feu sans effacer les motifs de leur maison."
+  ],
+  "lifestyle": [
+    "Les cours sont aménagées pour récupérer l’eau de pluie. Les enfants mesurent leurs réserves avant les exercices. Les repas et les contrats d’union incluent un devoir d’accueil envers les voyageurs, tandis que les héritiers reçoivent les comptes des puits."
+  ],
+  "traditions": [
+    {
+      "title": "La Coupe Partagée",
+      "text": "Le jeune adulte répartit une quantité d’eau limitée entre des hôtes inattendus et explique ses choix."
+    },
+    {
+      "title": "Le Vase des Départs",
+      "text": "Chaque voyageur confie un grain à un vase commun ; au retour il raconte une dette qu’il n’a pas réglée."
+    }
+  ],
+  "history": [
+    "Des gardiens de puits du désert ont réuni leurs itinéraires pour permettre aux caravanes de survivre entre deux points d’eau. Le sable transporté servait autant à réparer les haltes qu’à les défendre.",
+    "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Les gardiens des puits défendent une réserve de sable familiale ; les jeunes convoyeurs préfèrent investir dans des alliances locales.",
+    "Lors des guerres de caravanes, plusieurs maisons ont enseveli leurs propres réserves pour empêcher leur prise. Les cartes de ces dépôts sont devenues des héritages disputés.",
+    "Les autorités de Suna ont reconnu la garde des routes contre un service militaire. Les maisons de convoyeurs contestent depuis les prélèvements qui fragilisent les puits.",
+    "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Une maison de convoyeurs Sabaku a signé avec Konoha un contrat de protection des routes après la fermeture de ses puits. Son installation permet de financer la restauration des haltes du désert."
+  ],
+  "timeline": [
+    {
+      "id": "period-1",
+      "period": "Origines",
+      "title": "Les premières maisons",
+      "text": "Des gardiens de puits du désert ont réuni leurs itinéraires pour permettre aux caravanes de survivre entre deux points d’eau. Le sable transporté servait autant à réparer les haltes qu’à les défendre.",
+      "future": false
+    },
+    {
+      "id": "period-2",
+      "period": "Ère des clans",
+      "title": "Savoirs et serments",
+      "text": "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Les gardiens des puits défendent une réserve de sable familiale ; les jeunes convoyeurs préfèrent investir dans des alliances locales.",
+      "future": false
+    },
+    {
+      "id": "period-3",
+      "period": "Guerres",
+      "title": "Le prix des conflits",
+      "text": "Lors des guerres de caravanes, plusieurs maisons ont enseveli leurs propres réserves pour empêcher leur prise. Les cartes de ces dépôts sont devenues des héritages disputés.",
+      "future": false
+    },
+    {
+      "id": "period-4",
+      "period": "Formation des villages",
+      "title": "Un nouvel ordre",
+      "text": "Les autorités de Suna ont reconnu la garde des routes contre un service militaire. Les maisons de convoyeurs contestent depuis les prélèvements qui fragilisent les puits.",
+      "future": false
+    },
+    {
+      "id": "period-5",
+      "period": "Période moderne",
+      "title": "Les équilibres fragiles",
+      "text": "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Une maison de convoyeurs Sabaku a signé avec Konoha un contrat de protection des routes après la fermeture de ses puits. Son installation permet de financer la restauration des haltes du désert.",
+      "future": false
+    },
+    {
+      "id": "period-6",
+      "period": "V1 du serveur",
+      "title": "Un foyer à Konoha",
+      "text": "Une maison de convoyeurs Sabaku a signé avec Konoha un contrat de protection des routes après la fermeture de ses puits. Son installation permet de financer la restauration des haltes du désert.",
+      "future": false
+    },
+    {
+      "id": "period-7",
+      "period": "V2 — horizon",
+      "title": "Une destination à négocier",
+      "text": "Suna est conservé comme destination prévue pour la V2. Un retour dépendra des accords RP : les foyers déjà établis au Feu auront leurs propres raisons de partir ou de rester.",
+      "future": true
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "leader",
+      "title": "Gardien des puits",
+      "description": "Responsabilité politique et arbitrage des engagements.",
+      "level": 0,
+      "parent": null,
+      "accessLevel": 4
+    },
+    {
+      "id": "council",
+      "title": "Conseil des caravanes",
+      "description": "Délibération et transmission des règles.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "guard",
+      "title": "Veilleurs des dunes",
+      "description": "Protection et surveillance des lieux confiés.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "masters",
+      "title": "Maîtres du sable",
+      "description": "Enseignement et accompagnement des missions.",
+      "level": 2,
+      "parent": "council",
+      "accessLevel": 2
+    },
+    {
+      "id": "cadets",
+      "title": "Porteurs cadets",
+      "description": "Apprentissage sous la responsabilité d'un référent.",
+      "level": 3,
+      "parent": "masters",
+      "accessLevel": 1
+    }
+  ],
+  "powers": [
+    {
+      "title": "Capacité principale",
+      "text": "Le sable permet défense, immobilisation, attaques à distance et contrôle du terrain. Toute défense automatique dépend des conditions RP et ne constitue pas une invulnérabilité."
+    },
+    {
+      "title": "Passifs et aptitudes",
+      "text": "La pratique régulière de cette spécialité développe des réflexes et une lecture du terrain propres à chaque école. Le nom Sabaku ne garantit pas la maîtrise individuelle."
+    },
+    {
+      "title": "Limites et vulnérabilités",
+      "text": "L’approvisionnement, le poids déplacé, l’humidité et la concentration limitent la portée et la durée."
+    },
+    {
+      "title": "Conditions et progression",
+      "text": "L'apprentissage commence par les usages contrôlés, puis la durée et la précision. Les techniques avancées requièrent un maître, un parcours RP et l'accord de l'administration."
+    }
+  ],
+  "techniques": [
+    {
+      "id": "sabaku-1",
+      "name": "Digue de Poussière",
+      "japaneseName": "Suna no Tsutsumi",
+      "rank": "C",
+      "type": "Ninjutsu",
+      "element": "Aucun",
+      "description": "Une digue basse de sable détourne les appuis et ralentit une approche. Son maintien dépend du volume disponible et peut être rompu par un choc suffisant.",
+      "requirements": "Pratique supervisée de cette discipline, avec un maître référent et des limites RP validées.",
+      "secret": false,
+      "category": "ENSEIGNEMENT",
+      "minimumHierarchyLevel": 1,
+      "minimumGrade": "Genin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "public"
+    },
+    {
+      "id": "sabaku-2",
+      "name": "Tombeau des Routes Muettes",
+      "japaneseName": "Shizuka na Michi",
+      "rank": "A",
+      "type": "Manipulation du sable",
+      "element": "Aucun",
+      "description": "",
+      "requirements": "Rang confirmé, maître référent et validation RP.",
+      "secret": true,
+      "category": "HÉRITAGE",
+      "minimumHierarchyLevel": 3,
+      "minimumGrade": "Jōnin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "classified"
+    }
+  ],
+  "characters": [
+    {
+      "id": "sabaku-person-1",
+      "name": "Munetada Sabaku",
+      "role": "Responsable actuel",
+      "biography": "Munetada finance le retour d’une caravane au prix de son propre domaine. Ses proches se demandent s’il protège les voyageurs ou s’il cherche à réparer une faute passée.",
+      "original": true
+    },
+    {
+      "id": "sabaku-person-2",
+      "name": "Shizuno Sabaku",
+      "role": "Maîtresse de transmission",
+      "biography": "Shizuno connaît les puits abandonnés et refuse de remettre ses cartes à des marchands qui excluent les familles pauvres.",
+      "original": true
+    }
+  ],
+  "relations": [
+    {
+      "targetClan": "kaze",
+      "status": "AMICAL",
+      "description": "Des échanges réguliers de maîtres et de services rapprochent les deux communautés.",
+      "historicalReason": "L'installation à Konoha a rendu leurs savoirs complémentaires."
+    }
+  ],
+  "heroImage": null,
+  "illustrations": []
+}
+

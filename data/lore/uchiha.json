@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "id": "uchiha",
+  "name": "Uchiha",
+  "displayName": "「 U C H I H A 」",
+  "emblem": "assets/clans/uchiha/emblem.svg",
+  "emblemNote": "Éventail repris de la référence fournie.",
+  "tagline": "Les héritiers de l’œil écarlate",
+  "quote": "Ce que l’œil retient, la flamme ne l’oublie jamais.",
+  "currentVillage": "Konoha",
+  "originVillage": "Konoha",
+  "v1Village": "Konoha",
+  "v2Village": "Konoha",
+  "status": "active",
+  "elements": [
+    "Katon"
+  ],
+  "specialties": [
+    "Sharingan",
+    "Genjutsu"
+  ],
+  "tags": [
+    "Dōjutsu",
+    "Ninjutsu"
+  ],
+  "presentation": [
+    "Famille fondatrice du Pays du Feu, les Uchiha occupent une place paradoxale à Konoha : indispensables à sa sécurité, rarement associés à ses grandes décisions. Leur police connaît les rues, les trafics et les querelles de quartier. Cette proximité nourrit autant la confiance de certains habitants que la crainte d’une justice rendue entre proches.",
+    "À la frontière des terres de l’Herbe se trouve Akaryū, domaine de sanctuaires et de stèles dont les inscriptions deviennent illisibles. La plupart des familles vivent pourtant dans le quartier Uchiha. Les gardiens d’Akaryū reprochent aux citadins d’avoir réduit leur héritage à un uniforme ; les policiers répondent qu’une tradition incapable de protéger les vivants perd sa raison d’être.",
+    "L’excellence est une promesse collective, mais aussi une pression intime. Un artisan sans Sharingan peut être respecté pour sa maîtrise alors qu’un prodige imprudent compromet la réputation de toute sa maison. Les réformateurs demandent des audiences publiques pour les plaintes visant la police. Les traditionalistes craignent que cette transparence ne livre les secrets du clan à ses rivaux."
+  ],
+  "appearance": [
+    "Les cheveux sombres, les étoffes noires et les accents rouges sont des tendances familiales, jamais des critères d’appartenance. Le col relevé du kimono cérémoniel et l’éventail cousu dans le dos rappellent que le feu doit être dirigé avant d’être admiré. Sur le terrain, chaque membre choisit une tenue adaptée à sa fonction.",
+    "La retenue Uchiha dissimule parfois une grande sensibilité. Une croyance nommée la Malédiction associe l’éveil de l’œil à une faille personnelle : orgueil, colère, avidité ou peur de perdre un proche. Les maîtres les plus prudents y voient un langage pour parler des émotions, pas une fatalité ni une obligation de cruauté."
+  ],
+  "lifestyle": [
+    "Les maisons du quartier s’ouvrent sur de petites cours où les enfants apprennent à observer avant de lancer leurs premiers projectiles. L’instruction alterne calligraphie, récits contradictoires de la fondation et exercices de maîtrise respiratoire. Une erreur expliquée vaut mieux qu’un succès obtenu en cachant le danger.",
+    "Les repas réunissent souvent plusieurs générations autour d’un foyer commun. Forgerons, greffiers, policiers et gardiens de sanctuaire échangent des nouvelles qui ne figurent jamais dans les rapports. Les unions avec des étrangers suscitent des débats sur la transmission des archives ; elles ne retirent ni l’affection familiale ni automatiquement le droit au nom."
+  ],
+  "traditions": [
+    {
+      "title": "La Passation de Lame",
+      "text": "À l’entrée dans l’âge adulte, une lame demeure liée à son fourreau par un cordon rouge. La dénouer exige de pouvoir expliquer devant un témoin pourquoi le combat était nécessaire. La famille transmet ainsi une responsabilité, jamais un permis de tuer."
+    },
+    {
+      "title": "La Nuit des Braises",
+      "text": "Une fois l’an, chaque maison apporte au sanctuaire une braise de son foyer. Les absents sont représentés par une lampe éteinte. Le rite permet aux familles divisées de partager une lumière sans exiger une réconciliation publique."
+    },
+    {
+      "title": "Le Miroir sans Reflet",
+      "text": "Après un éveil du Sharingan, le jeune membre décrit une décision qu’il regrette sans utiliser son dōjutsu. Le maître l’aide à distinguer observation, interprétation et désir de vengeance."
+    }
+  ],
+  "history": [
+    "Les traditions d’Akaryū situent les premières maisons sur une île du Pays de la Lune, autour d’un ordre de voyageurs du Ninshū. La séparation d’avec cet ordre est racontée comme un conflit de devoirs entre fidélité aux ancêtres et autonomie des héritiers.",
+    "Au service des seigneurs du Feu, les Uchiha deviennent gardes et conseillers. Des privilèges renforcent leur puissance, mais les serments personnels les entraînent dans des conflits dont les paysans paient le prix.",
+    "La rébellion contre les princes brise plusieurs alliances. Les guerres avec les Senju laissent des maisons sans héritiers et des versions incompatibles de chaque trahison. Les archives conservent ces divergences au lieu de décréter un vainqueur moral.",
+    "Une paix négociée entre Uchiha et Senju rend possible Konoha. L’échec de la tentative de prise du pouvoir attribuée à Madara devient ensuite un argument pour éloigner les Uchiha des institutions centrales.",
+    "La police offre un domaine d’autorité réel tout en enfermant le clan dans une fonction impopulaire. Le conseil municipal exige des comptes ; les aînés réclament une place dans les décisions qu’ils doivent faire appliquer."
+  ],
+  "timeline": [
+    {
+      "id": "period-1",
+      "period": "Origines",
+      "title": "Les premières maisons",
+      "text": "Les traditions d’Akaryū situent les premières maisons sur une île du Pays de la Lune, autour d’un ordre de voyageurs du Ninshū. La séparation d’avec cet ordre est racontée comme un conflit de devoirs entre fidélité aux ancêtres et autonomie des héritiers.",
+      "future": false
+    },
+    {
+      "id": "period-2",
+      "period": "Ère des clans",
+      "title": "Savoirs et serments",
+      "text": "Au service des seigneurs du Feu, les Uchiha deviennent gardes et conseillers. Des privilèges renforcent leur puissance, mais les serments personnels les entraînent dans des conflits dont les paysans paient le prix.",
+      "future": false
+    },
+    {
+      "id": "period-3",
+      "period": "Guerres",
+      "title": "Le prix des conflits",
+      "text": "La rébellion contre les princes brise plusieurs alliances. Les guerres avec les Senju laissent des maisons sans héritiers et des versions incompatibles de chaque trahison. Les archives conservent ces divergences au lieu de décréter un vainqueur moral.",
+      "future": false
+    },
+    {
+      "id": "period-4",
+      "period": "Formation des villages",
+      "title": "Un nouvel ordre",
+      "text": "Une paix négociée entre Uchiha et Senju rend possible Konoha. L’échec de la tentative de prise du pouvoir attribuée à Madara devient ensuite un argument pour éloigner les Uchiha des institutions centrales.",
+      "future": false
+    },
+    {
+      "id": "period-5",
+      "period": "Période moderne",
+      "title": "Les équilibres fragiles",
+      "text": "La police offre un domaine d’autorité réel tout en enfermant le clan dans une fonction impopulaire. Le conseil municipal exige des comptes ; les aînés réclament une place dans les décisions qu’ils doivent faire appliquer.",
+      "future": false
+    },
+    {
+      "id": "period-6",
+      "period": "V1 du serveur",
+      "title": "Un foyer à Konoha",
+      "text": "Les Uchiha demeurent à Konoha au titre du pacte fondateur. Le nouveau chef négocie une représentation civile en échange d’un contrôle plus transparent des patrouilles, tandis qu’Akaryū conserve la garde des archives anciennes.",
+      "future": false
+    },
+    {
+      "id": "period-7",
+      "period": "V2 — horizon",
+      "title": "Une destination à négocier",
+      "text": "Le quartier reste leur foyer prévu. Les voyages vers Akaryū pourront ouvrir des intrigues de succession, sans déplacer automatiquement les familles hors de Konoha.",
+      "future": true
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "leader",
+      "title": "Chef du clan",
+      "description": "Responsabilité politique et arbitrage des engagements.",
+      "level": 0,
+      "parent": null,
+      "accessLevel": 4
+    },
+    {
+      "id": "council",
+      "title": "Aînés",
+      "description": "Délibération et transmission des règles.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "guard",
+      "title": "La Magatama",
+      "description": "Unité chargée de protéger les secrets du clan ; ses méthodes divisent les maisons.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "masters",
+      "title": "Cadets",
+      "description": "Jeunes membres en formation auprès des aînés.",
+      "level": 2,
+      "parent": "council",
+      "accessLevel": 2
+    },
+    {
+      "id": "cadets",
+      "title": "Pupilles",
+      "description": "Disciple accompagné personnellement par un aîné.",
+      "level": 2,
+      "parent": "council",
+      "accessLevel": 1
+    }
+  ],
+  "powers": [
+    {
+      "title": "Capacité principale",
+      "text": "Le Sharingan affine la perception et l’anticipation des gestes ; il soutient le genjutsu et l’étude des techniques compatibles. L’œil ne rend pas omniscient et ne remplace pas les capacités physiques nécessaires à une esquive."
+    },
+    {
+      "title": "Passifs et aptitudes",
+      "text": "Sens de l’observation exercé ; affinité culturelle forte avec le Katon, sans maîtrise identique chez tous."
+    },
+    {
+      "title": "Limites et vulnérabilités",
+      "text": "Fatigue oculaire, consommation de chakra et interprétations biaisées par l’émotion. Copier un geste ne transmet ni une capacité héréditaire étrangère ni une condition physique."
+    },
+    {
+      "title": "Conditions et progression",
+      "text": "Éveil et évolutions passent par les conditions RP de l’administration. Le contrôle émotionnel, la précision et l’endurance précèdent toute technique avancée."
+    }
+  ],
+  "techniques": [
+    {
+      "id": "uchiha-1",
+      "name": "Fil de Braise",
+      "japaneseName": "Hi no Ito",
+      "rank": "C",
+      "type": "Ninjutsu",
+      "element": "Katon",
+      "description": "Un fil de chakra enflammé délimite brièvement une trajectoire et force l’adversaire à modifier son approche.",
+      "requirements": "Contrôle du Katon et espace dégagé.",
+      "secret": false,
+      "category": "ENSEIGNEMENT",
+      "minimumHierarchyLevel": 1,
+      "minimumGrade": "Genin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "public"
+    },
+    {
+      "id": "uchiha-2",
+      "name": "Miroir des Trois Cendres",
+      "japaneseName": "Mitsu no Hai",
+      "rank": "A",
+      "type": "Genjutsu",
+      "element": "Katon",
+      "description": "",
+      "requirements": "Sharingan éveillé, aîné et validation RP.",
+      "secret": true,
+      "category": "HÉRITAGE",
+      "minimumHierarchyLevel": 3,
+      "minimumGrade": "Jōnin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "classified"
+    }
+  ],
+  "characters": [
+    {
+      "id": "uchiha-person-1",
+      "name": "Masatsugu Uchiha",
+      "role": "Chef actuel",
+      "biography": "Ancien greffier de la police, il connaît mieux les procédures que les démonstrations de force. Son projet d’audiences ouvertes divise les aînés ; ses adversaires lui reprochent d’exposer la famille pour gagner la confiance du village.",
+      "original": true
+    },
+    {
+      "id": "uchiha-person-2",
+      "name": "Fusae Uchiha",
+      "role": "Maîtresse des lames",
+      "biography": "Elle restaure les armes des morts et refuse de forger une lame de cérémonie pour un héritier qui méprise les artisans. Ses ateliers deviennent un lieu de rencontre entre maisons rivales.",
+      "original": true
+    },
+    {
+      "id": "uchiha-person-3",
+      "name": "Tomonori Uchiha",
+      "role": "Archiviste dissident",
+      "biography": "Il a découvert deux copies incompatibles d’un pacte fondateur. Son refus de choisir la version la plus flatteuse lui vaut autant de protections que de menaces.",
+      "original": true
+    }
+  ],
+  "relations": [
+    {
+      "targetClan": "senju",
+      "status": "RIVALITÉ",
+      "description": "La paix fondatrice n’a pas effacé les exclusions politiques.",
+      "historicalReason": "Les deux familles se disputent le sens du pacte de Konoha."
+    },
+    {
+      "targetClan": "hyuga",
+      "status": "MÉFIANCE",
+      "description": "Respect technique et prudence face aux regards qui traversent les secrets.",
+      "historicalReason": "Les doctrines de protection des dōjutsu divergent."
+    },
+    {
+      "targetClan": "kaze",
+      "status": "AMICAL",
+      "description": "Les forgerons accueillent les maîtres de lames du vent.",
+      "historicalReason": "Des convois communs ont rétabli la route d’Akaryū."
+    }
+  ],
+  "heroImage": null,
+  "illustrations": [
+    {
+      "image": "assets/lore/akaryu-uchiha-sanctuary.webp",
+      "section": "presentation",
+      "layout": "wide",
+      "caption": "Sanctuaire d’Akaryū, sur les terres du Feu.",
+      "alt": "Sanctuaire forestier d’Akaryū : torii, pierres humides et lanternes dans la brume.",
+      "width": 1280,
+      "height": 853,
+      "promptFile": "assets/lore/image-prompts.json"
+    }
+  ]
+}
+

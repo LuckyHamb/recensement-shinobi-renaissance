@@ -1,0 +1,6 @@
+.registry-lore-nav { display:flex; flex-wrap:wrap; gap:24px; padding:18px clamp(0px,4vw,48px); border-bottom:1px solid var(--border); }
+.registry-lore-nav a,.registry-archive-link { color:var(--muted-strong); font-size:.75rem; font-weight:700; letter-spacing:.06em; text-decoration:none; }
+.registry-lore-nav a:hover,.registry-archive-link:hover { color:var(--accent-bright); }
+.registry-lore-nav a[aria-current] { color:var(--accent-bright); }
+.registry-archive-link { display:block; padding:12px 22px; border-top:1px solid var(--border); }
+
