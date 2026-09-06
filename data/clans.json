@@ -149,7 +149,7 @@
     "displayName": "「 K A R A T A C H I 」",
     "emoji": "🐚",
     "maxMembers": 5,
-    "members": ["crmbl__"],
+    "members": [],
     "enabled": true
   },
   {
@@ -158,7 +158,7 @@
     "displayName": "「 S A N S  C L A N 」",
     "emoji": "❔",
     "maxMembers": 10,
-    "members": [],
+    "members": ["crmbl__"],
     "enabled": true
   }
 ]
