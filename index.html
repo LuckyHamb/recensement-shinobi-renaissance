@@ -125,6 +125,14 @@
         text-align: center;
       }
 
+      .lore-filter-link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        white-space: nowrap;
+      }
+
       @media (max-width: 640px) {
         .admin-link {
           top: 16px;
@@ -169,7 +177,6 @@
         </div>
       </header>
 
-      <nav class="registry-lore-nav" aria-label="Modules Shinobi Renaissance"><a href="./" aria-current="page">Recensement</a><a href="./lore/">Archives des clans →</a></nav>
       <main>
         <section class="dashboard" aria-labelledby="dashboard-title">
           <div class="section-heading">
@@ -211,6 +218,7 @@
               <button class="filter-button" type="button" data-filter="full" aria-pressed="false">Complets</button>
               <button class="filter-button" type="button" data-filter="closed" aria-pressed="false">Fermés</button>
               <button class="filter-button" type="button" data-filter="roster" aria-pressed="false">Shinobis recensés</button>
+              <a class="filter-button lore-filter-link" href="./lore/">Lore</a>
             </div>
           </div>
 
@@ -257,4 +265,3 @@
     </div>
   </body>
 </html>
-
