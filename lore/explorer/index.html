@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../explorer.css">
   <script type="module" src="../explorer-app.js"></script>
 </head>
-<body class="lore">
+<body class="lore atlas-page" data-map-version="map-overhaul-v3">
   <a class="skip-link" href="#world-explorer">Aller à la carte</a>
   <div class="page-shell">
     <header class="masthead">
@@ -33,7 +33,7 @@
     <main>
       <section class="registry lore-view" aria-labelledby="map-title">
         <div class="section-heading">
-          <div><p class="section-kicker">Un siècle d’histoire</p><h2 id="map-title">Le monde de l’an 300 à l’an 400</h2></div>
+          <div><p class="section-kicker">Cartographie • An 400</p><h2 id="map-title">Atlas des Cinq Nations</h2></div>
           <p class="result-count" id="timeline-summary" aria-live="polite">Chargement des archives…</p>
         </div>
         <div class="map-toolbar" aria-label="Filtres de la carte">
@@ -43,10 +43,11 @@
           <label><span>Importance</span><select id="importance-filter"><option value="all">Tous les niveaux</option><option value="major">Majeurs et historiques</option><option value="historic">Historiques uniquement</option></select></label>
           <label><span>Période</span><select id="period-filter"><option value="all">300–400</option><option value="300-324">300–324</option><option value="325-349">325–349</option><option value="350-374">350–374</option><option value="375-399">375–399</option><option value="400-400">An 400</option></select></label>
         </div>
+        <nav class="village-nav" id="village-nav" aria-label="Les cinq grands villages"></nav>
         <div class="world-explorer" id="world-explorer">
           <div class="map-stage" id="map-stage" tabindex="0" aria-label="Carte interactive du monde shinobi. Faites glisser pour vous déplacer et utilisez la molette ou les boutons pour zoomer.">
             <canvas id="world-map-canvas"></canvas>
-            <canvas id="location-3d-canvas" hidden></canvas>
+            <div class="map-layer-switches" aria-label="Calques de la carte"><button type="button" data-map-layer="terrain" aria-pressed="true">Relief</button><button type="button" data-map-layer="political" aria-pressed="true">Territoires</button><button type="button" data-map-layer="routes" aria-pressed="true">Routes</button></div>
             <div class="map-controls"><button type="button" id="zoom-in" aria-label="Zoomer">+</button><button type="button" id="zoom-out" aria-label="Dézoomer">−</button><button type="button" id="reset-map" aria-label="Recentrer la carte">⌂</button></div>
             <div class="map-hud"><span class="compass" aria-label="Nord">N</span><span id="zoom-level">Monde · 1,0×</span><span id="map-coordinates">600 · 400</span><span class="scale"><i id="scale-bar"></i><b id="scale-label">200 km</b></span></div>
             <div class="map-legend"><span><i class="legend-dot legend-dot--village"></i>Village</span><span><i class="legend-dot legend-dot--event"></i>Événement</span><span><i class="legend-line"></i>Route historique</span></div>

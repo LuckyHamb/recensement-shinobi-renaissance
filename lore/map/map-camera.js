@@ -1,41 +1,42 @@
 export class MapCamera {
   constructor(canvas, world, onChange) {
-    this.canvas = canvas; this.world = world; this.onChange = onChange;
-    this.x = world.worldWidth / 2; this.y = world.worldHeight / 2; this.zoom = 1;
-    this.baseScale = 1; this.drag = null; this.moved = false;
-    this.bind(); this.resize();
+    Object.assign(this,{canvas,world,onChange,x:world.worldWidth/2,y:world.worldHeight/2,zoom:1,baseScale:1,moved:false,revision:0,animation:0});
+    this.pointers=new Map(); this.bind(); this.resize();
   }
   resize() {
-    const rect = this.canvas.parentElement.getBoundingClientRect();
-    const ratio = Math.min(devicePixelRatio || 1, 2);
-    this.canvas.width = Math.max(1, Math.floor(rect.width * ratio)); this.canvas.height = Math.max(1, Math.floor(rect.height * ratio));
-    this.canvas.style.width = `${rect.width}px`; this.canvas.style.height = `${rect.height}px`;
-    this.baseScale = Math.min(this.canvas.width / ratio / this.world.worldWidth, this.canvas.height / ratio / this.world.worldHeight) * 0.94;
-    this.ratio = ratio; this.changed();
+    const rect=this.canvas.parentElement.getBoundingClientRect();
+    this.width=rect.width; this.height=rect.height; this.ratio=Math.min(globalThis.devicePixelRatio||1,2);
+    this.canvas.width=Math.max(1,Math.round(rect.width*this.ratio));this.canvas.height=Math.max(1,Math.round(rect.height*this.ratio));
+    this.baseScale=Math.min(rect.width/this.world.worldWidth,rect.height/this.world.worldHeight)*.93;
+    this.changed();
   }
-  screenToWorld(sx, sy) { const rect = this.canvas.getBoundingClientRect(); return { x: this.x + (sx - rect.left - rect.width / 2) / (this.baseScale * this.zoom), y: this.y + (sy - rect.top - rect.height / 2) / (this.baseScale * this.zoom) }; }
-  worldToScreen(x, y) { const rect = this.canvas.getBoundingClientRect(); return { x: rect.width / 2 + (x - this.x) * this.baseScale * this.zoom, y: rect.height / 2 + (y - this.y) * this.baseScale * this.zoom }; }
-  setZoom(next, anchorX, anchorY) {
-    const before = anchorX == null ? null : this.screenToWorld(anchorX, anchorY);
-    this.zoom = Math.max(0.75, Math.min(10, next));
-    if (before) { const after = this.screenToWorld(anchorX, anchorY); this.x += before.x - after.x; this.y += before.y - after.y; }
-    this.clamp(); this.changed();
+  worldToScreen(x,y){const scale=this.baseScale*this.zoom;return {x:this.width/2+(x-this.x)*scale,y:this.height/2+(y-this.y)*scale};}
+  screenToWorld(x,y){const r=this.canvas.getBoundingClientRect(),s=this.baseScale*this.zoom;return {x:this.x+(x-r.left-this.width/2)/s,y:this.y+(y-r.top-this.height/2)/s};}
+  cancel(){this.animation++;}
+  setZoom(next,ax,ay){this.cancel();const before=ax==null?null:this.screenToWorld(ax,ay);this.zoom=Math.max(.75,Math.min(18,next));if(before){const after=this.screenToWorld(ax,ay);this.x+=before.x-after.x;this.y+=before.y-after.y;}this.clamp();this.changed();}
+  pan(dx,dy){this.cancel();const s=this.baseScale*this.zoom;this.x-=dx/s;this.y-=dy/s;this.clamp();this.changed();}
+  clamp(){this.x=Math.max(0,Math.min(this.world.worldWidth,this.x));this.y=Math.max(0,Math.min(this.world.worldHeight,this.y));}
+  reset(){this.flyTo(this.world.worldWidth/2,this.world.worldHeight/2,1);}
+  flyTo(x,y,zoom=3){
+    const token=++this.animation,start={x:this.x,y:this.y,zoom:this.zoom},began=performance.now();
+    const duration=globalThis.matchMedia?.("(prefers-reduced-motion: reduce)").matches?0:700;
+    const tick=now=>{if(token!==this.animation)return;const t=duration?Math.min(1,(now-began)/duration):1,k=1-(1-t)**3;this.x=start.x+(x-start.x)*k;this.y=start.y+(y-start.y)*k;this.zoom=start.zoom+(Math.max(.75,Math.min(18,zoom))-start.zoom)*k;this.clamp();this.changed();if(t<1)requestAnimationFrame(tick);};
+    requestAnimationFrame(tick);
   }
-  pan(dx, dy) { this.x -= dx / (this.baseScale * this.zoom); this.y -= dy / (this.baseScale * this.zoom); this.clamp(); this.changed(); }
-  clamp() { this.x = Math.max(0, Math.min(this.world.worldWidth, this.x)); this.y = Math.max(0, Math.min(this.world.worldHeight, this.y)); }
-  reset() { this.flyTo(this.world.worldWidth / 2, this.world.worldHeight / 2, 1); }
-  flyTo(x, y, zoom = 3) {
-    const start = { x: this.x, y: this.y, zoom: this.zoom }; const began = performance.now(); const duration = 720;
-    const step = (now) => { const raw = Math.min(1, (now - began) / duration); const t = 1 - Math.pow(1 - raw, 3); this.x = start.x + (x - start.x) * t; this.y = start.y + (y - start.y) * t; this.zoom = start.zoom + (Math.max(.75, Math.min(10, zoom)) - start.zoom) * t; this.changed(); if (raw < 1) requestAnimationFrame(step); };
-    requestAnimationFrame(step);
+  bind(){
+    const stage=this.canvas.parentElement;
+    stage.addEventListener("wheel",e=>{if(e.target.closest(".event-sheet"))return;e.preventDefault();this.setZoom(this.zoom*Math.exp(-Math.max(-100,Math.min(100,e.deltaY))*.002),e.clientX,e.clientY);},{passive:false});
+    stage.addEventListener("pointerdown",e=>{if(e.target.closest("button,input,select,a,.event-sheet"))return;this.cancel();this.moved=false;this.pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});stage.setPointerCapture(e.pointerId);stage.focus({preventScroll:true});});
+    stage.addEventListener("pointermove",e=>{
+      if(!this.pointers.has(e.pointerId))return;
+      const old=this.pointers.get(e.pointerId),next={x:e.clientX,y:e.clientY};
+      if(Math.hypot(next.x-old.x,next.y-old.y)>2)this.moved=true;
+      if(this.pointers.size===2){const other=[...this.pointers.entries()].find(([id])=>id!==e.pointerId)[1],before=Math.hypot(old.x-other.x,old.y-other.y),after=Math.hypot(next.x-other.x,next.y-other.y);if(before>5)this.setZoom(this.zoom*after/before,(next.x+other.x)/2,(next.y+other.y)/2);}
+      else this.pan(next.x-old.x,next.y-old.y);
+      this.pointers.set(e.pointerId,next);
+    });
+    for(const type of ["pointerup","pointercancel","lostpointercapture"])stage.addEventListener(type,e=>this.pointers.delete(e.pointerId));
+    stage.addEventListener("keydown",e=>{if(e.target!==stage)return;const keys={ArrowLeft:[45,0],ArrowRight:[-45,0],ArrowUp:[0,45],ArrowDown:[0,-45]};if(keys[e.key]){e.preventDefault();this.pan(...keys[e.key]);}else if(e.key==="+"||e.key==="=")this.setZoom(this.zoom*1.25);else if(e.key==="-")this.setZoom(this.zoom/1.25);else if(e.key==="Home")this.reset();});
   }
-  bind() {
-    const stage = this.canvas.parentElement;
-    stage.addEventListener("wheel", (event) => { event.preventDefault(); this.setZoom(this.zoom * (event.deltaY < 0 ? 1.16 : 0.86), event.clientX, event.clientY); }, { passive: false });
-    stage.addEventListener("pointerdown", (event) => { if (event.target.closest?.("button, input, select, a, .event-sheet")) return; this.drag = { x: event.clientX, y: event.clientY }; this.moved = false; stage.setPointerCapture(event.pointerId); });
-    stage.addEventListener("pointermove", (event) => { if (!this.drag) return; const dx = event.clientX - this.drag.x; const dy = event.clientY - this.drag.y; if (Math.abs(dx) + Math.abs(dy) > 2) this.moved = true; this.pan(dx, dy); this.drag = { x: event.clientX, y: event.clientY }; });
-    stage.addEventListener("pointerup", () => { this.drag = null; });
-    stage.addEventListener("keydown", (event) => { const amount = 45; if (event.key === "+") this.setZoom(this.zoom * 1.2); else if (event.key === "-") this.setZoom(this.zoom / 1.2); else if (["ArrowLeft","ArrowRight","ArrowUp","ArrowDown"].includes(event.key)) { event.preventDefault(); this.pan(event.key === "ArrowLeft" ? -amount : event.key === "ArrowRight" ? amount : 0, event.key === "ArrowUp" ? -amount : event.key === "ArrowDown" ? amount : 0); } });
-  }
-  changed() { this.onChange?.(this); }
+  changed(){this.revision++;this.onChange?.(this);}
 }
