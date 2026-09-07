@@ -4,15 +4,10 @@ const state = {
   clans: [],
   query: "",
   filter: "all",
-  view: "clans",
 };
 
 const elements = {
   clanGrid: document.querySelector("#clans"),
-  rosterView: document.querySelector("#roster-view"),
-  rosterBody: document.querySelector("#roster-body"),
-  rosterEmpty: document.querySelector("#roster-empty"),
-  rosterBack: document.querySelector("#roster-back"),
   emptyMessage: document.querySelector("#empty-message"),
   errorMessage: document.querySelector("#error-message"),
   filterButtons: [...document.querySelectorAll("[data-filter]")],
@@ -20,8 +15,9 @@ const elements = {
   resultCount: document.querySelector("#result-count"),
   search: document.querySelector("#search"),
   stats: document.querySelector("#stats"),
-  registryTitle: document.querySelector("#registry-title"),
-  registryKicker: document.querySelector("#registry-kicker"),
+  shinobiCount: document.querySelector("#shinobi-count"),
+  shinobiList: document.querySelector("#shinobi-list"),
+  shinobiSearch: document.querySelector("#shinobi-search"),
 };
 
 function normalize(value) {
@@ -65,10 +61,6 @@ function validateClans(data) {
 
     return {
       ...clan,
-      id: clan.id.trim(),
-      name: clan.name.trim(),
-      displayName: clan.displayName.trim(),
-      emoji: clan.emoji.trim(),
       members: clan.members.map((member) => member.trim()),
     };
   });
@@ -229,8 +221,9 @@ function createClanCard(clan, index) {
   const archives = document.createElement("a");
   archives.className = "registry-archive-link";
   archives.href = `./lore/clan/?id=${encodeURIComponent(clan.id)}`;
-  archives.textContent = "Voir les archives →";
-  archives.setAttribute("aria-label", `Voir les archives ${clan.name}`);
+  archives.textContent = "Voir les archives détaillées →";
+  archives.setAttribute("aria-label", `Voir les archives détaillées du clan ${clan.name}`);
+
   card.append(main, archives, toggle, panel);
   return card;
 }
@@ -267,109 +260,6 @@ function renderClans() {
   elements.resultCount.textContent = `${visibleClans.length} clan${visibleClans.length > 1 ? "s" : ""} affiché${visibleClans.length > 1 ? "s" : ""}`;
 }
 
-function createRosterRow(name, clan) {
-  const row = document.createElement("tr");
-
-  const nameCell = document.createElement("td");
-  nameCell.className = "roster-name";
-
-  const nameDot = document.createElement("span");
-  nameDot.className = "roster-name-dot";
-  nameDot.setAttribute("aria-hidden", "true");
-  nameDot.textContent = "•";
-
-  const nameText = document.createElement("span");
-  nameText.textContent = name;
-  nameCell.append(nameDot, nameText);
-
-  const clanCell = document.createElement("td");
-  clanCell.className = "roster-clan";
-
-  const badge = document.createElement("span");
-  badge.className = "roster-clan-badge";
-  badge.setAttribute("title", clan.name);
-
-  const emoji = document.createElement("span");
-  emoji.className = "roster-clan-emoji";
-  emoji.setAttribute("aria-hidden", "true");
-  emoji.textContent = clan.emoji;
-
-  const label = document.createElement("span");
-  label.textContent = clan.displayName;
-
-  badge.append(emoji, label);
-  clanCell.append(badge);
-  row.append(nameCell, clanCell);
-  return row;
-}
-
-function renderRoster() {
-  const query = normalize(state.query);
-  const entries = [];
-
-  state.clans.forEach((clan, clanIndex) => {
-    const sortedMembers = [...clan.members].sort((a, b) =>
-      a.localeCompare(b, "fr", { sensitivity: "base" })
-    );
-
-    sortedMembers.forEach((name) => {
-      const searchableText = [name, clan.name, clan.displayName]
-        .map(normalize)
-        .join(" ");
-
-      if (searchableText.includes(query)) {
-        entries.push({ name, clan, clanIndex });
-      }
-    });
-  });
-
-  entries.sort((a, b) => {
-    if (a.clanIndex !== b.clanIndex) return a.clanIndex - b.clanIndex;
-    return a.name.localeCompare(b.name, "fr", { sensitivity: "base" });
-  });
-
-  const fragment = document.createDocumentFragment();
-  entries.forEach(({ name, clan }) => fragment.append(createRosterRow(name, clan)));
-  elements.rosterBody.replaceChildren(fragment);
-
-  elements.rosterEmpty.hidden = entries.length !== 0;
-  elements.resultCount.textContent = `${entries.length} shinobi${entries.length > 1 ? "s" : ""} affiché${entries.length > 1 ? "s" : ""}`;
-}
-
-function syncFilterButtons() {
-  elements.filterButtons.forEach((button) => {
-    const isRosterButton = button.dataset.filter === "roster";
-    const isActive = state.view === "roster"
-      ? isRosterButton
-      : !isRosterButton && button.dataset.filter === state.filter;
-
-    button.classList.toggle("is-active", isActive);
-    button.setAttribute("aria-pressed", String(isActive));
-  });
-}
-
-function renderCurrentView() {
-  const rosterMode = state.view === "roster";
-
-  elements.clanGrid.hidden = rosterMode;
-  elements.rosterView.hidden = !rosterMode;
-  elements.emptyMessage.hidden = true;
-  syncFilterButtons();
-
-  if (rosterMode) {
-    elements.registryTitle.textContent = "Shinobis recensés";
-    elements.registryKicker.textContent = "Registre des joueurs";
-    elements.search.placeholder = "Rechercher un shinobi ou un clan…";
-    renderRoster();
-    return;
-  }
-
-  elements.registryTitle.textContent = "Clans recensés";
-  elements.registryKicker.textContent = "Archives actives";
-  elements.search.placeholder = "Rechercher un clan ou un shinobi…";
-  renderClans();
-}
-
 function renderStats() {
   const metrics = state.clans.map(getClanMetrics);
   const totalMembers = metrics.reduce((sum, clan) => sum + clan.memberCount, 0);
@@ -394,39 +284,72 @@ function renderStats() {
   });
 }
 
+function renderShinobis() {
+  if (!elements.shinobiList) return;
+  const query = normalize(elements.shinobiSearch?.value || "");
+  const members = state.clans.flatMap((clan) => clan.members.map((name) => ({ name, clan })));
+  const visible = members.filter(({ name, clan }) => normalize(`${name} ${clan.name} ${clan.displayName}`).includes(query));
+  const fragment = document.createDocumentFragment();
+
+  if (visible.length === 0) {
+    const empty = document.createElement("div");
+    empty.className = "notice notice--empty";
+    empty.innerHTML = members.length === 0
+      ? "<strong>Aucun shinobi recensé.</strong><span>Les futurs membres apparaîtront ici automatiquement depuis data/clans.json.</span>"
+      : "<strong>Aucun résultat.</strong><span>Essayez un autre nom ou clan.</span>";
+    fragment.append(empty);
+  } else {
+    visible.forEach(({ name, clan }) => {
+      const row = document.createElement("div");
+      row.className = "shinobi-row";
+
+      const nameCell = document.createElement("div");
+      nameCell.className = "shinobi-row__name";
+      const dot = document.createElement("span");
+      dot.className = "shinobi-row__dot";
+      dot.setAttribute("aria-hidden", "true");
+      dot.textContent = "•";
+      const strong = document.createElement("strong");
+      strong.textContent = name;
+      nameCell.append(dot, strong);
+
+      const clanCell = document.createElement("div");
+      clanCell.className = "shinobi-row__clan";
+      const emoji = document.createElement("span");
+      emoji.setAttribute("aria-hidden", "true");
+      emoji.textContent = clan.emoji;
+      const label = document.createElement("span");
+      label.textContent = clan.displayName;
+      clanCell.append(emoji, label);
+
+      row.append(nameCell, clanCell);
+      fragment.append(row);
+    });
+  }
+
+  elements.shinobiList.replaceChildren(fragment);
+  elements.shinobiCount.textContent = `${visible.length} shinobi${visible.length > 1 ? "s" : ""}`;
+}
+
 function bindControls() {
   elements.search.addEventListener("input", (event) => {
     state.query = event.target.value;
-    renderCurrentView();
+    renderClans();
   });
 
   elements.filterButtons.forEach((button) => {
     button.addEventListener("click", () => {
-      const targetFilter = button.dataset.filter;
-      state.query = "";
-      elements.search.value = "";
-
-      if (targetFilter === "roster") {
-        state.view = "roster";
-        state.filter = "all";
-      } else {
-        state.view = "clans";
-        state.filter = targetFilter;
-      }
-
-      renderCurrentView();
+      state.filter = button.dataset.filter;
+      elements.filterButtons.forEach((item) => {
+        const isActive = item === button;
+        item.classList.toggle("is-active", isActive);
+        item.setAttribute("aria-pressed", String(isActive));
+      });
+      renderClans();
     });
   });
 
-  if (elements.rosterBack) {
-    elements.rosterBack.addEventListener("click", () => {
-      state.view = "clans";
-      state.filter = "all";
-      state.query = "";
-      elements.search.value = "";
-      renderCurrentView();
-    });
-  }
+  elements.shinobiSearch?.addEventListener("input", renderShinobis);
 }
 
 async function loadClans() {
@@ -437,13 +360,10 @@ async function loadClans() {
     }
 
     state.clans = validateClans(await response.json());
-    const requestedClan = new URLSearchParams(location.search).get("clan");
-    if (requestedClan) {
-      const selected = state.clans.find(clan => clan.id === requestedClan);
-      if (selected) { state.query = selected.name; elements.search.value = selected.name; }
-    }
     renderStats();
-    renderCurrentView();
+    renderClans();
+    renderShinobis();
+    window.dispatchEvent(new CustomEvent("registry:loaded", { detail: { clans: state.clans } }));
     elements.lastUpdate.textContent = "Données du registre chargées";
   } catch (error) {
     console.error("Erreur de chargement du registre :", error);
@@ -457,4 +377,3 @@ async function loadClans() {
 
 bindControls();
 loadClans();
-

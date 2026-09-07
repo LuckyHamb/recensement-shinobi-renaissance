@@ -1,267 +1,38 @@
 <!doctype html>
 <html lang="fr">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Registre public des effectifs et des places disponibles des clans de Shinobi Renaissance.">
-    <meta name="theme-color" content="#090b0f">
-    <title>Recensement des clans — Shinobi Renaissance</title>
-    <link rel="stylesheet" href="./style.css?v=4">
-    <link rel="stylesheet" href="./registry-lore.css">
-    <style>
-      .admin-link {
-        position: absolute;
-        top: 28px;
-        right: clamp(0px, 4vw, 48px);
-        z-index: 2;
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        min-height: 42px;
-        padding: 9px 14px;
-        color: #f2eee4;
-        text-decoration: none;
-        border: 1px solid rgba(232, 226, 211, 0.18);
-        border-radius: 9px;
-        background: rgba(255, 255, 255, 0.045);
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-        backdrop-filter: blur(12px);
-        font-size: 0.85rem;
-        font-weight: 700;
-        transition: border-color 160ms ease, background 160ms ease, transform 160ms ease;
-      }
-
-      .admin-link:hover {
-        border-color: rgba(231, 111, 101, 0.6);
-        background: rgba(231, 111, 101, 0.1);
-        transform: translateY(-1px);
-      }
-
-      .admin-link:focus-visible {
-        outline: 3px solid rgba(231, 111, 101, 0.25);
-        outline-offset: 3px;
-      }
-
-      .roster-launch-card {
-        display: none !important;
-      }
-
-      #clans[hidden],
-      #roster-view[hidden] {
-        display: none !important;
-      }
-
-      .roster-card {
-        border: 0;
-        background: transparent;
-        box-shadow: none;
-      }
-
-      .roster-panel-head {
-        display: none;
-      }
-
-      .roster-table-wrap {
-        overflow-x: auto;
-      }
-
-      .roster-table {
-        width: 100%;
-        border-collapse: separate;
-        border-spacing: 0 9px;
-      }
-
-      .roster-table thead {
-        display: none;
-      }
-
-      .roster-table td {
-        border: 0;
-        background: transparent;
-      }
-
-      .roster-name {
-        width: 280px;
-        padding: 9px 12px !important;
-        color: var(--text);
-        border: 1px solid var(--border) !important;
-        border-radius: 7px;
-        background: rgba(255, 255, 255, 0.028) !important;
-        font-weight: 700;
-        white-space: nowrap;
-      }
-
-      .roster-name-dot {
-        margin-right: 9px;
-        color: var(--accent-bright);
-      }
-
-      .roster-clan {
-        padding: 9px 12px 9px 22px !important;
-        text-align: right !important;
-        background: transparent !important;
-        border: 0 !important;
-      }
-
-      .roster-clan-badge {
-        display: inline-flex;
-        gap: 8px;
-        align-items: center;
-        color: var(--muted-strong);
-        font-size: 0.82rem;
-        font-weight: 700;
-        letter-spacing: 0.05em;
-      }
-
-      .roster-clan-emoji {
-        flex: 0 0 auto;
-        font-size: 1rem;
-      }
-
-      .roster-empty {
-        margin: 0;
-        padding: 22px 0;
-        color: var(--muted);
-        text-align: center;
-      }
-
-      .lore-filter-link {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none;
-        white-space: nowrap;
-      }
-
-      @media (max-width: 640px) {
-        .admin-link {
-          top: 16px;
-          right: 0;
-          min-height: 38px;
-          padding: 7px 10px;
-          font-size: 0.78rem;
-        }
-
-        .roster-name {
-          width: 190px;
-          padding: 8px 10px !important;
-        }
-
-        .roster-clan {
-          padding: 8px 8px 8px 14px !important;
-        }
-
-        .roster-clan-badge {
-          font-size: 0.72rem;
-          letter-spacing: 0.02em;
-        }
-      }
-    </style>
-    <script src="./script.js?v=8" defer></script>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Registre public et encyclopédie interactive du monde de Shinobi Renaissance."><meta name="theme-color" content="#090b0f">
+    <title>Shinobi Renaissance — Registre & Lore</title>
+    <link rel="stylesheet" href="./style.css"><link rel="stylesheet" href="./lore/explorer.css">
+    <script src="./script.js" defer></script><script src="./navigation.js" defer></script><script type="module" src="./lore/lore-app.js"></script>
   </head>
   <body>
-    <a class="skip-link" href="#clans">Aller aux clans</a>
-
+    <a class="skip-link" href="#main-content">Aller au contenu</a>
     <div class="page-shell">
-      <header class="masthead">
-        <a class="admin-link" href="https://github.com/LuckyHamb/recensement-shinobi-renaissance/edit/main/data/clans.json" target="_blank" rel="noopener noreferrer" title="Modifier le recensement sur GitHub">
-          ⚙️ Administration
-        </a>
-
-        <div class="masthead__mark" aria-hidden="true">忍</div>
-        <div class="masthead__copy">
-          <p class="eyebrow">Registre officiel</p>
-          <h1>Shinobi Renaissance</h1>
-          <p class="masthead__title">Recensement des clans</p>
-          <p class="masthead__intro">Consultez en temps réel les effectifs et les places disponibles au sein des différents clans.</p>
-        </div>
-      </header>
-
-      <main>
-        <section class="dashboard" aria-labelledby="dashboard-title">
-          <div class="section-heading">
-            <div>
-              <p class="section-kicker">Vue d’ensemble</p>
-              <h2 id="dashboard-title">Tableau de bord</h2>
-            </div>
-            <p class="last-update" id="last-update" aria-live="polite">Chargement du registre…</p>
-          </div>
-
-          <div class="stats-grid" id="stats" aria-label="Statistiques du recensement" aria-live="polite">
-            <article class="stat-card"><span class="stat-card__label">Membres recensés</span><strong class="stat-card__value" data-stat="members">—</strong></article>
-            <article class="stat-card"><span class="stat-card__label">Places disponibles</span><strong class="stat-card__value" data-stat="available">—</strong></article>
-            <article class="stat-card"><span class="stat-card__label">Clans ouverts</span><strong class="stat-card__value" data-stat="open">—</strong></article>
-            <article class="stat-card"><span class="stat-card__label">Clans complets</span><strong class="stat-card__value" data-stat="full">—</strong></article>
-            <article class="stat-card stat-card--total"><span class="stat-card__label">Total des clans</span><strong class="stat-card__value" data-stat="total">—</strong></article>
-          </div>
+      <header class="masthead"><a class="admin-link" href="https://github.com/LuckyHamb/recensement-shinobi-renaissance/edit/main/data/clans.json" target="_blank" rel="noopener noreferrer" title="Modifier le recensement sur GitHub">⚙️ Administration</a><div class="masthead__mark" aria-hidden="true">忍</div><div class="masthead__copy"><p class="eyebrow">Archives officielles</p><h1>Shinobi Renaissance</h1><p class="masthead__title">Registre & mémoire du monde</p><p class="masthead__intro">Consultez les effectifs actuels et parcourez un siècle d’histoire shinobi, de l’ancien monde au début de l’ère des joueurs.</p></div></header>
+      <nav class="site-nav" aria-label="Navigation principale"><button class="site-nav__button is-active" type="button" data-view-target="census" aria-pressed="true">Recensement</button><button class="site-nav__button" type="button" data-view-target="shinobis" aria-pressed="false">Shinobis recensés</button><button class="site-nav__button" type="button" data-view-target="lore" aria-pressed="false">Lore</button></nav>
+      <main id="main-content">
+        <section class="app-view is-active" data-view="census">
+          <section class="dashboard" aria-labelledby="dashboard-title"><div class="section-heading"><div><p class="section-kicker">Vue d’ensemble</p><h2 id="dashboard-title">Tableau de bord</h2></div><p class="last-update" id="last-update" aria-live="polite">Chargement du registre…</p></div><div class="stats-grid" id="stats" aria-label="Statistiques du recensement" aria-live="polite"><article class="stat-card"><span class="stat-card__label">Membres recensés</span><strong class="stat-card__value" data-stat="members">—</strong></article><article class="stat-card"><span class="stat-card__label">Places disponibles</span><strong class="stat-card__value" data-stat="available">—</strong></article><article class="stat-card"><span class="stat-card__label">Clans ouverts</span><strong class="stat-card__value" data-stat="open">—</strong></article><article class="stat-card"><span class="stat-card__label">Clans complets</span><strong class="stat-card__value" data-stat="full">—</strong></article><article class="stat-card stat-card--total"><span class="stat-card__label">Total des clans</span><strong class="stat-card__value" data-stat="total">—</strong></article></div></section>
+          <section class="registry" aria-labelledby="registry-title"><div class="section-heading"><div><p class="section-kicker">Archives actives</p><h2 id="registry-title">Clans recensés</h2></div><p class="result-count" id="result-count" aria-live="polite"></p></div><div class="controls" aria-label="Recherche et filtres"><label class="search-field" for="search"><span class="search-field__icon" aria-hidden="true"></span><span class="visually-hidden">Rechercher un clan ou un shinobi</span><input id="search" type="search" placeholder="Rechercher un clan ou un shinobi…" autocomplete="off" spellcheck="false"></label><div class="filters" role="group" aria-label="Filtrer les clans"><button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">Tous les clans</button><button class="filter-button" type="button" data-filter="available" aria-pressed="false">Places disponibles</button><button class="filter-button" type="button" data-filter="full" aria-pressed="false">Complets</button><button class="filter-button" type="button" data-filter="closed" aria-pressed="false">Fermés</button></div></div><div class="notice notice--error" id="error-message" role="alert" hidden><strong>Le registre est momentanément indisponible.</strong><span>Impossible de charger les données des clans. Veuillez réessayer plus tard.</span></div><div class="clan-grid" id="clans" aria-busy="true"></div><div class="notice notice--empty" id="empty-message" hidden><strong>Aucun clan ne correspond à votre recherche.</strong><span>Modifiez votre recherche ou choisissez un autre filtre.</span></div></section>
         </section>
-
-        <section class="registry" aria-labelledby="registry-title">
-          <div class="section-heading section-heading--registry">
-            <div>
-              <p class="section-kicker" id="registry-kicker">Archives actives</p>
-              <h2 id="registry-title">Clans recensés</h2>
-            </div>
-            <p class="result-count" id="result-count" aria-live="polite"></p>
-          </div>
-
-          <div class="controls" aria-label="Recherche et filtres">
-            <label class="search-field" for="search">
-              <span class="search-field__icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Rechercher un clan ou un shinobi</span>
-              <input id="search" type="search" placeholder="Rechercher un clan ou un shinobi…" autocomplete="off" spellcheck="false">
-            </label>
-
-            <div class="filters" role="group" aria-label="Filtrer le recensement">
-              <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">Tous les clans</button>
-              <button class="filter-button" type="button" data-filter="available" aria-pressed="false">Places disponibles</button>
-              <button class="filter-button" type="button" data-filter="full" aria-pressed="false">Complets</button>
-              <button class="filter-button" type="button" data-filter="closed" aria-pressed="false">Fermés</button>
-              <button class="filter-button" type="button" data-filter="roster" aria-pressed="false">Shinobis recensés</button>
-              <a class="filter-button lore-filter-link" href="./lore/">Lore</a>
-            </div>
-          </div>
-
-          <div class="notice notice--error" id="error-message" role="alert" hidden>
-            <strong>Le registre est momentanément indisponible.</strong>
-            <span>Impossible de charger les données des clans. Veuillez réessayer plus tard.</span>
-          </div>
-
-          <div class="clan-grid" id="clans" aria-busy="true"></div>
-
-          <div class="roster-card" id="roster-view" hidden>
-            <div class="roster-panel-head">
-              <button class="roster-back" id="roster-back" type="button">← Retour aux clans</button>
-              <span>Liste classée par clan, puis par pseudo.</span>
-            </div>
-            <div class="roster-table-wrap">
-              <table class="roster-table">
-                <thead>
-                  <tr>
-                    <th scope="col">Shinobi</th>
-                    <th scope="col">Clan</th>
-                  </tr>
-                </thead>
-                <tbody id="roster-body"></tbody>
-              </table>
-            </div>
-            <p class="roster-empty" id="roster-empty" hidden>Aucun shinobi ne correspond à la recherche.</p>
-          </div>
-
-          <div class="notice notice--empty" id="empty-message" hidden>
-            <strong>Aucun clan ne correspond à votre recherche.</strong>
-            <span>Modifiez votre recherche ou choisissez un autre filtre.</span>
-          </div>
+        <section class="app-view archive-view" data-view="shinobis" hidden><div class="section-heading"><div><p class="section-kicker">Registre nominatif</p><h2>Shinobis recensés</h2></div><p class="result-count" id="shinobi-count"></p></div><label class="search-field archive-search" for="shinobi-search"><span class="search-field__icon" aria-hidden="true"></span><span class="visually-hidden">Rechercher un shinobi</span><input id="shinobi-search" type="search" placeholder="Rechercher un shinobi ou son clan…" autocomplete="off"></label><div class="shinobi-list" id="shinobi-list" aria-live="polite"></div></section>
+        <section class="app-view lore-view" data-view="lore" hidden>
+          <header class="lore-header"><div><p class="section-kicker">Encyclopédie interactive</p><h2>Les Archives du Siècle</h2></div><p>De l’an 300 aux derniers bouleversements précédant l’ère actuelle.</p></header>
+          <nav class="lore-nav" aria-label="Navigation du Lore"><button type="button" data-lore-target="clans" aria-pressed="false">Clans</button><button type="button" data-lore-target="chronicles" aria-pressed="false">Chroniques</button><button type="button" data-lore-target="techniques" aria-pressed="false">Techniques</button><button class="is-active" type="button" data-lore-target="map" aria-pressed="true">Carte & Chronologie</button><a class="lore-nav__link" href="./lore/">Archives détaillées</a><button type="button" data-lore-target="admin" aria-pressed="false">Administration</button></nav>
+          <section class="lore-panel" data-lore-panel="clans" hidden><div class="lore-panel__intro"><p class="section-kicker">Dix-neuf héritages</p><h3>Clans du monde shinobi</h3><p>Origines, traditions, figures historiques et conséquences d’un siècle de rivalités.</p></div><div class="lore-clan-layout"><div class="lore-clan-grid" id="lore-clan-grid"></div><article class="lore-clan-detail" id="lore-clan-detail" aria-live="polite"></article></div></section>
+          <section class="lore-panel" data-lore-panel="chronicles" hidden><div class="lore-panel__intro"><p class="section-kicker">Récits fondateurs</p><h3>Chroniques</h3><p>Les événements majeurs racontés comme une histoire continue.</p></div><div class="chronicle-grid" id="chronicle-grid"></div></section>
+          <section class="lore-panel" data-lore-panel="techniques" hidden><div class="lore-panel__intro"><p class="section-kicker">Savoirs transmis</p><h3>Techniques</h3><p>Arts historiques, doctrines et inventions nés entre l’an 300 et l’an 399.</p></div><div class="technique-grid" id="technique-grid"></div></section>
+          <section class="lore-panel is-active map-panel" data-lore-panel="map">
+            <div class="map-toolbar" aria-label="Filtres de la carte"><label><span>Recherche</span><input id="lore-search" type="search" placeholder="Année, clan, lieu, personnage…"></label><label><span>Clan</span><select id="clan-filter"><option value="all">Tous les clans</option></select></label><label><span>Type</span><select id="category-filter"><option value="all">Tous les événements</option><option value="battle">Batailles</option><option value="alliance">Alliances</option><option value="discovery">Découvertes</option><option value="catastrophe">Catastrophes</option><option value="politics">Politique</option><option value="migration">Migrations</option></select></label><label><span>Importance</span><select id="importance-filter"><option value="all">Tous les niveaux</option><option value="major">Majeurs et historiques</option><option value="historic">Historiques uniquement</option></select></label><label><span>Période</span><select id="period-filter"><option value="all">300–400</option><option value="300-324">300–324</option><option value="325-349">325–349</option><option value="350-374">350–374</option><option value="375-399">375–399</option><option value="400-400">An 400</option></select></label></div>
+            <div class="world-explorer"><div class="map-stage" id="map-stage" tabindex="0" aria-label="Carte interactive du monde shinobi. Faites glisser pour vous déplacer et utilisez la molette ou les boutons pour zoomer."><canvas id="world-map-canvas"></canvas><canvas id="location-3d-canvas" hidden></canvas><div class="map-controls"><button type="button" id="zoom-in" aria-label="Zoomer">+</button><button type="button" id="zoom-out" aria-label="Dézoomer">−</button><button type="button" id="reset-map" aria-label="Recentrer la carte">⌂</button></div><div class="map-hud"><span class="compass" aria-label="Nord">N</span><span id="zoom-level">Monde · 1,0×</span><span id="map-coordinates">600 · 400</span><span class="scale"><i id="scale-bar"></i><b id="scale-label">200 km</b></span></div><div class="map-legend"><span><i class="legend-dot legend-dot--village"></i>Village</span><span><i class="legend-dot legend-dot--event"></i>Événement</span><span><i class="legend-line"></i>Route historique</span></div><p class="lod-notice" id="lod-notice">Vue du monde</p><article class="event-sheet" id="event-sheet" hidden aria-live="polite"></article></div><div class="timeline-dock"><div class="timeline-head"><div><span>Chronologie du monde</span><strong id="timeline-year-label">An 400</strong></div><label for="year-slider">État du monde <input id="year-slider" type="range" min="300" max="400" value="400" step="1"></label></div><div class="timeline-scroll" id="timeline-scroll"><div class="timeline-track" id="timeline-track" role="list" aria-label="Événements de l’an 300 à l’an 400"></div></div><p class="timeline-status" id="timeline-status" aria-live="polite"></p></div></div>
+          </section>
+          <section class="lore-panel" data-lore-panel="admin" hidden><div class="lore-panel__intro"><p class="section-kicker">Gestion par GitHub</p><h3>Administration du Lore</h3><p>Cet espace public ne possède ni connexion ni écriture distante. Les modifications persistantes se font exclusivement dans le repository GitHub.</p></div><div class="admin-grid"><article><h4>Chronologie</h4><p>Modifiez <code>data/world-timeline.json</code>. Relations : <code>causes</code>, <code>consequences</code> et <code>relatedEvents</code>.</p><a href="./data/world-timeline.json">Ouvrir la chronologie</a></article><article><h4>Carte</h4><p>Les coordonnées et niveaux de détail se trouvent dans <code>data/world-map.json</code>. Grille interne : 1200 × 800.</p><a href="./data/world-map.json">Ouvrir la carte</a></article><article><h4>Clans & techniques</h4><p>Le Lore reste séparé du recensement : <code>data/lore-clans.json</code> et <code>data/techniques.json</code>.</p><a href="./data/lore-clans.json">Ouvrir le Lore des clans</a></article><article class="admin-validator"><h4>Validateur local</h4><p>Collez un tableau JSON pour vérifier sa syntaxe. Rien n’est envoyé ni enregistré.</p><textarea id="json-validator-input" rows="7" placeholder='[{ "id": "..." }]'></textarea><button type="button" id="validate-json">Vérifier le JSON</button><p id="validation-result" aria-live="polite"></p></article></div></section>
+          <div class="notice notice--error" id="lore-error" role="alert" hidden><strong>Les archives ne peuvent pas être chargées.</strong><span>Vérifiez les fichiers JSON du Lore.</span></div>
         </section>
       </main>
-
-      <footer>
-        <span>Shinobi Renaissance</span>
-        <span aria-hidden="true">•</span>
-        <span>Registre public en lecture seule</span>
-        <span aria-hidden="true">•</span>
-        <span>© 2026 Shinobi Renaissance / LuckyHamb — Tous droits réservés.</span>
-      </footer>
+      <footer><span>Shinobi Renaissance</span><span aria-hidden="true">•</span><span>Registre public en lecture seule</span><span aria-hidden="true">•</span><span>Dernière année historique : 400</span><span aria-hidden="true">•</span><span>© 2026 Shinobi Renaissance / LuckyHamb — Tous droits réservés.</span></footer>
     </div>
   </body>
 </html>

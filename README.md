@@ -1,8 +1,22 @@
-# Shinobi Renaissance — Recensement des clans
+# Shinobi Renaissance — Registre & Archives du Siècle
 
-Site public et statique de consultation du recensement des clans du serveur Minecraft RP **Shinobi Renaissance**.
+Site public et statique de consultation du recensement et du Lore du serveur Minecraft RP **Shinobi Renaissance**.
 
 Il fonctionne avec HTML, CSS, JavaScript Vanilla et JSON, sans base de données, sans compte administrateur, sans dépendance et sans commande d’installation. Les visiteurs peuvent uniquement consulter les données.
+
+## Encyclopédie du Lore
+
+L’onglet **Lore** contient cinq espaces : Clans, Chroniques, Techniques, Carte & Chronologie et Administration.
+
+- `data/world-timeline.json` contient tous les événements historiques, leurs lieux et leurs relations.
+- `data/world-map.json` contient la géographie, les routes, les niveaux de détail et les états historiques.
+- `data/lore-clans.json` contient les origines, traditions et héritages des dix-neuf groupes du registre.
+- `data/techniques.json` contient les techniques historiques.
+- `data/locations/konoha.json` contient la scène détaillée chargée uniquement à proximité de Konoha.
+
+La carte utilise une grille interne de 1200 × 800 indépendante de la résolution de l’écran. Les niveaux Monde, Pays, Région, Village et Village 3D apparaissent progressivement pendant le zoom. La scène 3D de Konoha utilise WebGL et possède un fallback 2D.
+
+L’Administration du Lore reste volontairement publique et sans connexion : elle documente les fichiers à modifier et permet uniquement de valider localement la syntaxe d’un JSON. Les modifications persistantes passent par GitHub.
 
 ## Modifier le recensement
 
@@ -61,7 +75,7 @@ Cette étape est facultative pour GitHub Pages.
 ## Publier gratuitement avec GitHub Pages
 
 1. Connectez-vous à GitHub puis créez un nouveau repository, par exemple `recensement`.
-2. Ajoutez à la racine du repository `index.html`, `style.css`, `script.js`, `README.md` et le dossier `data` contenant `clans.json`.
+2. Ajoutez tous les fichiers et dossiers du projet à la racine du repository, notamment `index.html`, `style.css`, `script.js`, `navigation.js`, `lore`, `assets` et `data`.
 3. Validez les fichiers sur la branche `main`.
 4. Ouvrez l’onglet **Settings** du repository.
 5. Dans le menu latéral, ouvrez **Pages**.
@@ -82,4 +96,4 @@ Toutes les ressources utilisent des chemins relatifs, le site fonctionne donc da
 
 ## Sécurité
 
-Ce projet ne contient ni page d’administration, ni mot de passe, ni jeton GitHub, ni clé d’API. Les modifications sont réalisées uniquement depuis le repository GitHub par les personnes qui y ont accès.
+Ce projet ne contient ni authentification, ni mot de passe, ni jeton GitHub, ni clé d’API. Les espaces « Administration » sont uniquement des aides publiques de consultation/validation ; les modifications persistantes sont réalisées depuis le repository GitHub par les personnes qui y ont accès.

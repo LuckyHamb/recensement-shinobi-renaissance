@@ -1,0 +1,211 @@
+[
+  {
+    "id": "uchiha",
+    "motto": "Voir avant de frapper",
+    "origin": "Nés parmi les guetteurs des plateaux centraux, les Uchiha ont fait de l'observation une charge publique avant qu'elle ne devienne un pouvoir politique.",
+    "traditions": "Chaque chef transmet un carnet de veille scellé. Une vérité cachée y est considérée comme une dette envers la génération suivante.",
+    "specialties": ["lecture du terrain","contre-espionnage","illusions de diversion"],
+    "figures": ["Kagetsu Uchiha — chef de la Veille Écarlate","Itsuro Uchiha — négociateur des Derniers Feux"],
+    "conflicts": "Le secret de leurs rapports les opposa aux Nara et aux Senju. La destruction de l'Observatoire força le clan à partager ses archives.",
+    "alliances": "Membre du Pacte des Trois Maisons ; rivalité surveillée avec les Chinoike depuis la Vallée Rouge.",
+    "legacy": "En l'an 400, le clan garde les frontières sans posséder seul la mémoire de ce qu'il voit."
+  },
+  {
+    "id": "senju",
+    "motto": "Ce qui dure abrite",
+    "origin": "Les Senju descendent de bâtisseurs forestiers capables d'unir des hameaux sans effacer leurs coutumes.",
+    "traditions": "Le chef plante un cèdre à chaque traité et ne peut l'abattre, même lorsque l'alliance échoue.",
+    "specialties": ["fortification vivante","médecine de campagne","diplomatie territoriale"],
+    "figures": ["Dame Aoba Senju — fondatrice du Serment du Cèdre","Hanae Senju — commandante de 396"],
+    "conflicts": "Le contrôle des canaux les entraîna dans le Conflit des Roseaux puis la Guerre des Portes de Brume.",
+    "alliances": "Pilier de Konoha, allié des Nara et des Lee ; accord commercial durable avec les Sabaku.",
+    "legacy": "Ils ont transformé un refuge en institution, mais portent encore la responsabilité des anciennes frontières."
+  },
+  {
+    "id": "kamizuru",
+    "motto": "Mille ailes, une nouvelle",
+    "origin": "Installés dans le Bois du Miel, les Kamizuru ont domestiqué des essaims capables de mémoriser routes et odeurs.",
+    "traditions": "Une reine n'est jamais déplacée sans qu'un messager humain accomplisse le même trajet.",
+    "specialties": ["messagerie d'essaim","toxines médicinales","cartographie olfactive"],
+    "figures": ["Mitsuba Kamizuru — architecte des Essaims d'Or"],
+    "conflicts": "Leur neutralité fut contestée lorsqu'ils portèrent des ordres contradictoires durant la guerre de 339.",
+    "alliances": "Partenaires scientifiques des Arashi et gardiens des copies des Archives Vivantes.",
+    "legacy": "Le réseau d'essaims demeure la circulation invisible qui relie les Treize."
+  },
+  {
+    "id": "uzumaki",
+    "motto": "Lier sans emprisonner",
+    "origin": "Les Uzumaki protégeaient les passages fluviaux avant de devenir les maîtres des sceaux de régulation.",
+    "traditions": "Tout sceau public doit pouvoir être défait par une seconde personne, afin qu'aucun gardien ne devienne tyran.",
+    "specialties": ["sceaux hydrauliques","barrières","conservation d'archives"],
+    "figures": ["Mitoe Uzumaki — fondatrice des Canaux des Spirales"],
+    "conflicts": "Accusés de favoriser le centre, ils gagnèrent la confiance des Dunes en résolvant la sécheresse de 380.",
+    "alliances": "Membre de l'Alliance des Trois Familles avec Nara et Lee ; coopération technique avec Hozuki et Sabaku.",
+    "legacy": "Leurs canaux prouvent qu'une technique de clan peut devenir un bien commun."
+  },
+  {
+    "id": "sabaku",
+    "motto": "La route vaut plus que le mur",
+    "origin": "Les Sabaku sont issus des gardiens de puits et de caravanes des Étendues du Vent.",
+    "traditions": "Les itinéraires sont chantés plutôt qu'écrits ; chaque étape omise invalide le récit.",
+    "specialties": ["survie désertique","défense minérale","logistique caravanière"],
+    "figures": ["Renga Sabaku — signataire des Caravanes de Cendre"],
+    "conflicts": "Leur ancien droit sur les puits alimenta le Conflit des Roseaux ; la Grande Sécheresse faillit diviser le clan.",
+    "alliances": "Accord des Cinq Routes avec Kaze, Senju, Arashi et Hozuki ; gestion des canaux avec Uzumaki.",
+    "legacy": "Le clan a troqué un monopole fragile contre la sécurité d'un réseau partagé."
+  },
+  {
+    "id": "lee",
+    "motto": "La volonté précède le nom",
+    "origin": "La famille Lee rassembla des combattants sans héritage technique reconnu et en fit une école disciplinée.",
+    "traditions": "Chaque maître enseigne gratuitement un mouvement à une personne extérieure au clan.",
+    "specialties": ["combat corporel","secours de terrain","formation civile"],
+    "figures": ["Seigan Lee — médiateur de la Vallée Rouge et fondateur de la Porte Claire"],
+    "conflicts": "Les lignées anciennes dénoncèrent l'ouverture de leur école, avant d'admettre ses gardiens dans les institutions.",
+    "alliances": "Alliance des Trois Familles ; soutien constant aux réformes Nara et aux refuges Senju.",
+    "legacy": "Le clan a rendu la défense du monde accessible au-delà de la naissance."
+  },
+  {
+    "id": "nara",
+    "motto": "Une ombre révèle la forme",
+    "origin": "Les Nara surveillaient les marais centraux, où toute décision trop rapide se perdait dans les eaux.",
+    "traditions": "Un débat ne peut être clos avant que le plus jeune membre ait formulé l'argument adverse.",
+    "specialties": ["stratégie","médiation","archivage relationnel"],
+    "figures": ["Shikano Nara — arbitre du Pacte et du Conseil des Ombres Longues"],
+    "conflicts": "Leur exigence de transparence les opposa longtemps à la Veille Uchiha.",
+    "alliances": "Pivot des institutions de Konoha, partenaire des Uzumaki et Lee dans la protection civile.",
+    "legacy": "Leur index des causes et conséquences sert aujourd'hui de colonne vertébrale aux Archives du Siècle."
+  },
+  {
+    "id": "kaze",
+    "motto": "Le passage appartient à qui l'entretient",
+    "origin": "Les Kaze vivaient sur les cols où le vent efface les traces et impose une lecture constante du relief.",
+    "traditions": "Les fanions d'un chef défunt restent une saison entière sur la Passe des Rafales.",
+    "specialties": ["navigation","signaux aériens","contrôle des cols"],
+    "figures": ["Tsubasa Kaze — créateur des Balises de la Passe"],
+    "conflicts": "Leur taxe des convois les plaça au cœur du conflit territorial de 327.",
+    "alliances": "Partenaires des Sabaku et Arashi ; garants occidentaux de l'Accord des Cinq Routes.",
+    "legacy": "Ils ont transformé des signaux secrets en langage commun de sécurité."
+  },
+  {
+    "id": "terumi",
+    "motto": "De la braise naît la forme",
+    "origin": "Les Terumi se sont établis autour de la Caldeira, travaillant chaleur, verre et terres volcaniques.",
+    "traditions": "Chaque catastrophe donne lieu à un objet de verre noir où sont gravés les noms des disparus.",
+    "specialties": ["chaleur contrôlée","verre volcanique","reconstruction de terrain"],
+    "figures": ["Enra Terumi — cheffe durant l'Éruption des Braises Sombres"],
+    "conflicts": "Leur alliance orientale avec les Hozuki les entraîna dans la Guerre des Portes de Brume.",
+    "alliances": "Partenariat vital avec Hozuki ; rapprochement avec Senju après la reconstruction du Gué des Cendres.",
+    "legacy": "Le clan ne cache plus les risques de la Caldeira et partage ses relevés avec les Archives."
+  },
+  {
+    "id": "arashi",
+    "motto": "Prévoir n'est pas posséder",
+    "origin": "Les Arashi sont des observateurs de pression et d'électricité établis dans la Couronne de l'Orage.",
+    "traditions": "Une prévision est annoncée publiquement avant d'être vendue à une armée.",
+    "specialties": ["météorologie","électricité dirigée","navigation d'altitude"],
+    "figures": ["Raiden Arashi — inventeur de la Boussole d'Orage"],
+    "conflicts": "Leur commerce d'informations aux deux camps en 339 entacha durablement leur neutralité.",
+    "alliances": "Recherche commune avec les Kamizuru et sécurisation des routes avec les Kaze.",
+    "legacy": "La Boussole d'Orage protège désormais voyageurs et récoltes au lieu de servir une coalition."
+  },
+  {
+    "id": "chinoike",
+    "motto": "La mémoire coule sous la pierre",
+    "origin": "Les Chinoike lisaient les veines minérales des Marches d'Ivoire avant leur exil au Lac Carmin.",
+    "traditions": "Chaque dette est inscrite sur une plaque minérale, puis brisée publiquement lorsqu'elle est réglée.",
+    "specialties": ["détection minérale","pièges souterrains","mémoire rituelle"],
+    "figures": ["Saika Chinoike — cheffe des exilés et signataire de la Trêve du Bassin"],
+    "conflicts": "L'exil Kaguya et les galeries de la Vallée Rouge ont défini un demi-siècle de méfiance.",
+    "alliances": "Trêve de 393 avec Kaguya et Hozuki ; coopération prudente avec les Uchiha après 387.",
+    "legacy": "Le clan est revenu dans le droit commun sans abandonner la mémoire de l'exil."
+  },
+  {
+    "id": "hozuki",
+    "motto": "L'eau garde le chemin",
+    "origin": "Les Hozuki habitaient des villages flottants et déplaçaient leurs archives avec les marées.",
+    "traditions": "Aucun port n'est déclaré permanent avant d'avoir survécu à trois crues.",
+    "specialties": ["hydraulique","navigation brumeuse","défense fluide"],
+    "figures": ["Nami Hozuki — bâtisseuse du Port des Voiles"],
+    "conflicts": "Leur migration de 336 et le détournement des eaux lors de l'éruption eurent des conséquences jusqu'aux Dunes.",
+    "alliances": "Alliance historique avec Terumi ; entretien des Canaux avec Uzumaki et Sabaku.",
+    "legacy": "Le clan relie désormais les côtes, les nappes et les mémoires du monde."
+  },
+  {
+    "id": "kaguya",
+    "motto": "Les morts bornent le chemin des vivants",
+    "origin": "Les Kaguya furent les gardiens des nécropoles du nord et des anciennes pistes d'Ivoire.",
+    "traditions": "Un chef ne peut déplacer une frontière sans consulter les gardiens des sépultures concernées.",
+    "specialties": ["défense osseuse","archéologie guerrière","endurance"],
+    "figures": ["Oroha Kaguya — guide du Pèlerinage d'Ivoire"],
+    "conflicts": "Le contrôle des tombes provoqua l'exil des Chinoike et des décennies de heurts.",
+    "alliances": "La Trêve du Bassin Carmin partage aujourd'hui sanctuaires, minerais et eaux avec Chinoike et Hozuki.",
+    "legacy": "Ils sont passés de gardiens exclusifs à conservateurs reconnus d'une mémoire commune."
+  },
+  {
+    "id": "hyuga",
+    "motto": "Voir loin, répondre de chaque regard",
+    "origin": "Des familles de sentinelles des plateaux du Feu ont organisé le Byakugan comme un devoir de protection des routes et des lieux habités.",
+    "traditions": "La Cour des Yeux Clos rappelle que la vision individuelle ne suffit pas à protéger un groupe ; le Thé des Deux Maisons confronte les décisions aux conséquences supportées par chaque branche.",
+    "specialties": ["Byakugan","Jūken","observation du chakra"],
+    "figures": ["Noritsugu Hyuga — gardien de la maison","Chizue Hyuga — maîtresse des cadets"],
+    "conflicts": "La rigidité entre maison principale et branches cadettes nourrit un débat sur l’obéissance, la responsabilité et l’usage du regard dans la vie civile.",
+    "alliances": "Coopération tactique avec les Nara ; respect prudent et rivalité de perception avec les Uchiha.",
+    "legacy": "En l’an 400, les Hyuga assurent une part de la vigilance de Konoha tout en négociant des limites écrites à l’usage du Byakugan."
+  },
+  {
+    "id": "kibin",
+    "motto": "La vitesse commence par un choix, pas par un pas",
+    "origin": "Les premiers relais Kibin liaient des hameaux de montagne. Leurs écoles ont fait de la lecture du mouvement, de l’agilité et du choix d’itinéraire une discipline de messagers.",
+    "traditions": "Le Pas Retenu apprend à annuler une course au bon moment ; le Ruban Rapporté valorise la mission accomplie sans transformer chaque trajet en compétition.",
+    "specialties": ["pupilles de déplacement","lecture des mouvements","agilité","vitesse"],
+    "figures": ["Yasukatsu Kibin — premier messager","Natsue Kibin — maîtresse de transmission"],
+    "conflicts": "La recherche de records a longtemps opposé performance visible et sécurité des messagers, jusqu’à reconnaître le droit d’interrompre un trajet dangereux.",
+    "alliances": "Échanges réguliers avec les Arashi et les réseaux de messagers de Konoha.",
+    "legacy": "En l’an 400, les Kibin structurent une partie des liaisons rapides du village et enseignent que percevoir plus vite ne signifie pas agir sans prudence."
+  },
+  {
+    "id": "kurisutaru",
+    "motto": "Ce qui paraît pur porte encore la trace de sa fracture",
+    "origin": "Des tailleurs des montagnes ont rapproché leurs observations sur la croissance et la fracture des cristaux, donnant naissance aux premières écoles du Shōton.",
+    "traditions": "La Première Fissure oblige l’apprenti à expliquer un échec ; le Prisme Commun fait travailler plusieurs maisons sur une œuvre qu’aucune ne peut revendiquer seule.",
+    "specialties": ["Shōton","construction cristalline","défense et emprisonnement"],
+    "figures": ["Masakuni Kurisutaru — maître des prismes","Hisano Kurisutaru — maîtresse de transmission"],
+    "conflicts": "Les besoins militaires ont poussé le clan vers des ouvrages trop grands et parfois instables, créant une culture de contrôle des contraintes et du droit au refus technique.",
+    "alliances": "Collaboration avec les Uzumaki sur les structures scellées et les systèmes pouvant être désactivés.",
+    "legacy": "En l’an 400, leurs ateliers participent à la consolidation de Konoha et défendent une pratique du Shōton qui assume ses limites."
+  },
+  {
+    "id": "yuki",
+    "motto": "Le dégel fait partie de notre ouvrage",
+    "origin": "Des familles des vallées froides ont transmis des techniques de conservation et de défense liées à la glace avant de disperser leurs carnets pendant les périodes de réquisition.",
+    "traditions": "Le Jardin de Dégel exige de faire disparaître une construction sans dégâts ; la Première Eau partage l’eau de fonte avec les jardins voisins.",
+    "specialties": ["Hyōton","glace","conservation","contrôle de zone"],
+    "figures": ["Takatsugu Yuki — gardien des saisons","Fuyue Yuki — maîtresse de transmission"],
+    "conflicts": "La peur du Hyōton et la confiscation des réserves ont forcé plusieurs familles à choisir entre dissimulation de leur héritage et démonstration de son utilité civile.",
+    "alliances": "Coopération avec les Karatachi autour de l’eau, des réserves et des infrastructures de conservation.",
+    "legacy": "En l’an 400, des familles Yuki entretiennent à Konoha des réserves de vivres et de remèdes tout en protégeant leurs enfants de toute instrumentalisation."
+  },
+  {
+    "id": "karatachi",
+    "motto": "Écouter le courant ne dispense pas de choisir une rive",
+    "origin": "Les communautés des bassins et des estuaires se sont réunies autour de règles de prélèvement, de coquillages-repères et d’une forme particulière du Suiton.",
+    "traditions": "La Coquille Écoutée apprend à lire un bassin à partir de signes observables ; le Jour des Berges fait entretenir par chaque maison une rive utilisée par une autre.",
+    "specialties": ["coquillages","Suiton particulier","arts aquatiques","gestion des bassins"],
+    "figures": ["Narikatsu Karatachi — gardien des bassins","Toshie Karatachi — maîtresse de transmission"],
+    "conflicts": "Les ouvrages militaires ont parfois détourné l’eau de quartiers habités, opposant protection des fortifications et équilibre des usages en aval.",
+    "alliances": "Échanges réguliers avec les Hozuki et coopération avec les Yuki sur les usages de l’eau.",
+    "legacy": "En l’an 400, les Karatachi entretiennent des bassins de Konoha et défendent une doctrine où toute technique aquatique doit tenir compte de ceux qui vivent en aval."
+  },
+  {
+    "id": "sans-clan",
+    "motto": "L’héritage peut commencer avec nous",
+    "origin": "Voyageurs, artisans et élèves indépendants ont longtemps appris auprès de maîtres temporaires sans partager une origine familiale unique.",
+    "traditions": "Le Carnet du Premier Maître transmet les conseils reçus ; la Table des Noms Choisis permet de demander de l’aide et de reconnaître des familles de cœur.",
+    "specialties": ["apprentissages libres","éléments","armes","taijutsu","ninjutsu","genjutsu"],
+    "figures": ["Tsunekichi — délégué élu","Yoshie — maîtresse de transmission"],
+    "conflicts": "L’absence de conseil familial a longtemps compliqué l’accès aux maîtres, aux missions et à la représentation, donnant naissance à des réseaux d’entraide.",
+    "alliances": "Relations ouvertes avec les écoles de Konoha, notamment les Lee pour le mentorat et l’entraînement.",
+    "legacy": "En l’an 400, le statut Sans clan permet un engagement individuel envers le village sans accorder automatiquement aucun art héréditaire."
+  }
+]
