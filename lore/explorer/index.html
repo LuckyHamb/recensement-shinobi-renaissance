@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#090b0f">
+  <meta name="description" content="Carte et chronologie interactive du monde de Shinobi Renaissance, de l’an 300 au début du RP en l’an 400.">
+  <title>Carte & Chronologie — Shinobi Renaissance</title>
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="../lore.css">
+  <link rel="stylesheet" href="../explorer.css">
+  <script type="module" src="../explorer-app.js"></script>
+</head>
+<body class="lore">
+  <a class="skip-link" href="#world-explorer">Aller à la carte</a>
+  <div class="page-shell">
+    <header class="masthead">
+      <div class="masthead__mark" aria-hidden="true">忍</div>
+      <div class="masthead__copy">
+        <p class="eyebrow">Archives officielles</p>
+        <h1>Shinobi Renaissance</h1>
+        <p class="masthead__title">Carte & Chronologie</p>
+        <p class="masthead__intro">Parcourez le monde entre l’an 300 et l’an 400 et suivez les événements qui ont façonné l’ère actuelle.</p>
+      </div>
+    </header>
+    <nav class="site-nav" aria-label="Navigation principale">
+      <a href="../../">Recensement</a>
+      <a href="../">Clans</a>
+      <a href="../chroniques/">Chroniques</a>
+      <a href="./" aria-current="page">Carte & Chronologie</a>
+      <a href="../administration/">⚙ Administration</a>
+    </nav>
+    <main>
+      <section class="registry lore-view" aria-labelledby="map-title">
+        <div class="section-heading">
+          <div><p class="section-kicker">Un siècle d’histoire</p><h2 id="map-title">Le monde de l’an 300 à l’an 400</h2></div>
+          <p class="result-count" id="timeline-summary" aria-live="polite">Chargement des archives…</p>
+        </div>
+        <div class="map-toolbar" aria-label="Filtres de la carte">
+          <label><span>Recherche</span><input id="lore-search" type="search" placeholder="Année, clan, lieu, personnage…"></label>
+          <label><span>Clan</span><select id="clan-filter"><option value="all">Tous les clans</option></select></label>
+          <label><span>Type</span><select id="category-filter"><option value="all">Tous les événements</option><option value="battle">Batailles</option><option value="alliance">Alliances</option><option value="discovery">Découvertes</option><option value="catastrophe">Catastrophes</option><option value="politics">Politique</option><option value="migration">Migrations</option></select></label>
+          <label><span>Importance</span><select id="importance-filter"><option value="all">Tous les niveaux</option><option value="major">Majeurs et historiques</option><option value="historic">Historiques uniquement</option></select></label>
+          <label><span>Période</span><select id="period-filter"><option value="all">300–400</option><option value="300-324">300–324</option><option value="325-349">325–349</option><option value="350-374">350–374</option><option value="375-399">375–399</option><option value="400-400">An 400</option></select></label>
+        </div>
+        <div class="world-explorer" id="world-explorer">
+          <div class="map-stage" id="map-stage" tabindex="0" aria-label="Carte interactive du monde shinobi. Faites glisser pour vous déplacer et utilisez la molette ou les boutons pour zoomer.">
+            <canvas id="world-map-canvas"></canvas>
+            <canvas id="location-3d-canvas" hidden></canvas>
+            <div class="map-controls"><button type="button" id="zoom-in" aria-label="Zoomer">+</button><button type="button" id="zoom-out" aria-label="Dézoomer">−</button><button type="button" id="reset-map" aria-label="Recentrer la carte">⌂</button></div>
+            <div class="map-hud"><span class="compass" aria-label="Nord">N</span><span id="zoom-level">Monde · 1,0×</span><span id="map-coordinates">600 · 400</span><span class="scale"><i id="scale-bar"></i><b id="scale-label">200 km</b></span></div>
+            <div class="map-legend"><span><i class="legend-dot legend-dot--village"></i>Village</span><span><i class="legend-dot legend-dot--event"></i>Événement</span><span><i class="legend-line"></i>Route historique</span></div>
+            <p class="lod-notice" id="lod-notice">Vue du monde</p>
+            <article class="event-sheet" id="event-sheet" hidden aria-live="polite"></article>
+          </div>
+          <div class="timeline-dock">
+            <div class="timeline-head"><div><span>Chronologie du monde</span><strong id="timeline-year-label">An 400 · Début du RP</strong></div><label for="year-slider">État du monde <input id="year-slider" type="range" min="300" max="400" value="400" step="1"></label></div>
+            <div class="timeline-scroll" id="timeline-scroll"><div class="timeline-track" id="timeline-track" role="list" aria-label="Événements de l’an 300 à l’an 400"></div></div>
+            <p class="timeline-status" id="timeline-status" aria-live="polite"></p>
+          </div>
+        </div>
+        <div class="notice notice--error" id="lore-error" role="alert" hidden><strong>La carte ne peut pas être chargée.</strong><span>Vérifiez les fichiers de chronologie et de carte.</span></div>
+      </section>
+    </main>
+    <footer><span>Shinobi Renaissance</span><span aria-hidden="true">•</span><span>Archives publiques en lecture seule</span><span aria-hidden="true">•</span><span>AN 400 — début du RP</span><span aria-hidden="true">•</span><span>© 2026 Shinobi Renaissance / LuckyHamb — Tous droits réservés.</span></footer>
+  </div>
+</body>
+</html>
