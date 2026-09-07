@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "id": "chinoike",
+  "name": "Chinoike",
+  "displayName": "「 C H I N O I K E 」",
+  "emblem": "assets/clans/chinoike/emblem.svg",
+  "emblemNote": "Interprétation graphique pour les archives ; symbole non présenté comme preuve canonique.",
+  "tagline": "Les témoins d’une mémoire blessée",
+  "quote": "Notre regard n’est pas le verdict des autres.",
+  "currentVillage": "Konoha",
+  "originVillage": "Kumo",
+  "v1Village": "Konoha",
+  "v2Village": "Kumo",
+  "status": "active",
+  "elements": [],
+  "specialties": [
+    "Ketsuryūgan"
+  ],
+  "tags": [
+    "Dōjutsu"
+  ],
+  "presentation": [
+    "Les Chinoike ont reçu un asile collectif à Konoha après des accusations visant leurs pratiques oculaires. Une charte de témoignage protège les familles et encadre les expertises demandées par la justice du village.",
+    "Certains souhaitent rester invisibles ; d’autres veulent occuper des fonctions publiques pour combattre les préjugés. Les désaccords portent sur la confiance à accorder à une institution qui pourrait un jour retirer son accueil.",
+    "Une famille extérieure demande l’expertise d’un Chinoike tout en refusant qu’il entre chez elle. Accepter peut créer un précédent humiliant ; refuser peut laisser une accusation injuste sans réponse. L’intrigue porte sur les conditions d’un témoignage autant que sur son contenu."
+  ],
+  "appearance": [
+    "Les accents grenat sont fréquents, mais le clan ne prescrit aucun aspect menaçant. Des lentilles ou voiles peuvent protéger l’intimité d’un regard plutôt que cacher une intention hostile."
+  ],
+  "lifestyle": [
+    "Les maisons organisent des salles d’étude calmes et des exercices supervisés. Les enfants apprennent à distinguer preuve et accusation. Les repas accueillent les témoins de confiance ; mariages et héritages protègent la confidentialité des récits personnels."
+  ],
+  "traditions": [
+    {
+      "title": "La Coupe Intacte",
+      "text": "Le candidat expose un conflit sans désigner de coupable avant d’avoir entendu chaque témoin."
+    },
+    {
+      "title": "La Lettre Restituée",
+      "text": "Une fois l’an, chaque maison rend un témoignage confié à son auteur, qui peut en corriger le sens."
+    }
+  ],
+  "history": [
+    "Des familles de témoins des vallées ont transmis une perception oculaire dont les usages étaient débattus dès l’origine. Leurs archives distinguaient la mémoire d’un événement du jugement porté sur ses acteurs.",
+    "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Certains souhaitent rester invisibles ; d’autres veulent occuper des fonctions publiques pour combattre les préjugés.",
+    "Les guerres ont rendu leurs regards précieux puis suspects. Des accusations collectives ont accompagné la disparition de certains témoignages, donnant aux survivants des raisons contradictoires de se taire ou de parler.",
+    "Les accords avec les autorités liées à Kumo ont placé les maisons sous une surveillance qu’elles contestaient. Le droit de faire examiner une accusation par un arbitre extérieur devient leur revendication centrale.",
+    "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Les Chinoike ont reçu un asile collectif à Konoha après des accusations visant leurs pratiques oculaires. Une charte de témoignage protège les familles et encadre les expertises demandées par la justice du village."
+  ],
+  "timeline": [
+    {
+      "id": "period-1",
+      "period": "Origines",
+      "title": "Les premières maisons",
+      "text": "Des familles de témoins des vallées ont transmis une perception oculaire dont les usages étaient débattus dès l’origine. Leurs archives distinguaient la mémoire d’un événement du jugement porté sur ses acteurs.",
+      "future": false
+    },
+    {
+      "id": "period-2",
+      "period": "Ère des clans",
+      "title": "Savoirs et serments",
+      "text": "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Certains souhaitent rester invisibles ; d’autres veulent occuper des fonctions publiques pour combattre les préjugés.",
+      "future": false
+    },
+    {
+      "id": "period-3",
+      "period": "Guerres",
+      "title": "Le prix des conflits",
+      "text": "Les guerres ont rendu leurs regards précieux puis suspects. Des accusations collectives ont accompagné la disparition de certains témoignages, donnant aux survivants des raisons contradictoires de se taire ou de parler.",
+      "future": false
+    },
+    {
+      "id": "period-4",
+      "period": "Formation des villages",
+      "title": "Un nouvel ordre",
+      "text": "Les accords avec les autorités liées à Kumo ont placé les maisons sous une surveillance qu’elles contestaient. Le droit de faire examiner une accusation par un arbitre extérieur devient leur revendication centrale.",
+      "future": false
+    },
+    {
+      "id": "period-5",
+      "period": "Période moderne",
+      "title": "Les équilibres fragiles",
+      "text": "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Les Chinoike ont reçu un asile collectif à Konoha après des accusations visant leurs pratiques oculaires. Une charte de témoignage protège les familles et encadre les expertises demandées par la justice du village.",
+      "future": false
+    },
+    {
+      "id": "period-6",
+      "period": "V1 du serveur",
+      "title": "Un foyer à Konoha",
+      "text": "Les Chinoike ont reçu un asile collectif à Konoha après des accusations visant leurs pratiques oculaires. Une charte de témoignage protège les familles et encadre les expertises demandées par la justice du village.",
+      "future": false
+    },
+    {
+      "id": "period-7",
+      "period": "V2 — horizon",
+      "title": "Une destination à négocier",
+      "text": "Kumo est conservé comme destination prévue pour la V2. Un retour dépendra des accords RP : les foyers déjà établis au Feu auront leurs propres raisons de partir ou de rester.",
+      "future": true
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "leader",
+      "title": "Porte-parole des maisons",
+      "description": "Responsabilité politique et arbitrage des engagements.",
+      "level": 0,
+      "parent": null,
+      "accessLevel": 4
+    },
+    {
+      "id": "council",
+      "title": "Conseil des témoins",
+      "description": "Délibération et transmission des règles.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "guard",
+      "title": "Gardiens du regard",
+      "description": "Protection et surveillance des lieux confiés.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "masters",
+      "title": "Maîtres oculaires",
+      "description": "Enseignement et accompagnement des missions.",
+      "level": 2,
+      "parent": "council",
+      "accessLevel": 2
+    },
+    {
+      "id": "cadets",
+      "title": "Élèves protégés",
+      "description": "Apprentissage sous la responsabilité d'un référent.",
+      "level": 3,
+      "parent": "masters",
+      "accessLevel": 1
+    }
+  ],
+  "powers": [
+    {
+      "title": "Capacité principale",
+      "text": "Ketsuryūgan, genjutsu oculaire, perception particulière et contrôle lié au sang selon les limites RP."
+    },
+    {
+      "title": "Passifs et aptitudes",
+      "text": "La pratique régulière de cette spécialité développe des réflexes et une lecture du terrain propres à chaque école. Le nom Chinoike ne garantit pas la maîtrise individuelle."
+    },
+    {
+      "title": "Limites et vulnérabilités",
+      "text": "Conditions de contact ou de perception, concentration et conséquences physiques doivent être respectées ; aucun contrôle illimité des personnes."
+    },
+    {
+      "title": "Conditions et progression",
+      "text": "L'apprentissage commence par les usages contrôlés, puis la durée et la précision. Les techniques avancées requièrent un maître, un parcours RP et l'accord de l'administration."
+    }
+  ],
+  "techniques": [
+    {
+      "id": "chinoike-1",
+      "name": "Regard du Témoin",
+      "japaneseName": "Shōnin no Me",
+      "rank": "C",
+      "type": "Genjutsu",
+      "element": "Aucun",
+      "description": "Un genjutsu bref accentue une perception déjà présente pour détourner l’attention d’une cible. Il suit les conditions du Ketsuryūgan et ne transforme pas une suggestion en vérité absolue.",
+      "requirements": "Pratique supervisée de cette discipline, avec un maître référent et des limites RP validées.",
+      "secret": false,
+      "category": "ENSEIGNEMENT",
+      "minimumHierarchyLevel": 1,
+      "minimumGrade": "Genin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "public"
+    },
+    {
+      "id": "chinoike-2",
+      "name": "Mémoire du Lac Clos",
+      "japaneseName": "Tozasu Mizuumi",
+      "rank": "A",
+      "type": "Ketsuryūgan",
+      "element": "Aucun",
+      "description": "",
+      "requirements": "Rang confirmé, maître référent et validation RP.",
+      "secret": true,
+      "category": "HÉRITAGE",
+      "minimumHierarchyLevel": 3,
+      "minimumGrade": "Jōnin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "classified"
+    }
+  ],
+  "characters": [
+    {
+      "id": "chinoike-person-1",
+      "name": "Sadatsugu Chinoike",
+      "role": "Responsable actuel",
+      "biography": "Sadatsugu a obtenu la charte d’asile en exigeant que chaque famille soit entendue séparément. Il refuse qu’un seul incident puisse annuler la protection de tous.",
+      "original": true
+    },
+    {
+      "id": "chinoike-person-2",
+      "name": "Michie Chinoike",
+      "role": "Maîtresse de transmission",
+      "biography": "Michie forme des témoins capables d’avouer les limites de leurs souvenirs. Elle conserve une lettre qu’un ancien chef lui avait ordonné de détruire.",
+      "original": true
+    }
+  ],
+  "relations": [
+    {
+      "targetClan": "hyuga",
+      "status": "AMICAL",
+      "description": "Des échanges réguliers de maîtres et de services rapprochent les deux communautés.",
+      "historicalReason": "L'installation à Konoha a rendu leurs savoirs complémentaires."
+    }
+  ],
+  "heroImage": null,
+  "illustrations": []
+}
+

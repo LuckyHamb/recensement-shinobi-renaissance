@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "id": "lee",
+  "name": "Lee",
+  "displayName": "「 L E E 」",
+  "emblem": "assets/clans/lee/emblem.svg",
+  "emblemNote": "Interprétation graphique pour les archives ; symbole non présenté comme preuve canonique.",
+  "tagline": "La discipline au-delà de l’héritage",
+  "quote": "Le corps apprend ce que la volonté accepte de répéter.",
+  "currentVillage": "Konoha",
+  "originVillage": "Konoha",
+  "v1Village": "Konoha",
+  "v2Village": "Konoha",
+  "status": "active",
+  "elements": [],
+  "specialties": [
+    "Taijutsu"
+  ],
+  "tags": [
+    "Taijutsu"
+  ],
+  "presentation": [
+    "Les écoles Lee sont rassemblées à Konoha par une convention d’enseignement physique ouverte aux familles sans art héréditaire. Elles y possèdent leurs premiers dojos communs.",
+    "Une école prône la performance et les défis publics ; une autre privilégie la rééducation et les parcours adaptés. Leur réputation de courage devient dangereuse lorsque des élèves prennent la douleur pour une preuve de mérite.",
+    "Un tournoi pourrait financer un nouveau dojo, mais ses règles favorisent les combattants déjà expérimentés. Les Lee cherchent une formule qui reconnaisse le progrès sans encourager une blessure. Un élève qui refuse de combattre devient un acteur politique de l’école."
+  ],
+  "appearance": [
+    "Bandages, tenues résistantes et chaussures soigneusement entretenues sont fréquents. Aucune coupe de cheveux ni tenue unique ne définit les membres."
+  ],
+  "lifestyle": [
+    "Les journées alternent entraînement, repos et métiers physiques. Les enfants apprennent à tenir un carnet de fatigue. Les repas répondent aux besoins de chacun ; les unions et adoptions transmettent un accès au dojo plutôt qu’une exigence de sang."
+  ],
+  "traditions": [
+    {
+      "title": "Le Jour du Repos",
+      "text": "Pour accéder au rang supérieur, le candidat doit encadrer une séance de récupération et reconnaître une blessure nécessitant l’arrêt."
+    },
+    {
+      "title": "La Ceinture Reprise",
+      "text": "Une ceinture usée est réparée avec l’aide d’un camarade ; chaque couture rappelle une aide reçue."
+    }
+  ],
+  "history": [
+    "Des instructeurs sans art héréditaire ont ouvert des cours de lutte près des chantiers du Feu. Leur école a grandi par l’adoption d’élèves de parcours différents plutôt que par la seule parenté.",
+    "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Une école prône la performance et les défis publics ; une autre privilégie la rééducation et les parcours adaptés.",
+    "Les levées de guerre ont exposé les limites des entraînements fondés sur l’épuisement. Des élèves revenus blessés ont introduit des obligations de repos dans les règlements des dojos.",
+    "Konoha a reconnu les écoles en leur confiant la préparation physique de recrues civiles. L’accès à ces postes a suscité une discussion sur le prix des cours.",
+    "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Les écoles Lee sont rassemblées à Konoha par une convention d’enseignement physique ouverte aux familles sans art héréditaire. Elles y possèdent leurs premiers dojos communs."
+  ],
+  "timeline": [
+    {
+      "id": "period-1",
+      "period": "Origines",
+      "title": "Les premières maisons",
+      "text": "Des instructeurs sans art héréditaire ont ouvert des cours de lutte près des chantiers du Feu. Leur école a grandi par l’adoption d’élèves de parcours différents plutôt que par la seule parenté.",
+      "future": false
+    },
+    {
+      "id": "period-2",
+      "period": "Ère des clans",
+      "title": "Savoirs et serments",
+      "text": "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Une école prône la performance et les défis publics ; une autre privilégie la rééducation et les parcours adaptés.",
+      "future": false
+    },
+    {
+      "id": "period-3",
+      "period": "Guerres",
+      "title": "Le prix des conflits",
+      "text": "Les levées de guerre ont exposé les limites des entraînements fondés sur l’épuisement. Des élèves revenus blessés ont introduit des obligations de repos dans les règlements des dojos.",
+      "future": false
+    },
+    {
+      "id": "period-4",
+      "period": "Formation des villages",
+      "title": "Un nouvel ordre",
+      "text": "Konoha a reconnu les écoles en leur confiant la préparation physique de recrues civiles. L’accès à ces postes a suscité une discussion sur le prix des cours.",
+      "future": false
+    },
+    {
+      "id": "period-5",
+      "period": "Période moderne",
+      "title": "Les équilibres fragiles",
+      "text": "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Les écoles Lee sont rassemblées à Konoha par une convention d’enseignement physique ouverte aux familles sans art héréditaire. Elles y possèdent leurs premiers dojos communs.",
+      "future": false
+    },
+    {
+      "id": "period-6",
+      "period": "V1 du serveur",
+      "title": "Un foyer à Konoha",
+      "text": "Les écoles Lee sont rassemblées à Konoha par une convention d’enseignement physique ouverte aux familles sans art héréditaire. Elles y possèdent leurs premiers dojos communs.",
+      "future": false
+    },
+    {
+      "id": "period-7",
+      "period": "V2 — horizon",
+      "title": "Une destination à négocier",
+      "text": "Konoha reste le point d'ancrage prévu. Les membres pourront négocier leurs affectations selon leur histoire personnelle et les décisions du serveur.",
+      "future": true
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "leader",
+      "title": "Premier instructeur",
+      "description": "Responsabilité politique et arbitrage des engagements.",
+      "level": 0,
+      "parent": null,
+      "accessLevel": 4
+    },
+    {
+      "id": "council",
+      "title": "Conseil des dojos",
+      "description": "Délibération et transmission des règles.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "guard",
+      "title": "Gardiens du repos",
+      "description": "Protection et surveillance des lieux confiés.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "masters",
+      "title": "Instructeurs confirmés",
+      "description": "Enseignement et accompagnement des missions.",
+      "level": 2,
+      "parent": "council",
+      "accessLevel": 2
+    },
+    {
+      "id": "cadets",
+      "title": "Élèves",
+      "description": "Apprentissage sous la responsabilité d'un référent.",
+      "level": 3,
+      "parent": "masters",
+      "accessLevel": 1
+    }
+  ],
+  "powers": [
+    {
+      "title": "Capacité principale",
+      "text": "Vitesse, force, endurance et techniques de combat rapproché se construisent par l’entraînement. Les Portes internes suivent exclusivement la progression RP autorisée."
+    },
+    {
+      "title": "Passifs et aptitudes",
+      "text": "La pratique régulière de cette spécialité développe des réflexes et une lecture du terrain propres à chaque école. Le nom Lee ne garantit pas la maîtrise individuelle."
+    },
+    {
+      "title": "Limites et vulnérabilités",
+      "text": "Le corps reste exposé aux blessures, au manque de récupération et aux adversaires qui contrôlent la distance."
+    },
+    {
+      "title": "Conditions et progression",
+      "text": "L'apprentissage commence par les usages contrôlés, puis la durée et la précision. Les techniques avancées requièrent un maître, un parcours RP et l'accord de l'administration."
+    }
+  ],
+  "techniques": [
+    {
+      "id": "lee-1",
+      "name": "Pas du Pilier",
+      "japaneseName": "Hashira no Ayumi",
+      "rank": "C",
+      "type": "Taijutsu",
+      "element": "Aucun",
+      "description": "Un changement d’appui abaisse le centre de gravité pour absorber une poussée puis dégager un allié. La technique repose sur le placement et ne neutralise pas une force sans limite.",
+      "requirements": "Pratique supervisée de cette discipline, avec un maître référent et des limites RP validées.",
+      "secret": false,
+      "category": "ENSEIGNEMENT",
+      "minimumHierarchyLevel": 1,
+      "minimumGrade": "Genin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "public"
+    },
+    {
+      "id": "lee-2",
+      "name": "Souffle des Portes Closes",
+      "japaneseName": "Tozasu Iki",
+      "rank": "A",
+      "type": "Taijutsu",
+      "element": "Aucun",
+      "description": "",
+      "requirements": "Rang confirmé, maître référent et validation RP.",
+      "secret": true,
+      "category": "HÉRITAGE",
+      "minimumHierarchyLevel": 3,
+      "minimumGrade": "Jōnin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "classified"
+    }
+  ],
+  "characters": [
+    {
+      "id": "lee-person-1",
+      "name": "Shigekatsu Lee",
+      "role": "Responsable actuel",
+      "biography": "Shigekatsu a bâti sa réputation en préparant des porteurs de secours. Il accepte de perdre une rencontre si cela évite à un élève de cacher une blessure.",
+      "original": true
+    },
+    {
+      "id": "lee-person-2",
+      "name": "Harue Lee",
+      "role": "Maîtresse de transmission",
+      "biography": "Harue rééduque les vétérans et défend une école ouverte aux corps qui ne correspondent pas aux standards des tournois.",
+      "original": true
+    }
+  ],
+  "relations": [
+    {
+      "targetClan": "senju",
+      "status": "AMICAL",
+      "description": "Des échanges réguliers de maîtres et de services rapprochent les deux communautés.",
+      "historicalReason": "L'installation à Konoha a rendu leurs savoirs complémentaires."
+    }
+  ],
+  "heroImage": null,
+  "illustrations": []
+}
+

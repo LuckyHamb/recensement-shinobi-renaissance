@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "id": "arashi",
+  "name": "Arashi",
+  "displayName": "「 A R A S H I 」",
+  "emblem": "assets/clans/arashi/emblem.svg",
+  "emblemNote": "Interprétation graphique pour les archives ; symbole non présenté comme preuve canonique.",
+  "tagline": "L’orage tenu dans une main calme",
+  "quote": "L’éclair passe ; nous répondons de sa trace.",
+  "currentVillage": "Konoha",
+  "originVillage": "Kumo",
+  "v1Village": "Konoha",
+  "v2Village": "Kumo",
+  "status": "active",
+  "elements": [
+    "Raiton"
+  ],
+  "specialties": [
+    "Foudre Noire"
+  ],
+  "tags": [
+    "Ninjutsu"
+  ],
+  "presentation": [
+    "Une mission de coopération sur les relais de signalisation a retenu les Arashi à Konoha après la rupture d’un corridor montagneux. Leur protection des communications est devenue un engagement de résidence.",
+    "Les techniciens veulent fiabiliser les relais avant toute démonstration ; les jeunes guerriers réclament des missions où la Foudre Noire prouverait leur valeur. Les habitants admirent leur rapidité et craignent les incidents d’entraînement.",
+    "Un message arrive avec une partie de ses signaux altérés. Accuser un messager risquerait de rompre l’accord avec les Kibin ; reconnaître une panne fragiliserait la réputation Arashi. Les élèves peuvent reconstituer le trajet et défendre une vérité moins spectaculaire."
+  ],
+  "appearance": [
+    "Tissus isolants, attaches courtes et protections entretenues accompagnent souvent les membres. Les motifs d’éclair identifient un atelier plutôt qu’un degré de puissance."
+  ],
+  "lifestyle": [
+    "Les maisons jouxtent des terrains réservés, à distance des dépôts. Les enfants apprennent les signaux d’arrêt en équipe. Les repas rassemblent les veilleurs de relève ; l’héritage d’un relais inclut son entretien et les unions répartissent ces gardes."
+  ],
+  "traditions": [
+    {
+      "title": "La Minute sans Éclair",
+      "text": "Au passage de grade, l’élève résout une panne sans employer le Raiton."
+    },
+    {
+      "title": "La Veille des Trois Signaux",
+      "text": "Trois générations maintiennent une chaîne de messages pendant une nuit, sans course à la vitesse."
+    }
+  ],
+  "history": [
+    "Les maisons des crêtes ont développé des signaux électriques entre des postes séparés par les nuages. Leur maîtrise s’est construite autour d’un problème simple : transmettre sans détruire le relais suivant.",
+    "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Les techniciens veulent fiabiliser les relais avant toute démonstration ; les jeunes guerriers réclament des missions où la Foudre Noire prouverait leur valeur.",
+    "Des commandants ont exigé des décharges plus puissantes que les installations ne pouvaient supporter. Les pannes de guerre ont donné naissance aux veilleurs chargés d’interrompre les essais dangereux.",
+    "Kumo a unifié les réseaux de signalisation, sans faire disparaître les méthodes propres aux maisons. La Foudre Noire a été placée sous la garde d’enseignants reconnus.",
+    "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Une mission de coopération sur les relais de signalisation a retenu les Arashi à Konoha après la rupture d’un corridor montagneux. Leur protection des communications est devenue un engagement de résidence."
+  ],
+  "timeline": [
+    {
+      "id": "period-1",
+      "period": "Origines",
+      "title": "Les premières maisons",
+      "text": "Les maisons des crêtes ont développé des signaux électriques entre des postes séparés par les nuages. Leur maîtrise s’est construite autour d’un problème simple : transmettre sans détruire le relais suivant.",
+      "future": false
+    },
+    {
+      "id": "period-2",
+      "period": "Ère des clans",
+      "title": "Savoirs et serments",
+      "text": "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Les techniciens veulent fiabiliser les relais avant toute démonstration ; les jeunes guerriers réclament des missions où la Foudre Noire prouverait leur valeur.",
+      "future": false
+    },
+    {
+      "id": "period-3",
+      "period": "Guerres",
+      "title": "Le prix des conflits",
+      "text": "Des commandants ont exigé des décharges plus puissantes que les installations ne pouvaient supporter. Les pannes de guerre ont donné naissance aux veilleurs chargés d’interrompre les essais dangereux.",
+      "future": false
+    },
+    {
+      "id": "period-4",
+      "period": "Formation des villages",
+      "title": "Un nouvel ordre",
+      "text": "Kumo a unifié les réseaux de signalisation, sans faire disparaître les méthodes propres aux maisons. La Foudre Noire a été placée sous la garde d’enseignants reconnus.",
+      "future": false
+    },
+    {
+      "id": "period-5",
+      "period": "Période moderne",
+      "title": "Les équilibres fragiles",
+      "text": "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Une mission de coopération sur les relais de signalisation a retenu les Arashi à Konoha après la rupture d’un corridor montagneux. Leur protection des communications est devenue un engagement de résidence.",
+      "future": false
+    },
+    {
+      "id": "period-6",
+      "period": "V1 du serveur",
+      "title": "Un foyer à Konoha",
+      "text": "Une mission de coopération sur les relais de signalisation a retenu les Arashi à Konoha après la rupture d’un corridor montagneux. Leur protection des communications est devenue un engagement de résidence.",
+      "future": false
+    },
+    {
+      "id": "period-7",
+      "period": "V2 — horizon",
+      "title": "Une destination à négocier",
+      "text": "Kumo est conservé comme destination prévue pour la V2. Un retour dépendra des accords RP : les foyers déjà établis au Feu auront leurs propres raisons de partir ou de rester.",
+      "future": true
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "leader",
+      "title": "Gardien des relais",
+      "description": "Responsabilité politique et arbitrage des engagements.",
+      "level": 0,
+      "parent": null,
+      "accessLevel": 4
+    },
+    {
+      "id": "council",
+      "title": "Conseil des orages",
+      "description": "Délibération et transmission des règles.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "guard",
+      "title": "Veilleurs noirs",
+      "description": "Protection et surveillance des lieux confiés.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "masters",
+      "title": "Maîtres du Raiton",
+      "description": "Enseignement et accompagnement des missions.",
+      "level": 2,
+      "parent": "council",
+      "accessLevel": 2
+    },
+    {
+      "id": "cadets",
+      "title": "Signaleurs cadets",
+      "description": "Apprentissage sous la responsabilité d'un référent.",
+      "level": 3,
+      "parent": "masters",
+      "accessLevel": 1
+    }
+  ],
+  "powers": [
+    {
+      "title": "Capacité principale",
+      "text": "Raiton avancé, vitesse et puissance électrique ; la Foudre Noire demeure un enseignement soumis à progression."
+    },
+    {
+      "title": "Passifs et aptitudes",
+      "text": "La pratique régulière de cette spécialité développe des réflexes et une lecture du terrain propres à chaque école. Le nom Arashi ne garantit pas la maîtrise individuelle."
+    },
+    {
+      "title": "Limites et vulnérabilités",
+      "text": "Conductivité du terrain, alliés proches et fatigue nerveuse limitent les décharges."
+    },
+    {
+      "title": "Conditions et progression",
+      "text": "L'apprentissage commence par les usages contrôlés, puis la durée et la précision. Les techniques avancées requièrent un maître, un parcours RP et l'accord de l'administration."
+    }
+  ],
+  "techniques": [
+    {
+      "id": "arashi-1",
+      "name": "Relais de l’Orage",
+      "japaneseName": "Arashi no Tsugi",
+      "rank": "C",
+      "type": "Ninjutsu",
+      "element": "Raiton",
+      "description": "Une impulsion de Raiton transmise dans une ligne préparée déclenche un signal à courte distance. Une rupture ou un mauvais conducteur peut interrompre le message.",
+      "requirements": "Pratique supervisée de cette discipline, avec un maître référent et des limites RP validées.",
+      "secret": false,
+      "category": "ENSEIGNEMENT",
+      "minimumHierarchyLevel": 1,
+      "minimumGrade": "Genin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "public"
+    },
+    {
+      "id": "arashi-2",
+      "name": "Foudre du Ciel Clos",
+      "japaneseName": "Tozasu Sora",
+      "rank": "A",
+      "type": "Foudre Noire",
+      "element": "Raiton",
+      "description": "",
+      "requirements": "Rang confirmé, maître référent et validation RP.",
+      "secret": true,
+      "category": "HÉRITAGE",
+      "minimumHierarchyLevel": 3,
+      "minimumGrade": "Jōnin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "classified"
+    }
+  ],
+  "characters": [
+    {
+      "id": "arashi-person-1",
+      "name": "Naotsugu Arashi",
+      "role": "Responsable actuel",
+      "biography": "Naotsugu a gagné le commandement en réparant un relais sous le feu. Il juge désormais ses successeurs sur la fiabilité des messages plutôt que sur leur puissance.",
+      "original": true
+    },
+    {
+      "id": "arashi-person-2",
+      "name": "Kikue Arashi",
+      "role": "Maîtresse de transmission",
+      "biography": "Kikue recueille les rapports de fatigue des signaleurs et demande le doublement des équipes de nuit.",
+      "original": true
+    }
+  ],
+  "relations": [
+    {
+      "targetClan": "kibin",
+      "status": "AMICAL",
+      "description": "Des échanges réguliers de maîtres et de services rapprochent les deux communautés.",
+      "historicalReason": "L'installation à Konoha a rendu leurs savoirs complémentaires."
+    }
+  ],
+  "heroImage": null,
+  "illustrations": []
+}
+

@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "id": "kaze",
+  "name": "Kaze",
+  "displayName": "「 K A Z E 」",
+  "emblem": "assets/clans/kaze/emblem.svg",
+  "emblemNote": "Interprétation graphique pour les archives ; symbole non présenté comme preuve canonique.",
+  "tagline": "Les lames qui gardent les passages",
+  "quote": "Le vent n’a pas de maître ; une lame a un responsable.",
+  "currentVillage": "Konoha",
+  "originVillage": "Suna",
+  "v1Village": "Konoha",
+  "v2Village": "Suna",
+  "status": "active",
+  "elements": [
+    "Fūton"
+  ],
+  "specialties": [
+    "Kenjutsu du vent"
+  ],
+  "tags": [
+    "Ninjutsu"
+  ],
+  "presentation": [
+    "Les Kaze ont escorté les derniers convois d’un traité commercial jusqu’à Konoha. La rupture des routes les a conduits à accepter une charge de garde des cols du Feu, avec un droit de résidence pour leurs familles.",
+    "Les maîtres attachés au sabre de maison s’opposent aux mercenaires qui vendent leur maîtrise au plus offrant. Le village demande un commandement clair avant de leur confier ses courriers.",
+    "Une lame retrouvée dans le Feu porte le ruban d’un convoi disparu. L’objet peut prouver qu’un maître a survécu ou qu’un serment a été rompu. Le restituer engage davantage que sa valeur de forge et peut rapprocher les Kaze des ateliers Uchiha."
+  ],
+  "appearance": [
+    "Manteaux courts, liens de manche et fourreaux réparables dominent les tenues de route. Les gravures sur les gardes indiquent les cols traversés, pas le nombre de victimes."
+  ],
+  "lifestyle": [
+    "Les ateliers bordent des cours dégagées où l’on apprend à arrêter une lame avant de la renforcer. Les repas sont organisés par équipe de garde ; mariages et héritages précisent qui entretient les armes et les dettes de voyage."
+  ],
+  "traditions": [
+    {
+      "title": "La Lame sans Vent",
+      "text": "Le candidat réalise son kata sans chakra pour montrer qu’il maîtrise d’abord son arme."
+    },
+    {
+      "title": "Le Ruban du Col",
+      "text": "Au retour d’une escorte, un ruban est attaché au fourreau au nom de la personne protégée."
+    }
+  ],
+  "history": [
+    "Les premiers maîtres Kaze guidaient les caravanes dans des cols où un sabre encombrant pouvait devenir un danger. Leurs katas privilégiaient des gestes courts et des trajectoires sûres.",
+    "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Les maîtres attachés au sabre de maison s’opposent aux mercenaires qui vendent leur maîtrise au plus offrant.",
+    "Les seigneurs ont acheté leurs services pour fermer les passages. Des maisons refusant de combattre d’anciens clients se sont séparées et ont emporté leurs registres de serments.",
+    "Les écoles liées à Suna ont tenté d’unifier les contrats de route. La charte demeure contestée par ceux qui ne veulent pas qu’un village possède tous leurs engagements.",
+    "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Les Kaze ont escorté les derniers convois d’un traité commercial jusqu’à Konoha. La rupture des routes les a conduits à accepter une charge de garde des cols du Feu, avec un droit de résidence pour leurs familles."
+  ],
+  "timeline": [
+    {
+      "id": "period-1",
+      "period": "Origines",
+      "title": "Les premières maisons",
+      "text": "Les premiers maîtres Kaze guidaient les caravanes dans des cols où un sabre encombrant pouvait devenir un danger. Leurs katas privilégiaient des gestes courts et des trajectoires sûres.",
+      "future": false
+    },
+    {
+      "id": "period-2",
+      "period": "Ère des clans",
+      "title": "Savoirs et serments",
+      "text": "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Les maîtres attachés au sabre de maison s’opposent aux mercenaires qui vendent leur maîtrise au plus offrant.",
+      "future": false
+    },
+    {
+      "id": "period-3",
+      "period": "Guerres",
+      "title": "Le prix des conflits",
+      "text": "Les seigneurs ont acheté leurs services pour fermer les passages. Des maisons refusant de combattre d’anciens clients se sont séparées et ont emporté leurs registres de serments.",
+      "future": false
+    },
+    {
+      "id": "period-4",
+      "period": "Formation des villages",
+      "title": "Un nouvel ordre",
+      "text": "Les écoles liées à Suna ont tenté d’unifier les contrats de route. La charte demeure contestée par ceux qui ne veulent pas qu’un village possède tous leurs engagements.",
+      "future": false
+    },
+    {
+      "id": "period-5",
+      "period": "Période moderne",
+      "title": "Les équilibres fragiles",
+      "text": "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Les Kaze ont escorté les derniers convois d’un traité commercial jusqu’à Konoha. La rupture des routes les a conduits à accepter une charge de garde des cols du Feu, avec un droit de résidence pour leurs familles.",
+      "future": false
+    },
+    {
+      "id": "period-6",
+      "period": "V1 du serveur",
+      "title": "Un foyer à Konoha",
+      "text": "Les Kaze ont escorté les derniers convois d’un traité commercial jusqu’à Konoha. La rupture des routes les a conduits à accepter une charge de garde des cols du Feu, avec un droit de résidence pour leurs familles.",
+      "future": false
+    },
+    {
+      "id": "period-7",
+      "period": "V2 — horizon",
+      "title": "Une destination à négocier",
+      "text": "Suna est conservé comme destination prévue pour la V2. Un retour dépendra des accords RP : les foyers déjà établis au Feu auront leurs propres raisons de partir ou de rester.",
+      "future": true
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "leader",
+      "title": "Maître des passages",
+      "description": "Responsabilité politique et arbitrage des engagements.",
+      "level": 0,
+      "parent": null,
+      "accessLevel": 4
+    },
+    {
+      "id": "council",
+      "title": "Conseil des fourreaux",
+      "description": "Délibération et transmission des règles.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "guard",
+      "title": "Gardes des cols",
+      "description": "Protection et surveillance des lieux confiés.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "masters",
+      "title": "Maîtres de lame",
+      "description": "Enseignement et accompagnement des missions.",
+      "level": 2,
+      "parent": "council",
+      "accessLevel": 2
+    },
+    {
+      "id": "cadets",
+      "title": "Porte-sabres",
+      "description": "Apprentissage sous la responsabilité d'un référent.",
+      "level": 3,
+      "parent": "masters",
+      "accessLevel": 1
+    }
+  ],
+  "powers": [
+    {
+      "title": "Capacité principale",
+      "text": "Fūton, vitesse et kenjutsu permettent de renforcer les lames et d’ouvrir des lignes de passage."
+    },
+    {
+      "title": "Passifs et aptitudes",
+      "text": "La pratique régulière de cette spécialité développe des réflexes et une lecture du terrain propres à chaque école. Le nom Kaze ne garantit pas la maîtrise individuelle."
+    },
+    {
+      "title": "Limites et vulnérabilités",
+      "text": "La précision baisse avec la fatigue ; un vent mal dirigé menace les alliés et ne rend pas une lame indestructible."
+    },
+    {
+      "title": "Conditions et progression",
+      "text": "L'apprentissage commence par les usages contrôlés, puis la durée et la précision. Les techniques avancées requièrent un maître, un parcours RP et l'accord de l'administration."
+    }
+  ],
+  "techniques": [
+    {
+      "id": "kaze-1",
+      "name": "Tranchant du Passage",
+      "japaneseName": "Tōge no Ha",
+      "rank": "C",
+      "type": "Ninjutsu",
+      "element": "Fūton",
+      "description": "Une lame renforcée de Fūton ouvre brièvement un passage dans une garde ou un obstacle léger. Le geste exige une ligne dégagée et ne protège pas le dos du pratiquant.",
+      "requirements": "Pratique supervisée de cette discipline, avec un maître référent et des limites RP validées.",
+      "secret": false,
+      "category": "ENSEIGNEMENT",
+      "minimumHierarchyLevel": 1,
+      "minimumGrade": "Genin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "public"
+    },
+    {
+      "id": "kaze-2",
+      "name": "Corridor des Lames Muettes",
+      "japaneseName": "Shizuka na Ha",
+      "rank": "A",
+      "type": "Kenjutsu du vent",
+      "element": "Fūton",
+      "description": "",
+      "requirements": "Rang confirmé, maître référent et validation RP.",
+      "secret": true,
+      "category": "HÉRITAGE",
+      "minimumHierarchyLevel": 3,
+      "minimumGrade": "Jōnin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "classified"
+    }
+  ],
+  "characters": [
+    {
+      "id": "kaze-person-1",
+      "name": "Tadayori Kaze",
+      "role": "Responsable actuel",
+      "biography": "Tadayori commande les gardes des cols mais refuse de transmettre une mission sans en lire le contrat aux cadets.",
+      "original": true
+    },
+    {
+      "id": "kaze-person-2",
+      "name": "Fusano Kaze",
+      "role": "Maîtresse de transmission",
+      "biography": "Fusano restaure les fourreaux anciens et enquête sur les rubans d’escorte dont personne ne réclame le retour.",
+      "original": true
+    }
+  ],
+  "relations": [
+    {
+      "targetClan": "sabaku",
+      "status": "AMICAL",
+      "description": "Des échanges réguliers de maîtres et de services rapprochent les deux communautés.",
+      "historicalReason": "L'installation à Konoha a rendu leurs savoirs complémentaires."
+    }
+  ],
+  "heroImage": null,
+  "illustrations": []
+}
+

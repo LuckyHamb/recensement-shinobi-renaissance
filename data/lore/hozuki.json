@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "id": "hozuki",
+  "name": "Hozuki",
+  "displayName": "「 H O Z U K I 」",
+  "emblem": "assets/clans/hozuki/emblem.svg",
+  "emblemNote": "Interprétation graphique pour les archives ; symbole non présenté comme preuve canonique.",
+  "tagline": "Changer de forme, garder sa parole",
+  "quote": "L’eau prend la forme du passage, jamais celle du serment.",
+  "currentVillage": "Konoha",
+  "originVillage": "Kiri",
+  "v1Village": "Konoha",
+  "v2Village": "Kiri",
+  "status": "active",
+  "elements": [
+    "Suiton"
+  ],
+  "specialties": [
+    "Liquéfaction"
+  ],
+  "tags": [
+    "Kekkei Genkai",
+    "Ninjutsu"
+  ],
+  "presentation": [
+    "Des bateliers Hozuki ont choisi Konoha après avoir sauvé un convoi du Feu sur un fleuve en crue. Le village a reconnu leur service par une concession de transport et des logements sur les canaux.",
+    "Les maisons fluviales veulent un métier durable ; les spécialistes de l’infiltration craignent de devenir de simples transporteurs. Les partenaires commerciaux demandent des garanties face à des corps capables de franchir des accès ordinaires.",
+    "Un ancien créancier réclame un bateau désormais utilisé pour livrer des remèdes à Konoha. Les Hozuki doivent retrouver les témoins du contrat et décider si un service rendu en temps de crue efface une dette écrite."
+  ],
+  "appearance": [
+    "Des vêtements faciles à sécher, des gourdes et des attaches souples accompagnent les voyageurs. Les apparences varient et la liquéfaction n’efface pas les habitudes personnelles."
+  ],
+  "lifestyle": [
+    "L’apprentissage associe navigation, hydratation et exercices corporels graduels. Les repas suivent les retours des bateaux. Les unions mettent en commun des droits d’amarrage ; les héritiers apprennent à tenir une promesse de transport avant de recevoir une embarcation."
+  ],
+  "traditions": [
+    {
+      "title": "La Rive Retrouvée",
+      "text": "Un novice guide son équipage par temps calme sans recourir à sa transformation."
+    },
+    {
+      "title": "Le Bol des Deux Eaux",
+      "text": "Lors d’une union, deux eaux de voyage sont versées dans un même bol puis rendues au courant."
+    }
+  ],
+  "history": [
+    "Des communautés de passeurs se sont organisées sur les chenaux de la Brume. Les techniques corporelles se transmettaient pendant les travaux de secours et la navigation entre les îlots.",
+    "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Les maisons fluviales veulent un métier durable ; les spécialistes de l’infiltration craignent de devenir de simples transporteurs.",
+    "La réquisition des bateaux a opposé le devoir envers les familles à celui envers les armées. Des bateliers ont continué à transporter des civils malgré les interdictions de passage.",
+    "Les ports de Kiri ont reconnu des droits d’amarrage en échange d’un contrôle des équipages. Les maisons installées dans les terres contestent la portée de ces anciens engagements.",
+    "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Des bateliers Hozuki ont choisi Konoha après avoir sauvé un convoi du Feu sur un fleuve en crue. Le village a reconnu leur service par une concession de transport et des logements sur les canaux."
+  ],
+  "timeline": [
+    {
+      "id": "period-1",
+      "period": "Origines",
+      "title": "Les premières maisons",
+      "text": "Des communautés de passeurs se sont organisées sur les chenaux de la Brume. Les techniques corporelles se transmettaient pendant les travaux de secours et la navigation entre les îlots.",
+      "future": false
+    },
+    {
+      "id": "period-2",
+      "period": "Ère des clans",
+      "title": "Savoirs et serments",
+      "text": "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Les maisons fluviales veulent un métier durable ; les spécialistes de l’infiltration craignent de devenir de simples transporteurs.",
+      "future": false
+    },
+    {
+      "id": "period-3",
+      "period": "Guerres",
+      "title": "Le prix des conflits",
+      "text": "La réquisition des bateaux a opposé le devoir envers les familles à celui envers les armées. Des bateliers ont continué à transporter des civils malgré les interdictions de passage.",
+      "future": false
+    },
+    {
+      "id": "period-4",
+      "period": "Formation des villages",
+      "title": "Un nouvel ordre",
+      "text": "Les ports de Kiri ont reconnu des droits d’amarrage en échange d’un contrôle des équipages. Les maisons installées dans les terres contestent la portée de ces anciens engagements.",
+      "future": false
+    },
+    {
+      "id": "period-5",
+      "period": "Période moderne",
+      "title": "Les équilibres fragiles",
+      "text": "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Des bateliers Hozuki ont choisi Konoha après avoir sauvé un convoi du Feu sur un fleuve en crue. Le village a reconnu leur service par une concession de transport et des logements sur les canaux.",
+      "future": false
+    },
+    {
+      "id": "period-6",
+      "period": "V1 du serveur",
+      "title": "Un foyer à Konoha",
+      "text": "Des bateliers Hozuki ont choisi Konoha après avoir sauvé un convoi du Feu sur un fleuve en crue. Le village a reconnu leur service par une concession de transport et des logements sur les canaux.",
+      "future": false
+    },
+    {
+      "id": "period-7",
+      "period": "V2 — horizon",
+      "title": "Une destination à négocier",
+      "text": "Kiri est conservé comme destination prévue pour la V2. Un retour dépendra des accords RP : les foyers déjà établis au Feu auront leurs propres raisons de partir ou de rester.",
+      "future": true
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "leader",
+      "title": "Premier batelier",
+      "description": "Responsabilité politique et arbitrage des engagements.",
+      "level": 0,
+      "parent": null,
+      "accessLevel": 4
+    },
+    {
+      "id": "council",
+      "title": "Conseil des rives",
+      "description": "Délibération et transmission des règles.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "guard",
+      "title": "Éclaireurs liquides",
+      "description": "Protection et surveillance des lieux confiés.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "masters",
+      "title": "Maîtres de courant",
+      "description": "Enseignement et accompagnement des missions.",
+      "level": 2,
+      "parent": "council",
+      "accessLevel": 2
+    },
+    {
+      "id": "cadets",
+      "title": "Mousses",
+      "description": "Apprentissage sous la responsabilité d'un référent.",
+      "level": 3,
+      "parent": "masters",
+      "accessLevel": 1
+    }
+  ],
+  "powers": [
+    {
+      "title": "Capacité principale",
+      "text": "Liquéfaction du corps, Suiton et déformation corporelle apportent des défenses particulières et des voies de déplacement."
+    },
+    {
+      "title": "Passifs et aptitudes",
+      "text": "La pratique régulière de cette spécialité développe des réflexes et une lecture du terrain propres à chaque école. Le nom Hozuki ne garantit pas la maîtrise individuelle."
+    },
+    {
+      "title": "Limites et vulnérabilités",
+      "text": "Déshydratation, Raiton et limites de concentration rendent la transformation risquée ; aucune immunité générale aux dégâts."
+    },
+    {
+      "title": "Conditions et progression",
+      "text": "L'apprentissage commence par les usages contrôlés, puis la durée et la précision. Les techniques avancées requièrent un maître, un parcours RP et l'accord de l'administration."
+    }
+  ],
+  "techniques": [
+    {
+      "id": "hozuki-1",
+      "name": "Passage de l’Eau Souple",
+      "japaneseName": "Yawarakai Mizu",
+      "rank": "C",
+      "type": "Ninjutsu",
+      "element": "Suiton",
+      "description": "Une liquéfaction limitée permet de dégager un membre pris dans une ouverture étroite. Le pratiquant doit conserver son contrôle et ne traverse pas n’importe quelle barrière.",
+      "requirements": "Pratique supervisée de cette discipline, avec un maître référent et des limites RP validées.",
+      "secret": false,
+      "category": "ENSEIGNEMENT",
+      "minimumHierarchyLevel": 1,
+      "minimumGrade": "Genin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "public"
+    },
+    {
+      "id": "hozuki-2",
+      "name": "Marée sans Rivage",
+      "japaneseName": "Kishi naki Shio",
+      "rank": "A",
+      "type": "Liquéfaction",
+      "element": "Suiton",
+      "description": "",
+      "requirements": "Rang confirmé, maître référent et validation RP.",
+      "secret": true,
+      "category": "HÉRITAGE",
+      "minimumHierarchyLevel": 3,
+      "minimumGrade": "Jōnin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "classified"
+    }
+  ],
+  "characters": [
+    {
+      "id": "hozuki-person-1",
+      "name": "Nobutsugu Hozuki",
+      "role": "Responsable actuel",
+      "biography": "Nobutsugu a sauvé un équipage rival avant son propre chargement. Il n’a jamais réussi à rembourser les pertes et cherche une médiation.",
+      "original": true
+    },
+    {
+      "id": "hozuki-person-2",
+      "name": "Takae Hozuki",
+      "role": "Maîtresse de transmission",
+      "biography": "Takae enseigne les premiers secours fluviaux et refuse les exercices de transformation sans réserves d’eau suffisantes.",
+      "original": true
+    }
+  ],
+  "relations": [
+    {
+      "targetClan": "karatachi",
+      "status": "AMICAL",
+      "description": "Des échanges réguliers de maîtres et de services rapprochent les deux communautés.",
+      "historicalReason": "L'installation à Konoha a rendu leurs savoirs complémentaires."
+    }
+  ],
+  "heroImage": null,
+  "illustrations": []
+}
+

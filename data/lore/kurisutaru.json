@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "id": "kurisutaru",
+  "name": "Kurisutaru",
+  "displayName": "「 K U R I S U T A R U 」",
+  "emblem": "assets/clans/kurisutaru/emblem.svg",
+  "emblemNote": "Interprétation graphique pour les archives ; symbole non présenté comme preuve canonique.",
+  "tagline": "Les bâtisseurs de la lumière captive",
+  "quote": "Ce qui paraît pur porte encore la trace de sa fracture.",
+  "currentVillage": "Konoha",
+  "originVillage": "Iwa",
+  "v1Village": "Konoha",
+  "v2Village": "Iwa",
+  "status": "active",
+  "elements": [
+    "Doton"
+  ],
+  "specialties": [
+    "Shōton"
+  ],
+  "tags": [
+    "Kekkei Genkai",
+    "Ninjutsu"
+  ],
+  "presentation": [
+    "Les Kurisutaru ont accepté un chantier de consolidation des réserves de Konoha après une crise dans leurs carrières. Leur contrat prévoit des ateliers familiaux et la formation de techniciens locaux.",
+    "Les artisans veulent vendre des œuvres civiles tandis que les gardiens craignent la reproduction de leurs procédés. Les jeunes chercheurs étudient les fissures que les maîtres préféraient cacher.",
+    "Un prisme offert comme garantie se fissure sans choc apparent. Les Kurisutaru craignent une erreur ancienne dans leurs mesures ; un partenaire soupçonne une fraude. Les archives d’atelier deviennent la clé d’une négociation."
+  ],
+  "appearance": [
+    "Des tissus peu brillants évitent la réverbération des ateliers. Des éclats polis portés en pendentif rappellent un apprentissage, jamais une mesure de valeur personnelle."
+  ],
+  "lifestyle": [
+    "Les logements séparent travail de taille et repos. Les enfants apprennent à déceler une faiblesse avant de bâtir. Les repas réunissent les équipes de carrière ; les mariages et successions répartissent les outils, les contrats et la garde des échantillons."
+  ],
+  "traditions": [
+    {
+      "title": "La Première Fissure",
+      "text": "L’apprenti présente une pièce volontairement cassée et explique ce qu’elle lui a appris."
+    },
+    {
+      "title": "Le Prisme Commun",
+      "text": "Plusieurs maisons façonnent ensemble une œuvre dont aucune ne peut revendiquer seule la signature."
+    }
+  ],
+  "history": [
+    "Des tailleurs des montagnes ont rapproché leurs observations sur la croissance et la fracture des cristaux. Les premières structures servaient à abriter les réserves contre les éboulements.",
+    "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Les artisans veulent vendre des œuvres civiles tandis que les gardiens craignent la reproduction de leurs procédés.",
+    "Les guerres ont réclamé des ouvrages plus grands que les équipes ne pouvaient entretenir. L’effondrement d’une galerie a conduit à reconnaître le droit de refuser une construction instable.",
+    "Les concessions d’Iwa ont donné des maîtres communs aux ateliers, mais aussi des obligations de production. Les familles parties au Feu défendent un modèle plus artisanal.",
+    "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Les Kurisutaru ont accepté un chantier de consolidation des réserves de Konoha après une crise dans leurs carrières. Leur contrat prévoit des ateliers familiaux et la formation de techniciens locaux."
+  ],
+  "timeline": [
+    {
+      "id": "period-1",
+      "period": "Origines",
+      "title": "Les premières maisons",
+      "text": "Des tailleurs des montagnes ont rapproché leurs observations sur la croissance et la fracture des cristaux. Les premières structures servaient à abriter les réserves contre les éboulements.",
+      "future": false
+    },
+    {
+      "id": "period-2",
+      "period": "Ère des clans",
+      "title": "Savoirs et serments",
+      "text": "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Les artisans veulent vendre des œuvres civiles tandis que les gardiens craignent la reproduction de leurs procédés.",
+      "future": false
+    },
+    {
+      "id": "period-3",
+      "period": "Guerres",
+      "title": "Le prix des conflits",
+      "text": "Les guerres ont réclamé des ouvrages plus grands que les équipes ne pouvaient entretenir. L’effondrement d’une galerie a conduit à reconnaître le droit de refuser une construction instable.",
+      "future": false
+    },
+    {
+      "id": "period-4",
+      "period": "Formation des villages",
+      "title": "Un nouvel ordre",
+      "text": "Les concessions d’Iwa ont donné des maîtres communs aux ateliers, mais aussi des obligations de production. Les familles parties au Feu défendent un modèle plus artisanal.",
+      "future": false
+    },
+    {
+      "id": "period-5",
+      "period": "Période moderne",
+      "title": "Les équilibres fragiles",
+      "text": "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Les Kurisutaru ont accepté un chantier de consolidation des réserves de Konoha après une crise dans leurs carrières. Leur contrat prévoit des ateliers familiaux et la formation de techniciens locaux.",
+      "future": false
+    },
+    {
+      "id": "period-6",
+      "period": "V1 du serveur",
+      "title": "Un foyer à Konoha",
+      "text": "Les Kurisutaru ont accepté un chantier de consolidation des réserves de Konoha après une crise dans leurs carrières. Leur contrat prévoit des ateliers familiaux et la formation de techniciens locaux.",
+      "future": false
+    },
+    {
+      "id": "period-7",
+      "period": "V2 — horizon",
+      "title": "Une destination à négocier",
+      "text": "Iwa est conservé comme destination prévue pour la V2. Un retour dépendra des accords RP : les foyers déjà établis au Feu auront leurs propres raisons de partir ou de rester.",
+      "future": true
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "leader",
+      "title": "Maître des prismes",
+      "description": "Responsabilité politique et arbitrage des engagements.",
+      "level": 0,
+      "parent": null,
+      "accessLevel": 4
+    },
+    {
+      "id": "council",
+      "title": "Conseil des ateliers",
+      "description": "Délibération et transmission des règles.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "guard",
+      "title": "Gardiens des failles",
+      "description": "Protection et surveillance des lieux confiés.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "masters",
+      "title": "Tailleurs confirmés",
+      "description": "Enseignement et accompagnement des missions.",
+      "level": 2,
+      "parent": "council",
+      "accessLevel": 2
+    },
+    {
+      "id": "cadets",
+      "title": "Apprentis",
+      "description": "Apprentissage sous la responsabilité d'un référent.",
+      "level": 3,
+      "parent": "masters",
+      "accessLevel": 1
+    }
+  ],
+  "powers": [
+    {
+      "title": "Capacité principale",
+      "text": "Le Shōton crée des structures cristallines pour attaque, défense et emprisonnement dans les limites du système RP."
+    },
+    {
+      "title": "Passifs et aptitudes",
+      "text": "La pratique régulière de cette spécialité développe des réflexes et une lecture du terrain propres à chaque école. Le nom Kurisutaru ne garantit pas la maîtrise individuelle."
+    },
+    {
+      "title": "Limites et vulnérabilités",
+      "text": "Fragilité aux contraintes, volume créé, chakra et dommages collatéraux limitent les constructions."
+    },
+    {
+      "title": "Conditions et progression",
+      "text": "L'apprentissage commence par les usages contrôlés, puis la durée et la précision. Les techniques avancées requièrent un maître, un parcours RP et l'accord de l'administration."
+    }
+  ],
+  "techniques": [
+    {
+      "id": "kurisutaru-1",
+      "name": "Arête de Garde",
+      "japaneseName": "Mamori no Ryō",
+      "rank": "C",
+      "type": "Ninjutsu",
+      "element": "Doton",
+      "description": "Une arête cristalline peu volumineuse protège un angle ou gêne une avance. Son orientation et ses points de rupture doivent être préparés pour éviter les éclats incontrôlés.",
+      "requirements": "Pratique supervisée de cette discipline, avec un maître référent et des limites RP validées.",
+      "secret": false,
+      "category": "ENSEIGNEMENT",
+      "minimumHierarchyLevel": 1,
+      "minimumGrade": "Genin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "public"
+    },
+    {
+      "id": "kurisutaru-2",
+      "name": "Palais des Reflets Clos",
+      "japaneseName": "Tozasu Kagami",
+      "rank": "A",
+      "type": "Shōton",
+      "element": "Doton",
+      "description": "",
+      "requirements": "Rang confirmé, maître référent et validation RP.",
+      "secret": true,
+      "category": "HÉRITAGE",
+      "minimumHierarchyLevel": 3,
+      "minimumGrade": "Jōnin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "classified"
+    }
+  ],
+  "characters": [
+    {
+      "id": "kurisutaru-person-1",
+      "name": "Masakuni Kurisutaru",
+      "role": "Responsable actuel",
+      "biography": "Masakuni préside les ateliers après avoir reconnu publiquement l’échec d’un ouvrage. Certains lui font confiance pour cela, d’autres doutent encore de son autorité.",
+      "original": true
+    },
+    {
+      "id": "kurisutaru-person-2",
+      "name": "Hisano Kurisutaru",
+      "role": "Maîtresse de transmission",
+      "biography": "Hisano recueille des pièces brisées pour enseigner la lecture des contraintes. Elle travaille avec les relieurs Uzumaki sur des supports qui puissent aussi être désactivés.",
+      "original": true
+    }
+  ],
+  "relations": [
+    {
+      "targetClan": "uzumaki",
+      "status": "AMICAL",
+      "description": "Des échanges réguliers de maîtres et de services rapprochent les deux communautés.",
+      "historicalReason": "L'installation à Konoha a rendu leurs savoirs complémentaires."
+    }
+  ],
+  "heroImage": null,
+  "illustrations": []
+}
+

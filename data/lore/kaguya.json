@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "id": "kaguya",
+  "name": "Kaguya",
+  "displayName": "「 K A G U Y A 」",
+  "emblem": "assets/clans/kaguya/emblem.svg",
+  "emblemNote": "Interprétation graphique pour les archives ; symbole non présenté comme preuve canonique.",
+  "tagline": "La force qui apprend la retenue",
+  "quote": "Une arme peut naître du corps ; le jugement doit venir d’ailleurs.",
+  "currentVillage": "Konoha",
+  "originVillage": "Kiri",
+  "v1Village": "Konoha",
+  "v2Village": "Kiri",
+  "status": "active",
+  "elements": [],
+  "specialties": [
+    "Manipulation osseuse"
+  ],
+  "tags": [
+    "Kekkei Genkai",
+    "Ninjutsu"
+  ],
+  "presentation": [
+    "Une compagnie Kaguya a rompu un contrat de guerre et obtenu protection à Konoha en échange d’un service de défense strictement encadré. Leurs familles sont installées ensemble pour éviter que le passé militaire ne les disperse.",
+    "Les vétérans revendiquent l’autorité acquise au combat ; les soigneurs demandent un droit de veto sur les entraînements destructeurs. Le clan combat l’idée que sa puissance osseuse imposerait une violence de caractère.",
+    "Un commanditaire ancien réclame le retour de vétérans installés au Feu. Les cadets risquent d’hériter d’un engagement qu’ils n’ont jamais signé. Le clan doit établir la portée d’un serment et convaincre Konoha de défendre ses nouveaux habitants."
+  ],
+  "appearance": [
+    "Des tenues laissant les articulations libres facilitent les arts corporels. Les ornements d’os sont des objets artisanaux traités selon les usages familiaux, pas une obligation macabre."
+  ],
+  "lifestyle": [
+    "L’éducation associe anatomie, soin et lutte contrôlée. Les repas après entraînement donnent la parole aux blessés. Les unions peuvent joindre deux compagnies mais ne commandent pas l’obéissance militaire ; les héritiers reçoivent les devoirs envers les anciens."
+  ],
+  "traditions": [
+    {
+      "title": "Le Duel Interrompu",
+      "text": "Le candidat est jugé sur sa capacité à cesser immédiatement un échange, même lorsqu’il pourrait gagner."
+    },
+    {
+      "title": "La Place du Bouclier",
+      "text": "Au banquet annuel, ceux qui ont évacué des blessés siègent avant ceux qui ont vaincu."
+    }
+  ],
+  "history": [
+    "Des compagnies familiales des terres de la Brume ont transmis leurs arts osseux au sein de groupes de protection. Les soigneurs partageaient d’abord l’autorité avec les chefs de combat.",
+    "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Les vétérans revendiquent l’autorité acquise au combat ; les soigneurs demandent un droit de veto sur les entraînements destructeurs.",
+    "Les contrats de guerre ont renforcé le prestige des vainqueurs et marginalisé les soigneurs. Le souvenir d’une compagnie presque entièrement perdue sert aux réformateurs pour réclamer le retour d’un commandement partagé.",
+    "Les accords militaires de Kiri ont reconnu les compagnies mais peu leurs familles. La rupture d’un contrat ouvre un chemin vers une appartenance civique distincte du service armé.",
+    "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Une compagnie Kaguya a rompu un contrat de guerre et obtenu protection à Konoha en échange d’un service de défense strictement encadré. Leurs familles sont installées ensemble pour éviter que le passé militaire ne les disperse."
+  ],
+  "timeline": [
+    {
+      "id": "period-1",
+      "period": "Origines",
+      "title": "Les premières maisons",
+      "text": "Des compagnies familiales des terres de la Brume ont transmis leurs arts osseux au sein de groupes de protection. Les soigneurs partageaient d’abord l’autorité avec les chefs de combat.",
+      "future": false
+    },
+    {
+      "id": "period-2",
+      "period": "Ère des clans",
+      "title": "Savoirs et serments",
+      "text": "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Les vétérans revendiquent l’autorité acquise au combat ; les soigneurs demandent un droit de veto sur les entraînements destructeurs.",
+      "future": false
+    },
+    {
+      "id": "period-3",
+      "period": "Guerres",
+      "title": "Le prix des conflits",
+      "text": "Les contrats de guerre ont renforcé le prestige des vainqueurs et marginalisé les soigneurs. Le souvenir d’une compagnie presque entièrement perdue sert aux réformateurs pour réclamer le retour d’un commandement partagé.",
+      "future": false
+    },
+    {
+      "id": "period-4",
+      "period": "Formation des villages",
+      "title": "Un nouvel ordre",
+      "text": "Les accords militaires de Kiri ont reconnu les compagnies mais peu leurs familles. La rupture d’un contrat ouvre un chemin vers une appartenance civique distincte du service armé.",
+      "future": false
+    },
+    {
+      "id": "period-5",
+      "period": "Période moderne",
+      "title": "Les équilibres fragiles",
+      "text": "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Une compagnie Kaguya a rompu un contrat de guerre et obtenu protection à Konoha en échange d’un service de défense strictement encadré. Leurs familles sont installées ensemble pour éviter que le passé militaire ne les disperse.",
+      "future": false
+    },
+    {
+      "id": "period-6",
+      "period": "V1 du serveur",
+      "title": "Un foyer à Konoha",
+      "text": "Une compagnie Kaguya a rompu un contrat de guerre et obtenu protection à Konoha en échange d’un service de défense strictement encadré. Leurs familles sont installées ensemble pour éviter que le passé militaire ne les disperse.",
+      "future": false
+    },
+    {
+      "id": "period-7",
+      "period": "V2 — horizon",
+      "title": "Une destination à négocier",
+      "text": "Kiri est conservé comme destination prévue pour la V2. Un retour dépendra des accords RP : les foyers déjà établis au Feu auront leurs propres raisons de partir ou de rester.",
+      "future": true
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "leader",
+      "title": "Premier bouclier",
+      "description": "Responsabilité politique et arbitrage des engagements.",
+      "level": 0,
+      "parent": null,
+      "accessLevel": 4
+    },
+    {
+      "id": "council",
+      "title": "Conseil des vétérans",
+      "description": "Délibération et transmission des règles.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "guard",
+      "title": "Garde d’os",
+      "description": "Protection et surveillance des lieux confiés.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "masters",
+      "title": "Maîtres de lutte",
+      "description": "Enseignement et accompagnement des missions.",
+      "level": 2,
+      "parent": "council",
+      "accessLevel": 2
+    },
+    {
+      "id": "cadets",
+      "title": "Cadets",
+      "description": "Apprentissage sous la responsabilité d'un référent.",
+      "level": 3,
+      "parent": "masters",
+      "accessLevel": 1
+    }
+  ],
+  "powers": [
+    {
+      "title": "Capacité principale",
+      "text": "Manipulation osseuse, armes corporelles, défense et résistance favorisent le combat rapproché."
+    },
+    {
+      "title": "Passifs et aptitudes",
+      "text": "La pratique régulière de cette spécialité développe des réflexes et une lecture du terrain propres à chaque école. Le nom Kaguya ne garantit pas la maîtrise individuelle."
+    },
+    {
+      "title": "Limites et vulnérabilités",
+      "text": "Douleur, fatigue, récupération et portée limitent les arts osseux ; le corps n’est pas une réserve sans fin."
+    },
+    {
+      "title": "Conditions et progression",
+      "text": "L'apprentissage commence par les usages contrôlés, puis la durée et la précision. Les techniques avancées requièrent un maître, un parcours RP et l'accord de l'administration."
+    }
+  ],
+  "techniques": [
+    {
+      "id": "kaguya-1",
+      "name": "Garde de l’Os Courbe",
+      "japaneseName": "Magaru Hone",
+      "rank": "C",
+      "type": "Ninjutsu",
+      "element": "Aucun",
+      "description": "Une structure osseuse locale renforce une parade au contact. Elle demande une maîtrise anatomique et un temps de récupération adapté à l’effort fourni.",
+      "requirements": "Pratique supervisée de cette discipline, avec un maître référent et des limites RP validées.",
+      "secret": false,
+      "category": "ENSEIGNEMENT",
+      "minimumHierarchyLevel": 1,
+      "minimumGrade": "Genin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "public"
+    },
+    {
+      "id": "kaguya-2",
+      "name": "Citadelle de la Moelle",
+      "japaneseName": "Zui no Shiro",
+      "rank": "A",
+      "type": "Manipulation osseuse",
+      "element": "Aucun",
+      "description": "",
+      "requirements": "Rang confirmé, maître référent et validation RP.",
+      "secret": true,
+      "category": "HÉRITAGE",
+      "minimumHierarchyLevel": 3,
+      "minimumGrade": "Jōnin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "classified"
+    }
+  ],
+  "characters": [
+    {
+      "id": "kaguya-person-1",
+      "name": "Munekatsu Kaguya",
+      "role": "Responsable actuel",
+      "biography": "Munekatsu a refusé d’abandonner les blessés d’une compagnie. Il dirige désormais la défense en donnant aux soigneurs le droit de suspendre un exercice.",
+      "original": true
+    },
+    {
+      "id": "kaguya-person-2",
+      "name": "Yasue Kaguya",
+      "role": "Maîtresse de transmission",
+      "biography": "Yasue enseigne à désarmer sans mutiler et tente de retrouver les noms des familles effacées des registres de campagne.",
+      "original": true
+    }
+  ],
+  "relations": [
+    {
+      "targetClan": "lee",
+      "status": "AMICAL",
+      "description": "Des échanges réguliers de maîtres et de services rapprochent les deux communautés.",
+      "historicalReason": "L'installation à Konoha a rendu leurs savoirs complémentaires."
+    }
+  ],
+  "heroImage": null,
+  "illustrations": []
+}
+

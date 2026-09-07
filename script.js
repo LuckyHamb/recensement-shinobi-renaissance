@@ -226,7 +226,12 @@ function createClanCard(clan, index) {
     panel.hidden = !willOpen;
   });
 
-  card.append(main, toggle, panel);
+  const archives = document.createElement("a");
+  archives.className = "registry-archive-link";
+  archives.href = `./lore/clan/?id=${encodeURIComponent(clan.id)}`;
+  archives.textContent = "Voir les archives →";
+  archives.setAttribute("aria-label", `Voir les archives ${clan.name}`);
+  card.append(main, archives, toggle, panel);
   return card;
 }
 
@@ -432,6 +437,11 @@ async function loadClans() {
     }
 
     state.clans = validateClans(await response.json());
+    const requestedClan = new URLSearchParams(location.search).get("clan");
+    if (requestedClan) {
+      const selected = state.clans.find(clan => clan.id === requestedClan);
+      if (selected) { state.query = selected.name; elements.search.value = selected.name; }
+    }
     renderStats();
     renderCurrentView();
     elements.lastUpdate.textContent = "Données du registre chargées";
@@ -447,3 +457,4 @@ async function loadClans() {
 
 bindControls();
 loadClans();
+

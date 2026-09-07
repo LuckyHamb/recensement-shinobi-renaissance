@@ -1,0 +1,2 @@
+{"name":"shinobi-renaissance-archives","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","test":"node --test tests/lore.test.mjs","validate":"node scripts/validate.mjs"}}
+

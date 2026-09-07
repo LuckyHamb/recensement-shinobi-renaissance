@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "id": "sans-clan",
+  "name": "Sans clan",
+  "displayName": "「 S A N S  C L A N 」",
+  "emblem": "assets/clans/sans-clan/emblem.svg",
+  "emblemNote": "Interprétation graphique pour les archives ; symbole non présenté comme preuve canonique.",
+  "tagline": "Un nom à écrire, un chemin à choisir",
+  "quote": "L’héritage peut commencer avec nous.",
+  "currentVillage": "Konoha",
+  "originVillage": "Konoha",
+  "v1Village": "Konoha",
+  "v2Village": "Konoha",
+  "status": "active",
+  "elements": [],
+  "specialties": [
+    "Apprentissages libres"
+  ],
+  "tags": [
+    "Ninjutsu"
+  ],
+  "presentation": [
+    "Konoha réunit sous un registre commun les ninjas sans affiliation familiale. Certains y sont nés, d’autres ont rejoint une école ou un atelier : leur présence repose sur un engagement civique individuel.",
+    "Le collectif réclame un accès équitable aux maîtres et aux missions. Il rassemble des trajectoires trop diverses pour imposer une mentalité unique ; ses représentants cherchent des garanties communes sans devenir un nouveau clan fermé.",
+    "Un élève indépendant réussit les épreuves mais ne trouve aucun maître disponible pour la suite. Les délégués demandent un système de mentorat transparent. Les clans peuvent y voir une occasion de partage ou une remise en cause de leurs privilèges."
+  ],
+  "appearance": [
+    "Aucun physique, couleur ou symbole héréditaire n’est requis. Les tenues racontent les métiers, les voyages et les écoles de chacun."
+  ],
+  "lifestyle": [
+    "Les logements et repas dépendent des foyers choisis. Des bourses et un réseau de mentors soutiennent l’éducation. Les mariages, adoptions et héritages suivent les volontés personnelles et les règles du village, sans droit automatique à un art secret."
+  ],
+  "traditions": [
+    {
+      "title": "Le Carnet du Premier Maître",
+      "text": "Chaque élève conserve les conseils de ses mentors et peut transmettre ce carnet à un nouvel arrivant."
+    },
+    {
+      "title": "La Table des Noms Choisis",
+      "text": "Une rencontre ouverte permet de présenter un projet, demander une aide ou reconnaître une famille de cœur."
+    }
+  ],
+  "history": [
+    "Avant les registres, des voyageurs, artisans et élèves isolés trouvaient leur place auprès de maîtres temporaires. Leurs histoires ne partagent aucune origine unique.",
+    "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Le collectif réclame un accès équitable aux maîtres et aux missions.",
+    "Les conflits ont montré la fragilité de ceux qui ne disposaient d’aucun conseil familial pour réclamer leur solde ou rechercher les disparus. Des associations d’entraide sont nées de ces besoins.",
+    "La fondation de Konoha a permis un engagement individuel envers le village. Les écoles ont progressivement reconnu des parcours qui ne dépendaient pas d’une appartenance héréditaire.",
+    "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Konoha réunit sous un registre commun les ninjas sans affiliation familiale. Certains y sont nés, d’autres ont rejoint une école ou un atelier : leur présence repose sur un engagement civique individuel."
+  ],
+  "timeline": [
+    {
+      "id": "period-1",
+      "period": "Origines",
+      "title": "Les premières maisons",
+      "text": "Avant les registres, des voyageurs, artisans et élèves isolés trouvaient leur place auprès de maîtres temporaires. Leurs histoires ne partagent aucune origine unique.",
+      "future": false
+    },
+    {
+      "id": "period-2",
+      "period": "Ère des clans",
+      "title": "Savoirs et serments",
+      "text": "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Le collectif réclame un accès équitable aux maîtres et aux missions.",
+      "future": false
+    },
+    {
+      "id": "period-3",
+      "period": "Guerres",
+      "title": "Le prix des conflits",
+      "text": "Les conflits ont montré la fragilité de ceux qui ne disposaient d’aucun conseil familial pour réclamer leur solde ou rechercher les disparus. Des associations d’entraide sont nées de ces besoins.",
+      "future": false
+    },
+    {
+      "id": "period-4",
+      "period": "Formation des villages",
+      "title": "Un nouvel ordre",
+      "text": "La fondation de Konoha a permis un engagement individuel envers le village. Les écoles ont progressivement reconnu des parcours qui ne dépendaient pas d’une appartenance héréditaire.",
+      "future": false
+    },
+    {
+      "id": "period-5",
+      "period": "Période moderne",
+      "title": "Les équilibres fragiles",
+      "text": "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Konoha réunit sous un registre commun les ninjas sans affiliation familiale. Certains y sont nés, d’autres ont rejoint une école ou un atelier : leur présence repose sur un engagement civique individuel.",
+      "future": false
+    },
+    {
+      "id": "period-6",
+      "period": "V1 du serveur",
+      "title": "Un foyer à Konoha",
+      "text": "Konoha réunit sous un registre commun les ninjas sans affiliation familiale. Certains y sont nés, d’autres ont rejoint une école ou un atelier : leur présence repose sur un engagement civique individuel.",
+      "future": false
+    },
+    {
+      "id": "period-7",
+      "period": "V2 — horizon",
+      "title": "Une destination à négocier",
+      "text": "Konoha reste le point d'ancrage prévu. Les membres pourront négocier leurs affectations selon leur histoire personnelle et les décisions du serveur.",
+      "future": true
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "leader",
+      "title": "Délégué élu",
+      "description": "Responsabilité politique et arbitrage des engagements.",
+      "level": 0,
+      "parent": null,
+      "accessLevel": 4
+    },
+    {
+      "id": "council",
+      "title": "Assemblée des foyers",
+      "description": "Délibération et transmission des règles.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "guard",
+      "title": "Médiateurs",
+      "description": "Protection et surveillance des lieux confiés.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "masters",
+      "title": "Mentors volontaires",
+      "description": "Enseignement et accompagnement des missions.",
+      "level": 2,
+      "parent": "council",
+      "accessLevel": 2
+    },
+    {
+      "id": "cadets",
+      "title": "Élèves indépendants",
+      "description": "Apprentissage sous la responsabilité d'un référent.",
+      "level": 3,
+      "parent": "masters",
+      "accessLevel": 1
+    }
+  ],
+  "powers": [
+    {
+      "title": "Capacité principale",
+      "text": "Éléments, armes, taijutsu, ninjutsu et genjutsu se développent par les apprentissages RP. Aucune capacité héréditaire n’est obligatoire ni accordée par ce statut."
+    },
+    {
+      "title": "Passifs et aptitudes",
+      "text": "Aucun passif héréditaire commun. Les aptitudes se construisent auprès de maîtres choisis selon le parcours du personnage."
+    },
+    {
+      "title": "Limites et vulnérabilités",
+      "text": "L’accès aux maîtres, le temps et les ressources pèsent sur la progression ; la liberté de choix n’accorde pas toutes les disciplines à la fois."
+    },
+    {
+      "title": "Conditions et progression",
+      "text": "L'apprentissage commence par les usages contrôlés, puis la durée et la précision. Les techniques avancées requièrent un maître, un parcours RP et l'accord de l'administration."
+    }
+  ],
+  "techniques": [
+    {
+      "id": "sans-clan-1",
+      "name": "Relais du Compagnon",
+      "japaneseName": "Tomo no Tsugi",
+      "rank": "C",
+      "type": "Ninjutsu",
+      "element": "Aucun",
+      "description": "Deux partenaires utilisent un signal et un déplacement appris ensemble pour couvrir un repli. Cette méthode ne demande aucun héritage particulier, mais une véritable coordination.",
+      "requirements": "Pratique supervisée de cette discipline, avec un maître référent et des limites RP validées.",
+      "secret": false,
+      "category": "ENSEIGNEMENT",
+      "minimumHierarchyLevel": 1,
+      "minimumGrade": "Genin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "public"
+    },
+    {
+      "id": "sans-clan-2",
+      "name": "Pacte des Routes Libres",
+      "japaneseName": "Jiyū no Michi",
+      "rank": "A",
+      "type": "Apprentissages libres",
+      "element": "Aucun",
+      "description": "",
+      "requirements": "Rang confirmé, maître référent et validation RP.",
+      "secret": true,
+      "category": "MENTORAT",
+      "minimumHierarchyLevel": 3,
+      "minimumGrade": "Jōnin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "classified"
+    }
+  ],
+  "characters": [
+    {
+      "id": "sans-clan-person-1",
+      "name": "Tsunekichi",
+      "role": "Délégué élu",
+      "biography": "Tsunekichi est élu par les foyers volontaires et ne prétend pas parler pour toutes les personnes sans clan. Il défend le droit de quitter l’association sans perdre l’accès à ses dossiers.",
+      "original": true
+    },
+    {
+      "id": "sans-clan-person-2",
+      "name": "Yoshie",
+      "role": "Maîtresse de transmission",
+      "biography": "Yoshie organise le mentorat et vérifie que les bourses atteignent aussi les élèves sans recommandation. Elle accepte qu’un ancien élève rejoigne un clan sans y voir une déloyauté.",
+      "original": true
+    }
+  ],
+  "relations": [
+    {
+      "targetClan": "lee",
+      "status": "AMICAL",
+      "description": "Des échanges réguliers de maîtres et de services rapprochent les deux communautés.",
+      "historicalReason": "L'installation à Konoha a rendu leurs savoirs complémentaires."
+    }
+  ],
+  "heroImage": null,
+  "illustrations": []
+}
+

@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "id": "karatachi",
+  "name": "Karatachi",
+  "displayName": "「 K A R A T A C H I 」",
+  "emblem": "assets/clans/karatachi/emblem.svg",
+  "emblemNote": "Interprétation graphique pour les archives ; symbole non présenté comme preuve canonique.",
+  "tagline": "Les voix patientes des eaux profondes",
+  "quote": "Écouter le courant ne dispense pas de choisir une rive.",
+  "currentVillage": "Konoha",
+  "originVillage": "Kiri",
+  "v1Village": "Konoha",
+  "v2Village": "Kiri",
+  "status": "active",
+  "elements": [
+    "Suiton"
+  ],
+  "specialties": [
+    "Coquillages & arts aquatiques"
+  ],
+  "tags": [
+    "Ninjutsu"
+  ],
+  "presentation": [
+    "Les Karatachi ont suivi une mission diplomatique sur la gestion des eaux jusqu’à Konoha. Une concession d’entretien des bassins leur donne un foyer tandis que leurs ports d’origine restent hors d’accès.",
+    "Les gardiens des bassins privilégient l’équilibre du milieu ; les techniciens veulent multiplier les ouvrages défensifs. Les voisins discutent avec eux du partage de l’eau pendant les périodes sèches.",
+    "Une digue militaire prive un quartier de courant frais. Les Karatachi peuvent proposer une modification, mais les défenseurs craignent une ouverture dans la protection du village. Une carte des usages réels de l’eau peut changer les termes du conflit."
+  ],
+  "appearance": [
+    "Étuis étanches, petits coquillages polis et vêtements adaptés aux berges apparaissent souvent. Les bijoux signalent des lieux ou des promesses, pas une hiérarchie immuable."
+  ],
+  "lifestyle": [
+    "Les maisons entourent des bassins entretenus collectivement. Les enfants apprennent à observer la qualité de l’eau. Les repas suivent les pêches autorisées ; les mariages répartissent les droits d’usage et les héritiers doivent entretenir les berges avant de prélever."
+  ],
+  "traditions": [
+    {
+      "title": "La Coquille Écoutée",
+      "text": "Le novice décrit un bassin à partir de signes observables, puis compare ses conclusions avec celles d’un pêcheur."
+    },
+    {
+      "title": "Le Jour des Berges",
+      "text": "Chaque maison nettoie une rive utilisée par une autre, transformant une obligation en échange de nouvelles."
+    }
+  ],
+  "history": [
+    "Les communautés des bassins et des estuaires se sont réunies autour de règles de prélèvement. Les coquillages servaient de repères pour comparer les courants et conserver la mémoire des rives.",
+    "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Les gardiens des bassins privilégient l’équilibre du milieu ; les techniciens veulent multiplier les ouvrages défensifs.",
+    "Des ouvrages défensifs ont détourné l’eau de zones habitées. Les gardiens ont commencé à consigner les conséquences en aval, souvent ignorées des commandants.",
+    "Les institutions de Kiri ont reconnu leurs expertises tout en confiant les berges à des autorités rivales. Les Karatachi ont cherché une représentation commune dans les négociations de bassin.",
+    "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Les Karatachi ont suivi une mission diplomatique sur la gestion des eaux jusqu’à Konoha. Une concession d’entretien des bassins leur donne un foyer tandis que leurs ports d’origine restent hors d’accès."
+  ],
+  "timeline": [
+    {
+      "id": "period-1",
+      "period": "Origines",
+      "title": "Les premières maisons",
+      "text": "Les communautés des bassins et des estuaires se sont réunies autour de règles de prélèvement. Les coquillages servaient de repères pour comparer les courants et conserver la mémoire des rives.",
+      "future": false
+    },
+    {
+      "id": "period-2",
+      "period": "Ère des clans",
+      "title": "Savoirs et serments",
+      "text": "Avant les institutions communes, les contrats de protection et les échanges de savoirs liaient les familles à des partenaires souvent plus puissants. Les gardiens des bassins privilégient l’équilibre du milieu ; les techniciens veulent multiplier les ouvrages défensifs.",
+      "future": false
+    },
+    {
+      "id": "period-3",
+      "period": "Guerres",
+      "title": "Le prix des conflits",
+      "text": "Des ouvrages défensifs ont détourné l’eau de zones habitées. Les gardiens ont commencé à consigner les conséquences en aval, souvent ignorées des commandants.",
+      "future": false
+    },
+    {
+      "id": "period-4",
+      "period": "Formation des villages",
+      "title": "Un nouvel ordre",
+      "text": "Les institutions de Kiri ont reconnu leurs expertises tout en confiant les berges à des autorités rivales. Les Karatachi ont cherché une représentation commune dans les négociations de bassin.",
+      "future": false
+    },
+    {
+      "id": "period-5",
+      "period": "Période moderne",
+      "title": "Les équilibres fragiles",
+      "text": "Les difficultés de circulation et les changements de commandement ont remis en cause les anciens accords. Les Karatachi ont suivi une mission diplomatique sur la gestion des eaux jusqu’à Konoha. Une concession d’entretien des bassins leur donne un foyer tandis que leurs ports d’origine restent hors d’accès.",
+      "future": false
+    },
+    {
+      "id": "period-6",
+      "period": "V1 du serveur",
+      "title": "Un foyer à Konoha",
+      "text": "Les Karatachi ont suivi une mission diplomatique sur la gestion des eaux jusqu’à Konoha. Une concession d’entretien des bassins leur donne un foyer tandis que leurs ports d’origine restent hors d’accès.",
+      "future": false
+    },
+    {
+      "id": "period-7",
+      "period": "V2 — horizon",
+      "title": "Une destination à négocier",
+      "text": "Kiri est conservé comme destination prévue pour la V2. Un retour dépendra des accords RP : les foyers déjà établis au Feu auront leurs propres raisons de partir ou de rester.",
+      "future": true
+    }
+  ],
+  "hierarchy": [
+    {
+      "id": "leader",
+      "title": "Gardien des bassins",
+      "description": "Responsabilité politique et arbitrage des engagements.",
+      "level": 0,
+      "parent": null,
+      "accessLevel": 4
+    },
+    {
+      "id": "council",
+      "title": "Conseil des rives",
+      "description": "Délibération et transmission des règles.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "guard",
+      "title": "Veilleurs des coquilles",
+      "description": "Protection et surveillance des lieux confiés.",
+      "level": 1,
+      "parent": "leader",
+      "accessLevel": 3
+    },
+    {
+      "id": "masters",
+      "title": "Maîtres aquatiques",
+      "description": "Enseignement et accompagnement des missions.",
+      "level": 2,
+      "parent": "council",
+      "accessLevel": 2
+    },
+    {
+      "id": "cadets",
+      "title": "Cadets des berges",
+      "description": "Apprentissage sous la responsabilité d'un référent.",
+      "level": 3,
+      "parent": "masters",
+      "accessLevel": 1
+    }
+  ],
+  "powers": [
+    {
+      "title": "Capacité principale",
+      "text": "Suiton particulier, coquillages et techniques aquatiques servent le contrôle du terrain et la protection des bassins."
+    },
+    {
+      "title": "Passifs et aptitudes",
+      "text": "La pratique régulière de cette spécialité développe des réflexes et une lecture du terrain propres à chaque école. Le nom Karatachi ne garantit pas la maîtrise individuelle."
+    },
+    {
+      "title": "Limites et vulnérabilités",
+      "text": "Disponibilité de l’eau, qualité du milieu et temps de préparation réduisent l’efficacité hors des zones favorables."
+    },
+    {
+      "title": "Conditions et progression",
+      "text": "L'apprentissage commence par les usages contrôlés, puis la durée et la précision. Les techniques avancées requièrent un maître, un parcours RP et l'accord de l'administration."
+    }
+  ],
+  "techniques": [
+    {
+      "id": "karatachi-1",
+      "name": "Bassin du Veilleur",
+      "japaneseName": "Mihari no Ike",
+      "rank": "C",
+      "type": "Ninjutsu",
+      "element": "Suiton",
+      "description": "Un courant circulaire dans un bassin existant détourne de petits obstacles et ralentit une approche aquatique. Son efficacité dépend de la quantité d’eau disponible.",
+      "requirements": "Pratique supervisée de cette discipline, avec un maître référent et des limites RP validées.",
+      "secret": false,
+      "category": "ENSEIGNEMENT",
+      "minimumHierarchyLevel": 1,
+      "minimumGrade": "Genin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "public"
+    },
+    {
+      "id": "karatachi-2",
+      "name": "Chant des Coquilles Closes",
+      "japaneseName": "Tozasu Kai",
+      "rank": "A",
+      "type": "Coquillages & arts aquatiques",
+      "element": "Suiton",
+      "description": "",
+      "requirements": "Rang confirmé, maître référent et validation RP.",
+      "secret": true,
+      "category": "HÉRITAGE",
+      "minimumHierarchyLevel": 3,
+      "minimumGrade": "Jōnin",
+      "adminOnly": false,
+      "enabled": true,
+      "visibility": "classified"
+    }
+  ],
+  "characters": [
+    {
+      "id": "karatachi-person-1",
+      "name": "Narikatsu Karatachi",
+      "role": "Responsable actuel",
+      "biography": "Narikatsu a négocié une concession qui impose aussi l’entretien des berges pauvres. Certains propriétaires lui reprochent cette charge commune.",
+      "original": true
+    },
+    {
+      "id": "karatachi-person-2",
+      "name": "Toshie Karatachi",
+      "role": "Maîtresse de transmission",
+      "biography": "Toshie étudie la disparition de coquillages dans un bassin. Ses observations pourraient révéler une nuisance que personne ne souhaite financer.",
+      "original": true
+    }
+  ],
+  "relations": [
+    {
+      "targetClan": "hozuki",
+      "status": "AMICAL",
+      "description": "Des échanges réguliers de maîtres et de services rapprochent les deux communautés.",
+      "historicalReason": "L'installation à Konoha a rendu leurs savoirs complémentaires."
+    }
+  ],
+  "heroImage": null,
+  "illustrations": []
+}
+

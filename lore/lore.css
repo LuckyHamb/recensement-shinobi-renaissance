@@ -1,0 +1,103 @@
+.lore a { color: var(--muted-strong); text-decoration: none; }
+.lore a:hover { color: var(--text); }
+.site-nav { display: flex; flex-wrap: wrap; gap: 8px 24px; padding: 18px clamp(0px,4vw,48px); border-bottom: 1px solid var(--border); }
+.site-nav a { padding: 8px 0; font-size: .75rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.site-nav a[aria-current="page"] { color: var(--accent-bright); }
+.site-nav a:last-child { margin-left: auto; }
+.lore-controls { flex-direction: column; align-items: stretch; }
+.lore-controls .search-field { flex-basis: auto; max-width: none; }
+.lore-controls .filters { max-width: 100%; }
+.lore .clan-card__header { align-items: flex-start; }
+.lore .clan-card__identity { gap: 14px; }
+.emblem { width: 46px; height: 46px; object-fit: contain; flex-shrink: 0; }
+.lore .clan-card h3 { font-size: .85rem; white-space: normal; }
+.archive-number { display: block; color: var(--muted); font-size: .7rem; letter-spacing: .15em; margin-bottom: 6px; }
+.archive-tagline { color: var(--muted); font-family: Georgia,serif; font-style: italic; font-size: 1rem; min-height: 48px; }
+.archive-facts { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 22px 0 0; }
+.archive-facts dt { color: var(--muted); font-size: .72rem; margin-bottom: 5px; }
+.archive-facts dd { margin: 0; font-size: .8rem; font-weight: 650; text-transform: uppercase; letter-spacing: .04em; }
+.archive-link { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 22px; border-top: 1px solid var(--border); background: rgba(0,0,0,.13); font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.archive-link:hover { background: rgba(231,111,101,.05); }
+.archive-link::after { content: '→'; color: var(--accent-bright); }
+.lore .status-badge { font-size: .65rem; }
+.lore .clan-card[data-status="active"] { --status-color: var(--accent-bright); }
+.lore .clan-card[data-status="active"] .status-badge { --status-color: var(--open); }
+.lore .clan-card[data-status="disappeared"] { --status-color: var(--closed); }
+.lore .status-active { color: var(--open); }
+.breadcrumb { padding: 30px clamp(0px,4vw,48px) 0; color: var(--muted); font-size: .85rem; }
+.clan-hero { padding: 44px clamp(0px,4vw,48px) 40px; display: grid; grid-template-columns: 112px 1fr; gap: 28px; align-items: center; }
+.clan-hero .emblem { width: 104px; height: 104px; }
+.clan-hero h1 { font-size: clamp(2.2rem,5vw,4.5rem); letter-spacing: .08em; }
+.clan-hero .masthead__title { font-size: 1rem; letter-spacing: .07em; }
+.clan-meta { display: flex; gap: 12px 24px; flex-wrap: wrap; color: var(--muted-strong); font-size: .85rem; }
+.clan-quote { margin: 22px 0 0; font-family: Georgia,serif; font-style: italic; color: var(--muted); }
+.reading-layout { display: grid; grid-template-columns: 195px minmax(0,1fr); gap: 44px; padding: 28px clamp(0px,4vw,48px) 72px; align-items: start; border-top: 1px solid var(--border); }
+.archive-nav { position: sticky; top: 24px; display: flex; flex-direction: column; gap: 3px; }
+.archive-nav a { border-left: 1px solid var(--border); padding: 9px 14px; font-size: .73rem; letter-spacing: .06em; text-transform: uppercase; }
+.archive-nav a[aria-current="location"] { border-color: var(--accent-bright); color: var(--accent-bright); background: rgba(184,69,69,.06); }
+.archive-section { scroll-margin-top: 28px; padding: 0 0 42px; margin-bottom: 36px; border-bottom: 1px solid var(--border); }
+.archive-section h2 { font-family: Georgia,serif; font-weight: 500; font-size: clamp(1.8rem,3vw,2.35rem); margin-bottom: 26px; }
+.archive-section h3 { font-size: 1.05rem; font-weight: 650; margin: 26px 0 12px; }
+.prose { color: var(--muted-strong); line-height: 1.85; font-size: 1rem; }
+.prose p { margin-bottom: 20px; }
+.prose ul { padding-left: 22px; }
+.illustration { margin: 28px 0; }
+.illustration img { width: 100%; height: auto; display: block; border: 1px solid var(--border-strong); border-radius: 9px; }
+.illustration figcaption { color: var(--muted); font-family: Georgia,serif; font-style: italic; font-size: .9rem; text-align: center; margin-top: 10px; }
+.illustration--portrait { float: right; width: 36%; margin: 0 0 24px 28px; }
+.archive-section::after { content: ''; display: block; clear: both; }
+.timeline { list-style: none; margin: 0; padding: 0 0 0 24px; border-left: 1px solid var(--border-strong); }
+.timeline li { position: relative; padding: 0 0 26px 14px; }
+.timeline li::before { content: ''; position: absolute; left: -29px; top: 8px; width: 8px; height: 8px; border: 1px solid var(--accent); background: var(--bg); border-radius: 50%; }
+.timeline .section-kicker { font-size: .7rem; }
+.timeline h3 { margin-top: 0; }
+.timeline p { margin-bottom: 0; }
+.timeline .future { color: var(--muted); }
+.hierarchy { overflow-x: auto; padding: 10px 0 22px; }
+.hierarchy ul { padding: 24px 0 0; margin: 0; display: flex; justify-content: center; list-style: none; position: relative; }
+.hierarchy > ul { padding-top: 0; width: max-content; min-width: 100%; }
+.hierarchy li { position: relative; text-align: center; padding: 0 8px; }
+.hierarchy li::before { content: ''; position: absolute; top: -12px; left: 0; right: 0; border-top: 1px solid var(--border-strong); }
+.hierarchy li:first-child::before { left: 50%; }
+.hierarchy li:last-child::before { right: 50%; }
+.hierarchy li::after { content: ''; position: absolute; height: 12px; left: 50%; top: -12px; border-left: 1px solid var(--border-strong); }
+.hierarchy > ul > li::before,.hierarchy > ul > li::after { display: none; }
+.hierarchy ul ul::before { content: ''; position: absolute; height: 12px; top: 0; left: 50%; border-left: 1px solid var(--border-strong); }
+.rank-node { width: 158px; margin: auto; padding: 14px 10px; border: 1px solid rgba(184,69,69,.45); border-radius: 8px; background: var(--surface-strong); }
+.rank-node strong { font-family: Georgia,serif; font-weight: 500; }
+.rank-node p { color: var(--muted); font-size: .78rem; line-height: 1.5; margin: 6px 0 0; }
+.record-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; }
+.record { padding: 22px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+.record h3 { margin: 10px 0 12px; font-family: Georgia,serif; font-size: 1.3rem; font-weight: 500; }
+.record p { font-size: .95rem; margin-bottom: 12px; }
+.record p:last-child { margin-bottom: 0; }
+.record .section-kicker { font-size: .7rem; }
+.technique-meta { color: var(--muted); font-size: .8rem; }
+.redacted { color: var(--muted); letter-spacing: .15em; overflow: hidden; }
+.classified { border-color: rgba(184,69,69,.24); }
+.relation-status { color: var(--muted-strong); font-size: .72rem; font-weight: 700; letter-spacing: .12em; }
+.relation-status[data-relation="ALLIANCE"],.relation-status[data-relation="AMICAL"] { color: var(--open); }
+.relation-status[data-relation="MÉFIANCE"],.relation-status[data-relation="RIVALITÉ"] { color: var(--almost); }
+.relation-status[data-relation="ENNEMI"] { color: var(--full); }
+.reading-progress { position: fixed; inset: 0 auto auto 0; z-index: 30; width: var(--reading,0%); height: 2px; background: var(--accent-bright); }
+.collection { padding: 48px clamp(0px,4vw,48px) 72px; }
+.collection h1 { font-size: clamp(2.3rem,5vw,4rem); margin-bottom: 24px; }
+.collection .controls { margin-top: 32px; }
+.collection .notice { margin: 24px 0; }
+.form-row { display: grid; gap: 8px; margin-bottom: 20px; }
+.lore select,.lore textarea { width: 100%; font: inherit; background: var(--surface-strong); border: 1px solid var(--border-strong); border-radius: 8px; color: var(--text); padding: 12px; }
+.lore textarea { min-height: 520px; font-family: ui-monospace,monospace; font-size: .84rem; line-height: 1.5; tab-size: 2; }
+.lore select:focus-visible,.lore textarea:focus-visible,.lore summary:focus-visible { outline: 2px solid var(--accent-bright); outline-offset: 3px; }
+.action-row { display: flex; flex-wrap: wrap; gap: 10px; }
+.action-row .filter-button { border: 1px solid var(--border-strong); }
+.admin-status { padding: 16px 0; min-height: 54px; color: var(--muted-strong); }
+.rank-form { margin: 0 0 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; min-width: 0; }
+.rank-form .form-row { font-size: .85rem; margin: 0; }
+.rank-form input { width: 100%; min-width: 0; border: 1px solid var(--border-strong); border-radius: 7px; background: var(--bg); padding: 10px; color: var(--text); }
+.rank-form .action-row { grid-column: 1 / -1; }
+.lore details { margin: 24px 0; border: 1px solid var(--border); border-radius: 9px; padding: 18px; }
+.lore summary { cursor: pointer; }
+.lore details[open] summary { margin-bottom: 18px; }
+@media(max-width:1080px) { .reading-layout { gap: 24px; grid-template-columns: 160px minmax(0,1fr); } .record-grid { grid-template-columns: 1fr; } }
+@media(max-width:680px) { .site-nav { gap: 0 18px; padding: 12px 4px; } .site-nav a:last-child { margin-left: 0; } .clan-hero { grid-template-columns: 1fr; padding: 32px 4px; gap: 20px; } .clan-hero .emblem { width: 70px; height: 70px; } .reading-layout { display: block; padding: 0 0 44px; } .archive-nav { top: 0; z-index: 10; flex-direction: row; overflow-x: auto; padding: 10px 0; margin-bottom: 30px; background: rgba(9,11,15,.95); backdrop-filter: blur(16px); } .archive-nav a { flex: 0 0 auto; border-left: 0; border-bottom: 1px solid var(--border); } .archive-section { scroll-margin-top: 80px; } .illustration--portrait { float: none; width: 100%; max-width: 340px; margin: 24px auto; } .lore .clan-card__identity { width: auto; flex: 1; } .lore .status-badge { margin-left: 0; } .collection { padding: 36px 0; } }
+
