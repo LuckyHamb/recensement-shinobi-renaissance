@@ -1,0 +1,54 @@
+{
+  "worldWidth": 1200,
+  "worldHeight": 800,
+  "kilometersPerUnit": 0.55,
+  "lands": [
+    {"id":"mainland","name":"Continent d'Aokuni","points":[[95,185],[205,82],[395,70],[520,135],[665,92],[835,126],[1045,88],[1125,205],[1080,355],[1140,505],[1010,665],[820,710],[655,650],[510,728],[315,688],[190,574],[78,420]],"color":"#66765b"},
+    {"id":"southern-isles","name":"Archipel des Brumes","points":[[830,678],[900,650],[975,684],[950,742],[858,748]],"color":"#5c7064"}
+  ],
+  "countries": [
+    {"id":"verdant","name":"Domaine Verdoyant","points":[[330,245],[520,155],[700,215],[760,405],[645,585],[420,570],[270,405]],"color":"#71805e","minZoom":0.7,"from":300},
+    {"id":"gale","name":"Étendues du Vent","points":[[95,420],[270,405],[420,570],[315,688],[190,574]],"color":"#9a815c","minZoom":0.7,"from":300},
+    {"id":"mist","name":"Marches de la Brume","points":[[760,405],[1080,355],[1140,505],[1010,665],[820,710],[645,585]],"color":"#5e7b78","minZoom":0.7,"from":300},
+    {"id":"thunder","name":"Couronne de l'Orage","points":[[665,92],[835,126],[1045,88],[1125,205],[1080,355],[760,405],[700,215]],"color":"#6d6f84","minZoom":0.7,"from":300},
+    {"id":"bone","name":"Marches d'Ivoire","points":[[95,185],[205,82],[395,70],[520,135],[330,245],[270,405],[78,420]],"color":"#827d70","minZoom":0.7,"from":300}
+  ],
+  "rivers": [
+    {"id":"river-ao","name":"Fleuve Ao","points":[[565,170],[590,275],[548,360],[605,465],[570,595]],"minZoom":1.45,"from":300},
+    {"id":"river-mist","name":"Rivière des Voiles","points":[[950,270],[885,350],[930,455],[865,585],[900,650]],"minZoom":1.8,"from":336},
+    {"id":"river-dune","name":"Canal des Spirales","points":[[325,465],[285,535],[255,610]],"minZoom":2.2,"from":383}
+  ],
+  "routes": [
+    {"id":"old-cedar","name":"Route du Cèdre","points":[[555,410],[470,338],[392,300]],"minZoom":2,"from":305},
+    {"id":"mist-road","name":"Route des Brumes","points":[[555,410],[720,465],[890,520]],"minZoom":2,"from":352},
+    {"id":"five-roads","name":"Les Cinq Routes","points":[[555,410],[430,500],[270,545],[555,410],[690,300],[865,220],[555,410],[820,535]],"minZoom":1.6,"from":390},
+    {"id":"bone-trail","name":"Piste d'Ivoire","points":[[392,300],[240,220],[185,170]],"minZoom":2.4,"from":317}
+  ],
+  "locations": [
+    {"id":"konoha","name":"Konoha","type":"major-village","x":555,"y":410,"minZoom":1.35,"from":313,"description":"Cité fortifiée au cœur du Domaine Verdoyant, siège du Conseil des Feuilles.","clans":["uchiha","senju","nara","lee"],"detailSource":"./data/locations/konoha.json"},
+    {"id":"red-valley","name":"Vallée Rouge","type":"battlefield","x":690,"y":300,"minZoom":1.7,"from":327,"description":"Faille minérale contrôlant le passage entre le Domaine Verdoyant et la Couronne de l'Orage."},
+    {"id":"honeywood","name":"Bois du Miel","type":"region","x":865,"y":220,"minZoom":2,"from":300,"description":"Forêt d'altitude où furent domestiqués les premiers essaims messagers."},
+    {"id":"spiral-sanctuary","name":"Sanctuaire des Spirales","type":"sanctuary","x":325,"y":465,"minZoom":2.2,"from":300,"description":"Maison des gardiens de sceaux Uzumaki."},
+    {"id":"dune-citadel","name":"Citadelle des Dunes","type":"village","x":255,"y":610,"minZoom":1.8,"from":300,"description":"Forteresse caravanière des Sabaku."},
+    {"id":"lee-dojo","name":"Dojo de la Porte Claire","type":"district","x":585,"y":438,"minZoom":4.8,"from":373,"description":"École civile et martiale fondée par Maître Seigan Lee."},
+    {"id":"shadow-marsh","name":"Marais des Ombres","type":"region","x":470,"y":338,"minZoom":2.2,"from":300,"description":"Zone humide observée et protégée par les Nara."},
+    {"id":"gale-pass","name":"Passe des Rafales","type":"pass","x":392,"y":300,"minZoom":1.9,"from":300,"description":"Col stratégique tenu par les Kaze."},
+    {"id":"ember-caldera","name":"Caldeira des Braises","type":"region","x":985,"y":455,"minZoom":1.8,"from":300,"description":"Volcan ancestral lié aux Terumi."},
+    {"id":"storm-spire","name":"Flèche de l'Orage","type":"village","x":925,"y":175,"minZoom":1.8,"from":300,"description":"Observatoire des Arashi au sommet de la Couronne."},
+    {"id":"blood-lake","name":"Lac Carmin","type":"region","x":230,"y":255,"minZoom":2,"from":326,"description":"Refuge des exilés Chinoike."},
+    {"id":"mist-harbor","name":"Port des Voiles","type":"village","x":890,"y":520,"minZoom":1.6,"from":336,"description":"Port mobile et cité d'accueil des Hozuki."},
+    {"id":"bone-sanctuary","name":"Sanctuaire d'Ivoire","type":"sanctuary","x":185,"y":170,"minZoom":2,"from":300,"description":"Nécropole et lieu de mémoire Kaguya."},
+    {"id":"reed-frontier","name":"Frontière des Roseaux","type":"border","x":720,"y":465,"minZoom":2,"from":327,"description":"Territoire contesté qui déclencha quarante années de recompositions."},
+    {"id":"council-hall","name":"Hall des Trois Maisons","type":"monument","x":530,"y":392,"minZoom":4.5,"from":352,"description":"Lieu de signature du Pacte des Trois Maisons."},
+    {"id":"five-roads-crossing","name":"Carrefour des Cinq Routes","type":"monument","x":430,"y":500,"minZoom":2.5,"from":390,"description":"Nœud diplomatique créé par l'accord des Cinq Routes."},
+    {"id":"moon-observatory","name":"Observatoire de la Lune Brisée","type":"ruin","x":610,"y":345,"minZoom":3,"from":387,"description":"Ruines conservées après la Nuit de la Lune Brisée."},
+    {"id":"ash-crossing","name":"Gué des Cendres","type":"crossing","x":820,"y":535,"minZoom":2,"from":361,"description":"Passage reconstruit après l'éruption Terumi."}
+  ],
+  "states": [
+    {"from":300,"to":326,"title":"Ancien monde — territoires isolés","activeRoutes":["old-cedar"],"accent":"#9a815c"},
+    {"from":327,"to":351,"title":"Ère des frontières disputées","activeRoutes":["old-cedar","bone-trail"],"accent":"#b45b4f"},
+    {"from":352,"to":389,"title":"Ère des pactes et des reconstructions","activeRoutes":["old-cedar","mist-road","bone-trail"],"accent":"#a88b54"},
+    {"from":390,"to":399,"title":"Convergence des Cinq Routes","activeRoutes":["old-cedar","mist-road","five-roads","bone-trail"],"accent":"#6f9b7a"},
+    {"from":400,"to":400,"title":"Ère actuelle — début du RP","activeRoutes":["old-cedar","mist-road","five-roads","bone-trail"],"accent":"#e76f65"}
+  ]
+}

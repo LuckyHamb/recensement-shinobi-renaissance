@@ -1,0 +1,18 @@
+{
+  "id":"konoha","name":"Konoha","loadAtZoom":6.5,"render3dAtZoom":8,
+  "districts":[
+    {"id":"council","name":"Quartier du Conseil","x":0,"y":-20,"radius":70,"color":"#9d604b"},
+    {"id":"uchiha-domain","name":"Domaine Uchiha","x":-105,"y":35,"radius":58,"color":"#74454b"},
+    {"id":"senju-gardens","name":"Jardins Senju","x":95,"y":45,"radius":62,"color":"#557451"},
+    {"id":"market","name":"Marché des Cinq Routes","x":0,"y":95,"radius":50,"color":"#917b56"}
+  ],
+  "buildings":[
+    {"x":0,"y":-28,"w":42,"h":58,"d":38,"color":[0.58,0.26,0.22]},
+    {"x":-80,"y":28,"w":32,"h":33,"d":30,"color":[0.38,0.22,0.24]},
+    {"x":-125,"y":52,"w":28,"h":27,"d":26,"color":[0.42,0.24,0.25]},
+    {"x":78,"y":32,"w":36,"h":30,"d":32,"color":[0.27,0.42,0.27]},
+    {"x":122,"y":55,"w":26,"h":24,"d":24,"color":[0.3,0.46,0.3]},
+    {"x":-25,"y":92,"w":28,"h":25,"d":26,"color":[0.52,0.42,0.27]},
+    {"x":30,"y":104,"w":30,"h":28,"d":28,"color":[0.55,0.4,0.24]}
+  ]
+}
